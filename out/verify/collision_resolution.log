@@ -1,0 +1,33 @@
+
+  Euler instant t/T = 0.00000
+    offset  -400 steps: body0 (1.005040,0.529297)  body1 (1.003065,0.468503)  body2 (1.007935,0.000000)
+    offset   -40 steps: body0 (1.004052,0.501752)  body1 (1.003855,0.495668)  body2 (1.007734,0.000000)
+    offset    +0 steps: body0 (1.003952,0.498708)  body1 (1.003952,0.498708)  body2 (1.007732,0.000000)
+    offset   +40 steps: body0 (1.003855,0.495668)  body1 (1.004052,0.501752)  body2 (1.007734,0.000000)
+    offset  +400 steps: body0 (1.003065,0.468503)  body1 (1.005040,0.529297)  body2 (1.007935,0.000000)
+    colliding pair: bodies 0,1
+      if they BOUNCE, each body's point returns to its own side: cost 0.12165
+      if they CROSS,  the two points are exchanged:              cost 0.00000
+      -> the bodies CROSS
+
+  Euler instant t/T = 0.16667
+    offset  -400 steps: body0 (1.003065,0.468503)  body1 (1.007935,0.000000)  body2 (1.005040,0.529297)
+    offset   -40 steps: body0 (1.003855,0.495668)  body1 (1.007734,0.000000)  body2 (1.004052,0.501752)
+    offset    +0 steps: body0 (1.003952,0.498708)  body1 (1.007732,0.000000)  body2 (1.003952,0.498708)
+    offset   +40 steps: body0 (1.004052,0.501752)  body1 (1.007734,0.000000)  body2 (1.003855,0.495668)
+    offset  +400 steps: body0 (1.005040,0.529297)  body1 (1.007935,0.000000)  body2 (1.003065,0.468503)
+    colliding pair: bodies 0,2
+      if they BOUNCE, each body's point returns to its own side: cost 0.12165
+      if they CROSS,  the two points are exchanged:              cost 0.00000
+      -> the bodies CROSS
+
+  Euler instant t/T = 0.33333
+    offset  -400 steps: body0 (1.007935,0.000000)  body1 (1.005040,0.529297)  body2 (1.003065,0.468503)
+    offset   -40 steps: body0 (1.007734,0.000000)  body1 (1.004052,0.501752)  body2 (1.003855,0.495668)
+    offset    +0 steps: body0 (1.007732,0.000000)  body1 (1.003952,0.498708)  body2 (1.003952,0.498708)
+    offset   +40 steps: body0 (1.007734,0.000000)  body1 (1.003855,0.495668)  body2 (1.004052,0.501752)
+    offset  +400 steps: body0 (1.007935,0.000000)  body1 (1.003065,0.468503)  body2 (1.005040,0.529297)
+    colliding pair: bodies 1,2
+      if they BOUNCE, each body's point returns to its own side: cost 0.12165
+      if they CROSS,  the two points are exchanged:              cost 0.00000
+      -> the bodies CROSS

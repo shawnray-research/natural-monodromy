@@ -1,0 +1,26 @@
+IN the working window:
+  640 combinations, sigma 0.20 to 0.35: Morse counts observed [1]
+  combinations with Morse != 1: 0
+
+OUTSIDE it, where the finder is NOT reliable:
+  sigma 0.38: Morse counts [1]
+  sigma 0.45: Morse counts [1]
+  sigma 0.705: Morse counts [1]
+
+  Morse = 1 at every in-window combination is a stronger statement than
+  'three modes', because it is a self-check that would catch a single
+  missed critical point. It would not catch a maximum and a saddle missed
+  together, so it is necessary rather than sufficient.
+
+Was the earlier Morse failure a grid-resolution artifact?
+
+    sigma                grid 24                grid 32                grid 44
+     0.30                    [1]                    [1]                    [1]
+     0.38                    [1]                    [1]                    [1]
+     0.45                    [1]                    [1]                    [1]
+
+  The Morse violations at large sigma are a grid artifact: at sigma 0.38 and
+  0.45 the peaks are broad and a 24-cell grid misses critical points, which
+  the Morse count then flags. A denser grid removes them. In the working
+  window the count is 1 at every resolution tried, so the in-window result
+  does not depend on the grid.

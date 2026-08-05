@@ -1,0 +1,24 @@
+
+  mono convention  (s2^-1 s1)^2
+    components 1, crossings 4
+    Alexander: Sorry, this feature requires using SnapPy inside Sage.
+    Jones: Sorry, this feature requires using SnapPy inside Sage.
+    snappy identifies exterior as [m004(0,0), 4_1(0,0), K2_1(0,0), K4a1(0,0), otet02_00001(0,0)]
+    hyperbolic volume 2.029883
+
+  event convention (s2 s1^-1)^2
+    components 1, crossings 4
+    Alexander: Sorry, this feature requires using SnapPy inside Sage.
+    Jones: Sorry, this feature requires using SnapPy inside Sage.
+    snappy identifies exterior as [m004(0,0), 4_1(0,0), K2_1(0,0), K4a1(0,0), otet02_00001(0,0)]
+    hyperbolic volume 2.029883
+
+  full period, mono  (s2^-1 s1)^6
+    components 3, crossings 12
+    Alexander: Sorry, this feature requires using SnapPy inside Sage.
+    Jones: Sorry, this feature requires using SnapPy inside Sage.
+    snappy identifies exterior as [L12a1882(0,0)(0,0)(0,0)]
+    hyperbolic volume 21.631599
+
+  Reference: figure-eight knot 4_1, Alexander t - 3 + 1/t,
+  Jones t^-2 - t^-1 + 1 - t + t^2, hyperbolic volume 2.029883.

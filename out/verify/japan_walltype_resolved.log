@@ -1,0 +1,10 @@
+
+p* = (-0.256818998, 0.623764182)
+  r=1e-03: n=[8], 2 pairing changes, walls ['BB', 'DD']
+  r=1e-04: n=[8], 2 pairing changes, walls ['BB', 'DD']
+  r=1e-05: n=[8], 2 pairing changes, walls ['BB', 'DD']
+
+p* = (-0.575383576, 1.002680316)
+  r=1e-03: n=[8], 2 pairing changes, walls ['BB', 'DD']
+  r=1e-04: n=[8], 2 pairing changes, walls ['BB', 'DD']
+  r=1e-05: n=[8], 2 pairing changes, walls ['BB', 'DD']

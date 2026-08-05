@@ -1,0 +1,53 @@
+
+How many modes does the density actually have?
+
+The number of modes of an isotropic Gaussian mixture is NOT the number of
+components. Carreira-Perpinan and Williams conjectured that a homoscedastic
+mixture of M components in more than one dimension has at most M modes, and
+Duistermaat gave a counterexample: three equal Gaussians at the vertices of an
+equilateral triangle in the plane have, for a range of variances, three modes
+near the vertices AND a fourth at the centre.
+
+That is precisely this setup, and the figure-eight passes near the equilateral
+Lagrange configuration. Worse, `exact_maxima` in mono/kde_exact.py seeds Newton
+from the body positions and returns one maximum per body, so it CANNOT find a
+mode at the centroid. If a fourth mode exists anywhere on the orbit inside the
+bandwidth window, the merge tree is missing a maximum, the sublevel-set
+connectivity is wrong, and the elder-rule pairing among the three that were found
+can be wrong too. The braid word would inherit that.
+
+There is a second reason to check. Earlier counting found either 2 or 3 saddles
+depending on the instant, and the 3-saddle case was interpreted as three saddles
+plus a central local MINIMUM. Four maxima and three saddles satisfies the same
+Euler count, so that interpretation was an assumption rather than a measurement.
+
+This script does not seed from the bodies. It runs Newton from every cell of a
+dense grid covering the configuration, deduplicates the limit points, and
+classifies each by the sign of the Hessian eigenvalues.
+
+============================================================================
+Control: Duistermaat's configuration, to show the finder can see a
+fourth mode when there is one.
+============================================================================
+    sigma  maxima  saddles  minima      centre is   Morse
+     0.40       3        3       1      a minimum   1
+     0.50       3        3       1      a minimum   1
+     0.60       3        3       1      a minimum   1
+     0.70       3        3       1      a minimum   1
+     0.80       1        0       0      a MAXIMUM   1
+     0.90       1        0       0      a MAXIMUM   1
+
+============================================================================
+The figure-eight, along the whole orbit, at each bandwidth.
+============================================================================
+    sigma              max      saddles     minima    Morse   worst frame
+     0.22              [3]          [2]        [0]      [1]  -
+     0.26              [3]          [2]        [0]      [1]  -
+     0.30              [3]          [2]        [0]      [1]  -
+     0.34              [3]          [2]        [0]      [1]  -
+     0.38           [2, 3]       [1, 2]        [0]      [1]  t/T=0.051 2max
+     0.45           [2, 3]       [1, 2]        [0]      [1]  t/T=0.017 2max
+
+  How close does the figure-eight come to the equilateral shape?
+    minimum relative spread of the three mutual distances: 0.7244
+    (0 would be exactly equilateral)

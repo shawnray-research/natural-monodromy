@@ -1,0 +1,32 @@
+21 raw hits from out/ct_walnut_s15.0_n3.0_r0.8_st120.json
+floor 0.01169, loop radius 0.8
+
+  [  1] theta 22.90 deg  order 2  -> G2 changes = 4
+  [  2] theta 21.90 deg  order 2  -> G2 changes = 4
+  [  3] theta 23.90 deg  order 2  -> G2 changes = 8
+  [  4] theta 26.90 deg  order 2  -> G2 changes = 6
+  [  5] theta 24.90 deg  order 2  -> G2 changes = 7
+  [  6] theta 33.90 deg  order 2  -> G2 changes = 4
+  [  7] theta 17.90 deg  order 2  -> G1 refine [2, 1, 1]
+  [  8] theta 39.90 deg  order 2  -> G3 shrink [1, 1, 1, 1, 1, 1]
+  [  9] theta 28.90 deg  order 2  -> G2 changes = 6
+  [ 10] theta 16.90 deg  order 2  -> G3 shrink [1, 1, 1, 1, 1, 1]
+  [ 11] theta 27.90 deg  order 2  -> G2 changes = 14
+  [ 12] theta 28.90 deg  order 2  -> G1 refine [2, 1, 1]
+  [ 13] theta 37.90 deg  order 2  -> G1 refine [2, 1, 1]
+  [ 14] theta 35.90 deg  order 2  -> G1 refine [2, 2, 1]
+  [ 15] theta 57.90 deg  order 2  -> G0 boundary
+  [ 16] theta 41.90 deg  order 2  -> G3 shrink [2, 2, 1, 1, 1, 1]
+  [ 17] theta  4.90 deg  order 2  -> G1 refine [2, 2, 1]
+  [ 18] theta 21.90 deg  order 2  -> G2 changes = 4
+  [ 19] theta  8.90 deg  order 2  -> G2 changes = 6
+  [ 20] theta  9.90 deg  order 2  -> G3 shrink [1, 1, 1, 1, 1, 1]
+  [ 21] theta  6.90 deg  order 2  -> G1 refine [2, 1, 1]
+
+summary by stage:
+  G2             10
+  G1             6
+  G3             4
+  G0             1
+
+CERTIFIED: 0 of 21 examined

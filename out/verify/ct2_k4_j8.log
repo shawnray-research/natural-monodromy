@@ -1,0 +1,13 @@
+grid 31 x 32  (theta stride 2.0 deg, row stride 800 um)
+  noise 0.00411, floor 0.01234
+  per-step field change / noise:  theta 3.7x,  row 3.3x
+
+scanning 57x59 loop centres, radius 0.45
+  well-defined on 957 of 3363;  nontrivial on 16
+
+localizing and diagnosing wall types:
+   theta  26.33 deg, row   714.0: order 2, box 7.5e-09, walls ['BB', 'DD']  <== candidate
+   theta  26.33 deg, row   714.0: order 2, box 7.5e-09, walls ['BB', 'DD']  <== candidate
+   theta   7.71 deg, row   957.0: order 2, box 7.5e-09, walls ['DD', 'BB']  <== candidate
+
+3 candidates with the correct wall structure.

@@ -1,0 +1,30 @@
+q is the number of turns the frame makes per orbital period.
+
+       q  vineyard braid                     traj. braid                r_ij same?
+  ----------------------------------------------------------------------------------
+     0.0  s2^-1 s1 s2^-1 s1                  s1 s2^-1                    reference
+     0.5  s2^-1 s1 s2^-1 s1                  s1 s2^-1                      6.7e-16
+     1.0  s2^-1 s1 s2^-1 s1                  s1 s2^-1 s1^-1 s2^-1 s1^      6.7e-16
+     2.0  s2^-1 s1 s2^-1 s1                  s2^-1 s1^-1 s1^-1             6.7e-16
+    -1.5  s2^-1 s1 s2^-1 s1                  s1 s1 s2                      6.7e-16
+     3.0  s2^-1 s1 s2^-1 s1                  s2^-1 s1^-1 s1^-1 s2^-1       6.7e-16
+
+  The mutual distances are identical to machine precision in every
+  frame, so the vineyard braid is identical. The trajectory braid is
+  not: it accumulates a full twist for each turn of the frame.
+
+====================================================================================
+Corrected version of the kernel-width test, with a working reference.
+====================================================================================
+  sigma 0.22:  18 crossings   reference, typical |h_i - h_j| = 3.69e-04
+  sigma 0.26:  13 crossings   13 crossings, typical |h_i - h_j| = 3.52e-03
+  sigma 0.30:  12 crossings   12 crossings, typical |h_i - h_j| = 1.48e-02
+  sigma 0.34:  12 crossings   12 crossings, typical |h_i - h_j| = 4.00e-02
+Traceback (most recent call last):
+  File "/Users/shawn/Documents/Research/ISTA/monodromy/scripts/frame_test.py", line 113, in <module>
+    main()
+    ~~~~^^
+  File "/Users/shawn/Documents/Research/ISTA/monodromy/scripts/frame_test.py", line 91, in main
+    B[a, i] = d[i]["birth"]
+              ~^^^
+TypeError: 'NoneType' object is not subscriptable

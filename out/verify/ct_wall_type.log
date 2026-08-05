@@ -1,0 +1,11 @@
+Which walls does the loop actually cross?
+A genuine A_1^2/A_1^2 generator crosses ONE birth-birth wall and ONE
+death-death wall. Crossing a single wall out and back also gives two
+pairing changes, but composes to the identity.
+
+walnut candidate p* = (49.617361, 63.760125):
+  walnut radius 0.05: birth-order changes 2, death-order changes 0
+  walnut radius 0.02: birth-order changes 2, death-order changes 0
+  walnut radius 0.005: birth-order changes 2, death-order changes 0
+
+Control: the SAME diagnostic on the certified coastline generator.

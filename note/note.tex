@@ -1,0 +1,99 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,top=15mm,bottom=9mm,left=29mm,right=29mm]{geometry}
+\usepackage{mathpazo}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{parskip}
+
+\setlength{\parskip}{0.24em}
+\linespread{1.0}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{center}
+  {\large\bfseries Vineyard monodromy in Newton's equations}\\[0.3em]
+  {\small Shawn Ray}
+\end{center}
+
+\vspace{0.2em}
+
+Looking for vineyard monodromy in the wild, I found it in classical mechanics,
+in the figure-eight solution of the three-body problem. What it measures is the
+more interesting half.
+
+Three equal masses chase one another around a figure-eight curve, the orbit
+Moore found numerically and Chenciner and Montgomery proved exists. Sum a radial
+kernel at each body and follow the degree-zero persistence of its superlevel
+sets over a third of the period, the essential class dying at the infimum. The
+diagram returns to itself with its three points cyclically permuted, so the
+monodromy has order $3$. Those three features stay clear of the diagonal
+throughout, the least persistent at $0.06$, and are distinct except at the wall
+crossings, where two coincide exactly; following the critical points through
+shows them exchanged, not turned back, so the cycle is transport, not a
+relabeling of coincident points. Ordering strands by birth at the first slice,
+running time forwards and signing each crossing by the death coordinate, the
+braid is $(\sigma_2^{-1}\sigma_1)^2$, whose trace closure is the figure-eight
+knot, by its Alexander polynomial $t-3+t^{-1}$ and independently by SnapPy.
+
+The loop is $T/3$ because after a third of a period the bodies occupy the same
+three positions with their labels shifted, and the density is a \emph{sum} over
+them, so relabeling leaves it unchanged as a function and the diagram returns
+exactly, not nearly. Scanning for set-returns finds only $T/3$ and $2T/3$, so
+$T/3$ is primitive; over the full period the relabeling is the identity and the
+monodromy trivial. Nothing about the loop is chosen.
+
+What orders the vines is easy to write down. At the bodies $h_i=\sum_j
+K(r_{ij})$, the shared term cancels, and $h_1-h_2=K(r_{13})-K(r_{23})$ vanishes
+when body 3 is equidistant from bodies 1 and 2, an \emph{isosceles
+configuration}. The peaks do the same, and exactly. Let $\sigma$ be the
+reflection in the perpendicular bisector of bodies 1 and 2. It fixes that pair,
+so $\rho\circ\sigma-\rho=K(|x-\sigma q_3|)-K(|x-q_3|)$, which is positive on
+body 2's side whenever body 3 lies nearer body 1. Then $h_1\ge\rho(\sigma
+M_2)>\rho(M_2)=h_2$, the first step because $\sigma M_2$ sits as far from body 1
+as $M_2$ does from body 2, and $\rho$ is concave on that ball, so $M_1$ is its
+highest point; and at equidistance $\sigma$ carries $\rho$ to itself, so the two
+are equal. So wherever that concavity holds, the walls are the isosceles
+configurations and nothing else, and the strands are ordered by the opposite
+sides. The deaths are the two shortest, the minimum spanning tree, measured
+rather than proved. The braid reads only the order of the births and of the
+deaths, never their size.
+
+The condition contains no kernel, with a consequence I did not expect: a
+Gaussian, a cusped exponential, a Cauchy and a Student $t$ all put the walls at
+the same twelve instants. Nor can the bandwidth. What it sets is a window: below
+$\sigma\approx0.24$ the crowding differences fall towards numerical resolution,
+above $\sigma\approx0.30$ a feature meets the diagonal, neither bound
+topological.
+
+A change of frame, even a time-dependent one, carries $\rho(x,t)$ to
+$\rho(g_t^{-1}x,t)$. Every superlevel set goes to a congruent one, so each
+diagram is untouched and the whole vineyard with it. Viewed from six frames
+rotating at different rates the vineyard braid is $(\sigma_2^{-1}\sigma_1)^2$
+every time, while the trajectory braid picks up a twist per turn. The two are
+invariants of different objects: the trajectory braid of the motion in the
+plane, the vineyard braid of that motion reduced by translations and rotations.
+
+So the monodromy is no coincidence of this orbit: its order is $3$ because the
+time shift permutes the bodies cyclically, and over $T/3$ the curve crosses four
+of the twelve walls, the braid being its itinerary through the chambers. And the
+knot carries content of its own. Over that same $T/3$ the bodies trace the
+pseudo-Anosov braid $\sigma_1\sigma_2^{-1}$, up to the conjugacy a projection
+introduces; under the standard map to $SL(2,\mathbb{Z})$ it is
+$\left(\begin{smallmatrix}2&1\\1&1\end{smallmatrix}\right)$, whose mapping torus
+on the once-punctured torus is the figure-eight knot complement, which is why
+this orbit is known by its braid type. Conjugating the square of that braid by
+$\sigma_1$ returns the vineyard word letter for letter, so the two close to the
+same knot and the vineyard carries exactly twice the topological entropy,
+$1.924847$ against $0.962424$. And unlike the trajectory braid, whose word
+depends on the projection chosen, the vineyard braid needs none.
+
+\vspace{0.35em}
+{\footnotesize A log behind every number above is at
+\texttt{github.com/shawnray-research/natural-monodromy}.}
+
+\end{document}

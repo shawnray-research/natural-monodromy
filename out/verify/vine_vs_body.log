@@ -1,0 +1,12 @@
+
+K=3000
+  body i's endpoint matches start point   [1, 2, 0]   order 3
+  diagram-point tracking gives            [1, 2, 0]   order 3
+  largest single-step move of a diagram point: 0.0016
+  deaths: min 0.0000, and how many points sit at death 0 at each step: [np.int64(1)]
+
+K=9000
+  body i's endpoint matches start point   [1, 2, 0]   order 3
+  diagram-point tracking gives            [1, 2, 0]   order 3
+  largest single-step move of a diagram point: 0.0008
+  deaths: min 0.0000, and how many points sit at death 0 at each step: [np.int64(1)]

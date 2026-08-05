@@ -1,0 +1,18 @@
+Japan, previously certified generator p* = [-0.256819    0.62376418]
+Radial field d(., p) on the coastline; transport vs assignment.
+
+  N=2000, smoothing=0.01:
+    r=  1e-03  transport order 1     (n=4, jump 1.0) | assignment order 1     changes 0
+    r=  1e-04  transport order 1     (n=4, jump 0.0) | assignment order 1     changes 0
+    r=  1e-05  transport order 1     (n=4, jump 0.0) | assignment order 1     changes 0
+    r=  1e-06  transport order 1     (n=4, jump 0.0) | assignment order 1     changes 0
+  N=4000, smoothing=0.01:
+    r=  1e-03  transport order 1     (n=4, jump 1.0) | assignment order 1     changes 0
+    r=  1e-04  transport order 1     (n=4, jump 0.0) | assignment order 1     changes 0
+    r=  1e-05  transport order 1     (n=4, jump 0.0) | assignment order 1     changes 0
+    r=  1e-06  transport order 1     (n=4, jump 0.0) | assignment order 1     changes 0
+  N=2000, smoothing=0.005:
+    r=  1e-03  transport order 1     (n=6, jump 0.0) | assignment order 1     changes 2
+    r=  1e-04  transport order 1     (n=6, jump 0.0) | assignment order 1     changes 0
+    r=  1e-05  transport order 1     (n=6, jump 0.0) | assignment order 1     changes 0
+    r=  1e-06  transport order 1     (n=6, jump 0.0) | assignment order 1     changes 0

@@ -1,0 +1,4 @@
+isotropic blur 15 px on the panel; floor 0.00706
+Traceback (most recent call last):
+  File "<stdin>", line 32, in <module>
+TypeError: 'NoneType' object is not subscriptable

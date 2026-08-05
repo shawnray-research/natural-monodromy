@@ -1,0 +1,39 @@
+============================================================================
+1. What the deaths encode
+============================================================================
+  essential class is the body opposite the LONGEST side: 858 of 858
+  the two finite deaths are the saddles on the two SHORTEST sides: 858 of 858
+
+  So the diagram splits cleanly: the births order all three sides,
+  and the deaths are the minimum spanning tree, the two shortest.
+  The braid's strand order comes from the first, its crossing signs
+  from the second.
+
+============================================================================
+2. Syzygies against the trajectory braid
+============================================================================
+/Users/shawn/Documents/Research/ISTA/monodromy/scripts/deaths_and_symmetry.py:82: DeprecationWarning: Arrays of 2-dimensional vectors are deprecated. Use arrays of 3-dimensional vectors instead. (deprecated in NumPy 2.0)
+  cr = np.array([np.cross(X[k][1]-X[k][0], X[k][2]-X[k][0]) for k in range(NS)])
+  collinear configurations per period: 6
+    at t/T = [0.     0.1667 0.3333 0.5    0.6667 0.8333]
+  equal-x events per period (what the trajectory braid counts): 6
+    at t/T = [0.0833 0.25   0.4167 0.5833 0.75   0.9167]
+    max |difference| = 8.33e-02
+
+============================================================================
+3. The symmetry group, and whether it forces t/T = k/12
+============================================================================
+  symmetries of the form (spatial g, time shift m*T/12):
+    identity       with shift  0/12 of a period   mismatch 0.00e+00
+    identity       with shift  4/12 of a period   mismatch 7.04e-08
+    identity       with shift  8/12 of a period   mismatch 7.04e-08
+    reflect in y   with shift  2/12 of a period   mismatch 8.78e-08
+    reflect in y   with shift  6/12 of a period   mismatch 7.04e-08
+    reflect in y   with shift 10/12 of a period   mismatch 8.76e-08
+  group order found: 6
+
+  The time shifts that occur are [0, 2, 4, 6, 8, 10], which generate the cyclic group
+  of order 12 acting on the period. A symmetry maps isosceles
+  configurations to isosceles configurations, so that group permutes
+  the twelve of them; acting transitively, it forces them to be evenly
+  spaced, which is what t/T = k/12 says.

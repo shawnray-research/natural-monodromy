@@ -1,0 +1,12 @@
+
+p* = (-0.256818998, 0.623764182)
+  r=  1e-03: exact PAIR tracker -> order 2, cycles [(4, 5), (0,), (1,), (2,), (3,), (6,), (7,)]
+  r=  1e-04: exact PAIR tracker -> order 2, cycles [(4, 5), (0,), (1,), (2,), (3,), (6,), (7,)]
+  r=  1e-05: exact PAIR tracker -> order 2, cycles [(4, 5), (0,), (1,), (2,), (3,), (6,), (7,)]
+  r=  1e-06: exact PAIR tracker -> order 2, cycles [(4, 5), (0,), (1,), (2,), (3,), (6,), (7,)]
+
+p* = (-0.575383576, 1.002680316)
+  r=  1e-03: exact PAIR tracker -> order 2, cycles [(5, 6), (0,), (1,), (2,), (3,), (4,), (7,)]
+  r=  1e-04: exact PAIR tracker -> order 2, cycles [(5, 6), (0,), (1,), (2,), (3,), (4,), (7,)]
+  r=  1e-05: exact PAIR tracker -> order 2, cycles [(5, 6), (0,), (1,), (2,), (3,), (4,), (7,)]
+  r=  1e-06: exact PAIR tracker -> order 2, cycles [(5, 6), (0,), (1,), (2,), (3,), (4,), (7,)]

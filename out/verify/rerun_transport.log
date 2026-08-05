@@ -1,0 +1,13 @@
+WALNUT CONE-BEAM SCAN, transport vs assignment
+======================================================================
+signal-dominated grid (D10 satisfied): steps 3.7x / 3.3x noise
+
+grid stride 4/8, radius 0.45
+  loops scanned 3363
+  TRANSPORT : well-defined 957, nontrivial 0
+  assignment: well-defined 957, nontrivial 16
+
+fine grid (D10 NOT satisfied), radius 0.8
+  loops scanned 7316
+  TRANSPORT : well-defined 3486, nontrivial 0
+  assignment: well-defined 3487, nontrivial 21

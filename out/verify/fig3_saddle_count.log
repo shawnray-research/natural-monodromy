@@ -1,0 +1,30 @@
+sigma=0.2  loop=T/3   : maxima [3], saddles [2, 3], finite deaths [2]   violations 155
+     t/T=0.3813: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.3820: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.3907: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.3913: 3 maxima, 3 saddles, 2 finite deaths
+sigma=0.2  loop=full T: maxima [3], saddles [2, 3], finite deaths [2]   violations 154
+     t/T=0.0120: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.0160: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.0180: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.0300: 3 maxima, 3 saddles, 2 finite deaths
+sigma=0.25  loop=T/3   : maxima [3], saddles [2, 3], finite deaths [2]   violations 170
+     t/T=0.3773: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.3780: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.3787: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.3793: 3 maxima, 3 saddles, 2 finite deaths
+sigma=0.25  loop=full T: maxima [3], saddles [2, 3], finite deaths [2]   violations 168
+     t/T=0.0180: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.0200: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.0220: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.0240: 3 maxima, 3 saddles, 2 finite deaths
+sigma=0.3  loop=T/3   : maxima [3], saddles [2, 3], finite deaths [2]   violations 187
+     t/T=0.3707: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.3767: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.3787: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.3793: 3 maxima, 3 saddles, 2 finite deaths
+sigma=0.3  loop=full T: maxima [3], saddles [2, 3], finite deaths [2]   violations 174
+     t/T=0.0180: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.0200: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.0220: 3 maxima, 3 saddles, 2 finite deaths
+     t/T=0.0240: 3 maxima, 3 saddles, 2 finite deaths

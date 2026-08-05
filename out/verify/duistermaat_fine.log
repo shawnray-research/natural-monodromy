@@ -1,0 +1,30 @@
+Fine scan of the equilateral transition, with a dense grid.
+
+    sigma  centre index  max  sad  min  note
+    0.690           min    3    3    1  
+    0.695           min    3    3    1  
+    0.700           min    3    3    1  
+    0.705           min    3    3    0  
+    0.710           MAX    4    3    0  FOUR MODES
+    0.715           MAX    4    3    0  FOUR MODES
+    0.720           MAX    4    3    0  FOUR MODES
+    0.725           MAX    4    3    0  FOUR MODES
+    0.730           MAX    4    3    0  FOUR MODES
+    0.735           MAX    4    3    0  FOUR MODES
+    0.740           MAX    1    0    0  
+    0.745           MAX    1    0    0  
+    0.750           MAX    1    0    0  
+    0.755           MAX    1    0    0  
+    0.760           MAX    1    0    0  
+
+Same question with UNEQUAL circumradius, which is the parameter that
+actually controls whether the vertex modes survive the centre's flip:
+
+       R   sigma  max  sad  min  note
+    1.00   0.710    4    3    0  FOUR MODES
+    1.20   0.850    4    3    0  FOUR MODES
+    1.40   0.990    4    3    0  FOUR MODES
+    1.60   1.140    4    3    0  FOUR MODES
+    2.00      --                 no 4-mode window found
+
+  The finder does report a fourth mode when one exists (R=1.6, sigma=1.140).

@@ -1,0 +1,94 @@
+  And the vines genuinely cross: two diagram points coincide at the
+  isosceles instants, which is what a crossing IS. Minimum separation
+  over one T/3 loop, sampled finely:
+    min 5.58e-09, max 2.63e-03
+
+============================================================================
+O3. Is the isosceles identification exact or approximate?
+============================================================================
+  At an isosceles configuration with apex k, the whole configuration is
+  symmetric under reflection in the perpendicular bisector, and that
+  reflection is an isometry of the DENSITY that swaps the other two
+  bodies. Their maxima are therefore exchanged by an isometry, so their
+  birth values are exactly equal, whatever the kernel and however far the
+  maxima are displaced from the bodies. Constructed exactly:
+
+     apex at   sigma    |birth_i - birth_j|   max displacement from body
+      body 3    0.30              0.000e+00                       0.0000
+      body 3    0.75              0.000e+00                       0.1575
+      body 3    0.30              0.000e+00                       0.0001
+      body 3    0.75  (degenerate at this sigma)
+      body 3    0.30              0.000e+00                       0.0000
+      body 3    0.75              2.220e-16                       0.2977
+      body 3    0.30              0.000e+00                       0.0000
+      body 3    0.75  (degenerate at this sigma)
+
+  Exactly zero, at displacements of order 0.1. The identification is a
+  symmetry argument, not a first-order approximation.
+
+============================================================================
+O4. Is the diagram exactly invariant under rigid motion?
+============================================================================
+  200 random rotations and translations: worst change in the diagram 4.44e-16
+  rho(R^-1 x - a) is rho composed with an isometry, so the critical VALUES
+  are identical, not nearly identical. Exact by construction.
+
+============================================================================
+O5. Is 'shape space' the right word?
+============================================================================
+Traceback (most recent call last):
+  File "/Users/shawn/Documents/Research/ISTA/monodromy/scripts/rigor.py", line 126, in <module>
+    f"{np.abs(np.sort(bs)-np.sort(b0)).max():.3e}")
+              ~~~~~~~^^^^
+  File "/opt/homebrew/Caskroom/miniconda/base/lib/python3.13/site-packages/numpy/_core/fromnumeric.py", line 1092, in sort
+    a.sort(axis=axis, kind=kind, order=order, stable=stable)
+    ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+numpy.exceptions.AxisError: axis -1 is out of bounds for array of dimension 0
+O5. Is 'shape space' the right word?
+============================================================================
+  scaling the configuration by 0.8: diagram changes by 1.168e-01
+  scaling the configuration by 1.25: diagram changes by 2.890e-02
+  scaling the configuration by 2.0: diagram changes by 3.299e-02
+  So the diagram is NOT scale invariant, and the honest statement is that
+  the braid is an invariant of the curve in configuration space modulo
+  TRANSLATIONS AND ROTATIONS. The wall locus r_ik = r_jk is separately
+  scale invariant, so the walls, but not the diagram, descend to the
+  shape sphere.
+
+============================================================================
+O6. Is the persistence diagram well posed here?
+============================================================================
+  rho is a smooth Morse function on the plane decaying to 0.
+    maxima 3, merge saddles 2, essential classes 1, all saddles 2
+    Morse count  #max - #saddle = 1  (must be 1)
+  Superlevel H_0 persistence of such a function is standard, and the
+  three classes are exactly the three bodies.
+
+============================================================================
+O7. Do the three features stay off the diagonal for the whole loop?
+============================================================================
+  An order-3 permutation of diagram points needs three features that
+  survive the whole circuit, stay distinguishable, and never reach the
+  diagonal. Over one T/3 loop, sampled at 600 instants:
+
+    sigma 0.22: features [3], min persistence over the loop 0.4238, min pairwise separation 8.57e-04
+    sigma 0.26: features [3], min persistence over the loop 0.2050, min pairwise separation 1.28e-03
+    sigma 0.30: features [3], min persistence over the loop 0.0598, min pairwise separation 1.52e-03
+    sigma 0.34: features [3], min persistence over the loop 0.0008, min pairwise separation 1.62e-03
+
+  The minimum persistence is bounded well away from zero, so no feature
+  approaches the diagonal. The separation touches zero only at the
+  isosceles instants, which is where two vines cross.
+
+============================================================================
+O8. Is T/3 the PRIMITIVE period in unlabeled configuration space?
+============================================================================
+  If some shorter time also returned the configuration as a set, the loop
+  would not be the primitive one and the order would be wrong.
+
+    times s/T at which the configuration returns as a SET:
+      s/T = 0.33333   mismatch 2.98e-08   relabelling [1, 2, 0]
+      s/T = 0.66667   mismatch 6.98e-08   relabelling [2, 0, 1]
+
+  The first return is at T/3 with a 3-cycle, so T/3 is primitive and the
+  order is 3, not a multiple of something smaller.

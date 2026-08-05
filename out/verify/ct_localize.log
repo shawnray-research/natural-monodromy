@@ -1,0 +1,22 @@
+localizing each raw hit inside its own scan cell (half-width 1.0):
+  theta 22.90 row  622: p*=(46.08665,12.15245) box 1.49e-08 order 2 changes 2 n 7
+  theta 21.90 row  642: no generator in cell
+  theta 23.90 row  702: no generator in cell
+  theta 26.90 row  714: p*=(53.47871,57.73652) box 9.77e-04 order 2 changes 2 n 7
+  theta 24.90 row  726: p*=(49.61736,63.76013) box 1.49e-08 order 2 changes 2 n 7
+  theta 33.90 row  814: no generator in cell
+  theta 17.90 row  830: no generator in cell
+  theta 39.90 row  906: no generator in cell
+  theta 28.90 row  922: no generator in cell
+  theta 16.90 row  926: no generator in cell
+  theta 27.90 row  926: p*=(55.58592,164.20178) box 3.81e-06 order 2 changes 4 n 7
+  theta 28.90 row  930: no generator in cell
+  theta 37.90 row  986: no generator in cell
+  theta 35.90 row  994: no generator in cell
+  theta 57.90 row 1002: no generator in cell
+  theta 41.90 row 1010: no generator in cell
+  theta  4.90 row 1026: no generator in cell
+  theta 21.90 row 1030: no generator in cell
+  theta  8.90 row 1054: no generator in cell
+  theta  9.90 row 1074: no generator in cell
+  theta  6.90 row 1086: p*=(13.80000,243.80000) box 1.00e+00 order 2 changes 6 n 6

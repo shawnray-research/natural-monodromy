@@ -1,0 +1,10 @@
+Japan, previously certified generator p* = [-0.256819    0.62376418]
+Applying the SAME wall-type diagnostic that refuted the walnut candidate.
+
+  radius  1.0e-03: birth-order changes 0, death-order changes 0, n=4
+  radius  1.0e-04: birth-order changes 0, death-order changes 0, n=4
+  radius  1.0e-05: birth-order changes 0, death-order changes 0, n=4
+  radius  1.0e-06: birth-order changes 0, death-order changes 0, n=4
+
+A genuine A_1^2/A_1^2 generator must show ONE birth-order change and
+ONE death-order change. Two-and-zero is a single wall crossed out and back.

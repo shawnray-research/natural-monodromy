@@ -1,0 +1,28 @@
+PANEL (a): 'three bodies, one curve, over T/3'
+  segment length drawn: 4000 steps = T/3.000   (should be T/3)
+  every position of body 1 lies on body 0's orbit to 5.06e-09
+  every position of body 2 lies on body 0's orbit to 7.73e-11
+  -> the three bodies really do share ONE curve, so drawing body 0's full
+     orbit as the grey curve is correct
+  the three T/3 segments together cover the whole curve to 4.30e-08
+
+PANEL (b): 'maxima at the bodies, saddles between them'
+  maxima found: 3
+    max 0 at [-0.2444  -0.17277], body 0 at [-0.22258 -0.19172], offset 2.89e-02
+    max 1 at [ 1.04865 -0.13785], body 1 at [ 1.0488  -0.13785], offset 1.58e-04
+    max 2 at [-0.80427  0.3106 ], body 2 at [-0.82622  0.32956], offset 2.90e-02
+    pair (0, 1): saddle at [ 0.41319 -0.16465]
+    pair (0, 2): saddle at [-0.5244   0.06893]
+    pair (1, 2): no saddle
+  distinct saddles: 2
+  Morse check on a density decaying to 0:  #max - #saddle = 1  (must be 1)
+  merge tree uses 2 finite deaths + 1 essential class -> consistent with 2 saddles: True
+
+COLOUR CONSISTENCY across panels
+  (a),(b) index by BODY i; (c) plots B[:,i],D[:,i] which merge_tree_exact
+  returns per BODY i; (d),(e),(f) colour strand by vine label, and vine
+  label i is body i because braid_word is fed B,D indexed by body.
+  vineyard initial strand order (left to right in (e)): [np.int64(1), np.int64(2), np.int64(0)]
+  trajectory initial strand order (left to right in (d)): [np.int64(2), np.int64(0), np.int64(1)]
+  -> panel (d) and (e) start with DIFFERENT colours on top, which is
+     correct and expected: they order strands by different quantities

@@ -1,0 +1,18 @@
+floor = 0.01169   retained features and their persistence:
+   feature 1: 1.01342   (86.7 x floor)
+   feature 2: 0.15303   (13.1 x floor)
+   feature 3: 0.09738   (8.3 x floor)
+   feature 4: 0.06844   (5.9 x floor)
+   feature 5: 0.06844   (5.9 x floor)
+   feature 6: 0.05562   (4.8 x floor)
+   feature 7: 0.04209   (3.6 x floor)
+
+closest two BIRTHS differ by 4.719e-09
+closest two DEATHS differ by 3.555e-09
+
+the coinciding births are ranks 4,5 of 7
+the coinciding deaths are ranks 2,3 of 7
+
+features whose births coincide, and their persistence:
+   birth 0.46773 death 0.53617  persistence 0.06844 (5.9 x floor)
+   birth 0.46773 death 0.53617  persistence 0.06844 (5.9 x floor)

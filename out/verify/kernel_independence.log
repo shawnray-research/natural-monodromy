@@ -1,0 +1,14 @@
+isosceles times (no kernel involved): 12 per period
+
+  kernel                    crossings   max |t - t_isosceles|
+  --------------------------------------------------------------
+  Gaussian  sigma=0.30             12   9.37e-13
+  Gaussian  sigma=0.60             12   5.41e-14
+  exponential exp(-2r)             12   2.15e-14
+  inverse   1/(1+r^2)              12   1.08e-14
+  Epanechnikov-like                12   5.77e-15
+  heavy tail 1/(1+r)               12   6.66e-15
+
+The wall locus does not depend on the kernel, only on whether the kernel
+is monotone. The bandwidth cannot move a wall; it can only decide whether
+the crowding difference is large enough to be resolved numerically.

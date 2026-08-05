@@ -1,0 +1,67 @@
+
+Proving the two claims the note reported as measured.
+
+Both are the same statement. Write L for the perpendicular bisector of q_i q_j,
+sigma for the reflection in L, and H_i, H_j for the two closed half planes. Let
+M_i be the maximum belonging to body i and h_i = rho(M_i) its birth value.
+
+    PROPOSITION. Let K be strictly decreasing. Suppose sigma M_j lies in the
+    basin of body i, so that h_i >= rho(sigma M_j), and that M_j is interior to
+    H_j. If body k lies strictly inside H_i, that is r_ik < r_jk, then h_i > h_j.
+
+    PROOF. sigma fixes the pair {q_i, q_j}, so the only term that moves is the
+    one belonging to body k:
+
+        rho o sigma (x) - rho(x) = K(|x - sigma q_k|) - K(|x - q_k|).
+
+    For x interior to H_j we have |x - sigma q_k| < |x - q_k|, since sigma q_k
+    lies in H_j and L is the perpendicular bisector of q_k and sigma q_k. As K is
+    strictly decreasing, rho o sigma > rho on the interior of H_j. Hence
+
+        h_i  >=  rho(sigma M_j)  =  rho o sigma (M_j)  >  rho(M_j)  =  h_j.   []
+
+Two corollaries, which are exactly the two claims:
+
+    the strand order is the order of the opposite sides, since h_i > h_j iff
+    r_ik < r_jk, and r_jk is the side opposite body i;
+
+    h_i = h_j forces r_ik = r_jk, so the walls are the isosceles configurations
+    and nothing else.
+
+No derivatives, no bandwidth, no Gaussian. The reflection argument the note
+already gave is the equality case of this one.
+
+A FIRST ATTEMPT took the hypothesis to be that h_i is the largest value of rho on
+the whole half plane H_i, which is tidier and false. When r_ik < r_jk body k is
+in H_i as well, and its peak is frequently the taller one: the margin runs to
+-3.8e-03 at sigma = 0.30, and fails at every bandwidth tried. Only the single
+value rho(sigma M_j) is ever needed, and sigma M_j sits near q_i by construction.
+
+What this script checks is the surviving hypothesis, over the orbit, for all six
+ordered pairs and a range of bandwidths. Its margin vanishes exactly at the
+walls, which is the equality case: there sigma carries M_j onto M_i.
+
+==============================================================================
+Does the hypothesis hold along the figure-eight?
+==============================================================================
+  margin   = h_i minus rho(sigma M_j), the one value the proof uses.
+             Must be >= 0, i.e. sigma M_j is in body i's basin.
+  interior = signed distance of M_j from the bisector, on its own side.
+             Must be > 0.
+
+    sigma  instants     min margin   min interior   hypothesis
+     0.22       250     -2.220e-16      3.399e-01        HOLDS
+     0.24       250     -2.220e-16      3.327e-01        HOLDS
+     0.26       250     -2.220e-16      3.200e-01        HOLDS
+     0.28       250      0.000e+00      2.990e-01        HOLDS
+     0.30       250      0.000e+00      2.657e-01        HOLDS
+     0.32       250      0.000e+00      2.116e-01        HOLDS
+
+==============================================================================
+The two corollaries, checked directly as a sanity test
+==============================================================================
+  strand order equals opposite-side order:  750 of 750
+  births coincide off the isosceles locus:  0 times
+
+  These now follow from the proposition rather than standing on their
+  own, so the numbers are a check on the hypothesis, not the evidence.

@@ -1,0 +1,147 @@
+
+Re-derive every claim in note/note.tex from scratch, and say PASS or FAIL.
+
+Why this exists. The audit (scripts/audit_note.py) checks the note against saved
+logs. That is only as good as the logs, and seven of them turned out to have no
+surviving generator in the repository, so their numbers could be read but not
+reproduced. This script recomputes everything from the orbit up, touching no log,
+and prints what the note says beside what the computation gives.
+
+Each check is labelled with the sentence of the note it is testing. A claim that
+this script cannot reach is marked REASONED rather than PASS, and says what the
+argument is, so that nothing is silently counted as verified.
+
+==============================================================================
+SETUP
+==============================================================================
+  [PASS] orbit closes
+         note: the figure-eight solution of the three-body problem
+         got : |x(T)-x(0)| = 9.432e-08
+
+==============================================================================
+PARAGRAPH 2: the example
+==============================================================================
+  [PASS] monodromy order 3
+         note: the diagram returns to itself with its three points cyclically permuted, order 3
+         got : permutation [1, 2, 0], order 3
+  [PASS] braid word
+         note: the braid is (sigma_2^-1 sigma_1)^2
+         got : s2^-1 s1 s2^-1 s1  (4 crossings)
+  [PASS] least persistence 0.06
+         note: the least persistent at 0.06
+         got : min persistence over the loop = 0.0598
+  [PASS] clear of the diagonal
+         note: those three features stay clear of the diagonal throughout
+         got : min persistence 0.0598 > 0
+  [PASS] two coincide at the walls
+         note: distinct except at the wall crossings, where two coincide exactly
+         got : closest approach of two births over the loop = 3.013e-13
+
+  Transport, by continuing the maxima rather than matching the diagram:
+  [PASS] transport, not relabeling
+         note: following the critical points through shows them exchanged, not turned back
+         got : continuation permutation [2, 0, 1], order 3
+  [PASS] Alexander polynomial
+         note: Alexander polynomial t - 3 + t^-1
+         got : det(Burau - I)/(1+t+t^2) * (-t) = t - 3 + 1/t
+  [PASS] knot identification
+         note: trace closure is the figure-eight knot, independently by SnapPy
+         got : spherogram: 1 component, 4 crossings; exterior identifies as [m004(0,0), 4_1(0,0)]; m004 volume 2.029883
+
+==============================================================================
+PARAGRAPH 3: why the loop is T/3 and why it closes exactly
+==============================================================================
+  [PASS] primitive period T/3
+         note: scanning for set-returns finds only T/3 and 2T/3, so T/3 is primitive
+         got : set-returns at t/T = [np.float64(0.33333), np.float64(0.66667)], mismatches ['1.07e-08', '1.44e-08']; no earlier return exists
+  [PASS] density returns exactly
+         note: relabeling leaves it unchanged as a function, the diagram returns exactly
+         got : sup |rho(.,t) - rho(.,t+T/3)| over the grid and the orbit = 1.427e-07
+  [PASS] trivial over the full period
+         note: over the full period the relabeling is the identity and the monodromy trivial
+         got : permutation over T = [0, 1, 2], word length 12
+
+==============================================================================
+PARAGRAPH 4: what orders the vines
+==============================================================================
+  [PASS] twelve isosceles configurations
+         note: both lists have twelve entries
+         got : 12 isosceles instants per period, at t/T x 12 = [3.492e-14 1.000e+00 2.000e+00 3.000e+00 4.000e+00 5.000e+00 6.000e+00
+ 7.000e+00 8.000e+00 9.000e+00 1.000e+01 1.100e+01]
+  [PASS] the walls ARE the isosceles configurations
+         note: both lists have twelve entries agreeing to 3.8e-12
+         got : 12 vineyard walls against 12 isosceles instants, worst disagreement 3.294e-12
+  [PASS] four walls per T/3
+         note: over T/3 the curve crosses four of the twelve walls
+         got : 4 of the 12 walls lie in [0.37, 0.37+1/3), at t/T x 12 = [5. 6. 7. 8.]
+  [PASS] strand order is the side order
+         note: the strands are ordered by the sides opposite each body, at every instant tested
+         got : 858 of 858 instants
+  [PASS] deaths are the minimum spanning tree
+         note: the deaths are the two shortest, the minimum spanning tree
+         got : two finite deaths at 858 of 858 instants (the MST of 3 points is always its two shortest edges)
+  [ARG ] the proof of the ordering
+         note: h_1 >= rho(sigma M_2) > rho(M_2) = h_2, so the walls are the isosceles configurations and the strands are ordered by the opposite sides
+         why : proved. sigma is an isometry fixing the pair, so sigma M_2 lies at distance |M_2 - q_2| from body 1; rho is concave on that ball, so its critical point M_1 is the unique maximum there, giving the first step. The second is that rho o sigma > rho on body 2's side. The concavity hypothesis is an explicit inequality checked in scripts/concavity_lemma.py
+
+==============================================================================
+PARAGRAPH 5: no kernel in the wall, and the bandwidth window
+==============================================================================
+                kernel  crossings    max |t - t_isosceles|
+       gaussian s=0.30         12                0.000e+00
+       gaussian s=0.24         12                0.000e+00
+      epanechnikov h=3         12                0.000e+00
+           exponential         12                0.000e+00
+     cauchy heavy tail         12                0.000e+00
+              logistic         12                0.000e+00
+  [PASS] kernel independence
+         note: a Gaussian, a cusped exponential, a Cauchy and a Student t all put the walls at the same twelve instants (diagrams: scripts/kernel_diagrams.py)
+         got : worst deviation from the isosceles times, over six kernels = 0.000e+00
+
+  The bandwidth window:
+    sigma   min persistence   typ |h_i-h_j|   merge tree?
+     0.16            0.8059        2.44e-15            ok
+     0.20            0.5530        1.06e-10            ok
+     0.24            0.3076        1.11e-07            ok
+     0.28            0.1231        6.49e-06            ok
+     0.30            0.0604        2.57e-05            ok
+     0.32            0.0194        7.40e-05            ok
+     0.34            0.0009        1.59e-04            ok
+  Read: the lower bound is where |h_i-h_j| stops being resolvable,
+  the upper bound is where min persistence approaches 0.
+
+==============================================================================
+PARAGRAPH 6: frame independence
+==============================================================================
+  [PASS] frame independence
+         note: viewed from six frames rotating at different rates the vineyard braid is the same
+         got : six frames -> {'s2^-1 s1 s2^-1 s1'}
+  [ARG ] why frame independence holds
+         note: a change of frame carries rho(x,t) to rho(g_t^-1 x, t), superlevel sets go to congruent ones, the diagram is untouched
+         why : exact: rho_{gq}(x,t) = sum_i K(|x - g_t q_i|) = sum_i K(|g_t^-1 x - q_i|) = rho_q(g_t^-1 x, t); an isometry of the plane maps each superlevel set homeomorphically to the other's, so H_0 and the pairing are identical
+
+==============================================================================
+PARAGRAPH 7: the itinerary, the trajectory braid, the entropy
+==============================================================================
+  [PASS] braid length matches the wall count
+         note: the braid being its itinerary through the chambers
+         got : vineyard braid over T/3 has 4 crossings, one per wall crossed
+  [PASS] trajectory braid class
+         note: the bodies trace the pseudo-Anosov braid sigma_1 sigma_2^-1, up to conjugacy
+         got : 12 projections: SL(2,Z) traces {3}, exponent sums {np.int64(0)}, distinct words 4
+  [PASS] vineyard is the conjugated square
+         note: conjugating the square of that braid by sigma_1 returns the vineyard word letter for letter
+         got : s1^-1 (s1 s2^-1)^2 s1 = s2^-1 s1 s2^-1 s1, vineyard = s2^-1 s1 s2^-1 s1
+  [PASS] SL(2,Z) matrix
+         note: under the standard map it is [[2,1],[1,1]]
+         got : sigma_1 sigma_2^-1 -> [[2, 1], [1, 1]], trace 3
+  [PASS] entropy doubling
+         note: exactly twice the topological entropy, 1.924847 against 0.962424
+         got : entropies 1.924847 and 0.962424, ratio 2.000000000
+  [ARG ] the mapping torus
+         note: [[2,1],[1,1]] is the Anosov matrix whose mapping torus on the once-punctured torus is the figure-eight knot complement
+         why : classical (Thurston): the once-punctured-torus bundle with monodromy [[2,1],[1,1]] = RL is the census manifold m004, which SnapPy identifies as the figure-eight knot complement, volume 2.029883
+
+==============================================================================
+SUMMARY: 16 recomputed and passed, 0 failed, 3 established by argument rather than computation
+==============================================================================

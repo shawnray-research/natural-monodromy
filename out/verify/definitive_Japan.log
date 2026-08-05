@@ -1,0 +1,63 @@
+============================================================================
+DEFINITIVE CERTIFICATION: measured coastline of Japan
+  source: Natural Earth 1:10m, 2478 measured vertices
+  singularity p* = (-0.256818998, 0.623764182)  (normalized local coords)
+============================================================================
+
+[C1] geometric transport of diagram points around a small loop
+     permutation [1, 0, 2, 3]   order 2   cycles [(0, 1), (2,), (3,)]   (4 diagram points)
+[C2] elder-rule pairing changes around the loop
+     2  -- monodromy-critical iff exactly 2 (0 or 4 give the identity)
+        pairing ((0, 0), (1, 7), (2, 2), (3, 1), (4, 4), (5, 5), (6, 3), (7, 6))
+        pairing ((0, 0), (1, 7), (2, 2), (3, 3), (4, 4), (5, 5), (6, 1), (7, 6))
+        pairing ((0, 0), (1, 7), (2, 2), (3, 1), (4, 4), (5, 5), (6, 3), (7, 6))
+[C3] singularity type at p*
+     8 local minima, 8 local maxima of d(.,p*)^2|M
+     two minima coincide to  4.91e-12  (relative)   -> inner bitangent radius 1.127309288
+     two maxima coincide to  2.11e-12  (relative)   -> outer bitangent radius 1.362876134
+     => p* is an A_1^2/A_1^2 point of the symmetry set, with the smaller
+        circle bitangent at births and the larger bitangent at deaths.
+
+[R1] curve sampling density (loop radius 1e-3 about p*)
+     N=  700  order=2   p* drift=2.30e-04
+     N= 1050  order=2   p* drift=9.88e-05
+     N= 1400  order=2   p* drift=1.35e-09
+     N= 2100  order=2   p* drift=2.21e-04
+     N= 2800  order=2   p* drift=3.05e-04
+     N= 4200  order=2   p* drift=3.75e-04
+     N= 5600  order=2   p* drift=3.68e-04
+     N= 8000  order=2   p* drift=3.91e-04
+
+[R2] loop discretization
+     16->2, 32->2, 64->2, 128->2, 256->2, 1024->2, 4096->2, 16384->2
+
+[R4] measurement noise on the RAW measured vertices
+     (independent Gaussian displacement of every vertex, in km;
+      drift of p* measured, order read on a loop of radius 4x the drift)
+     noise   0.0 km : order 2 in 8/8 trials   median p* drift 1.69e-09
+     noise   0.5 km : order 2 in 8/8 trials   median p* drift 3.91e-03
+     noise   1.0 km : order 2 in 8/8 trials   median p* drift 2.11e-03
+     noise   2.0 km : order 2 in 7/8 trials   median p* drift 8.09e-03
+     noise   5.0 km : order 2 in 5/8 trials   median p* drift 1.67e-02
+     noise  10.0 km : order 2 in 5/8 trials   median p* drift 8.81e-03
+     noise  20.0 km : order 2 in 4/8 trials   median p* drift 1.37e-02
+
+[R5] causal toggle
+     shrinking the loop onto p* (must persist):
+        radius 3.0e-03 -> order 2
+        radius 1.0e-03 -> order 2
+        radius 3.0e-04 -> order 2
+        radius 1.0e-04 -> order 2
+        radius 3.0e-05 -> order 2
+        radius 1.0e-05 -> order 2
+        radius 3.0e-06 -> order 2
+        radius 1.0e-06 -> order 2
+     displacing the same loop off p* (must vanish):
+        offset (+3,+0)xR -> order 1
+        offset (-3,+0)xR -> order 1
+        offset (+0,+3)xR -> order 1
+        offset (+0,-3)xR -> order 1
+        offset (+2,+2)xR -> order 1
+        offset (-2,-2)xR -> order 1
+        offset (+2,-2)xR -> order 1
+        offset (-2,+2)xR -> order 1

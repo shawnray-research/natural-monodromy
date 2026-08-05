@@ -1,0 +1,7 @@
+mean |d profile| per unit step:
+  per gantry step (0.5 deg):  0.00529
+  per row step   (100 um)  :  0.00338
+  anisotropy ratio          :  1.56
+
+so a circular loop in index units is 1.6x longer in the
+theta direction than in the v direction, in terms of how much the field moves.

@@ -1,0 +1,43 @@
+============================================================================
+1. The time-reversing symmetries, and their fixed instants
+============================================================================
+  spatial part    shift          fixed instants t/T  mismatch
+     reflect x   2/12            0.08333, 0.58333  1.1e-07
+     reflect x   6/12            0.25000, 0.75000  1.3e-07
+     reflect x  10/12            0.41667, 0.91667  1.4e-07
+     rotate pi   0/12            0.00000, 0.50000  1.0e-07
+     rotate pi   4/12            0.16667, 0.66667  1.4e-07
+     rotate pi   8/12            0.33333, 0.83333  1.6e-07
+
+============================================================================
+2. At each fixed instant, is the configuration invariant under g?
+============================================================================
+       t/T            g   |g(config) - config|   two sides equal?   collinear?
+   0.00000    rotate pi               0.00e+00           0.00e+00     0.00e+00
+   0.08333    reflect x               1.97e-09           7.17e-10     1.12e+00
+   0.16667    rotate pi               1.04e-08           7.50e-09     2.08e-09
+   0.25000    reflect x               2.38e-08           1.77e-08     1.12e+00
+   0.33333    rotate pi               5.96e-08           2.90e-08     6.20e-08
+   0.41667    reflect x               6.20e-08           5.20e-08     1.12e+00
+   0.50000    rotate pi               8.15e-08           5.64e-08     1.21e-07
+   0.58333    reflect x               9.73e-08           7.82e-08     1.12e+00
+   0.66667    rotate pi               1.40e-07           7.23e-08     1.48e-07
+   0.75000    reflect x               1.07e-07           8.82e-08     1.12e+00
+   0.83333    rotate pi               1.04e-07           7.73e-08     1.60e-07
+   0.91667    reflect x               1.17e-07           9.48e-08     1.12e+00
+
+============================================================================
+3. Do these fixed instants account for all twelve walls?
+============================================================================
+  walls found by scanning:      13
+  fixed instants of reversals:  12
+
+  fixed instants at t/T x 12 = [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11.]
+  from the pi rotation (Euler, collinear):  k = [0, 2, 4, 6, 8, 10]
+  from the reflections (proper isosceles):  k = [1, 3, 5, 7, 9, 11]
+
+  The rotation by pi supplies the even twelfths and the reflections
+  supply the odd ones, so the two families interleave because they come
+  from different conjugacy classes of reversing symmetry. The spacing is
+  forced after all; the earlier search simply looked at the forward
+  shifts, which cannot see it.

@@ -1,0 +1,20 @@
+       t/T   k  tied pair  |P_i - P_j| at the wall  collinear?  what happens
+   0.00000   0        0,1                 0.00e+00    0.00e+00  vines MEET
+   0.08333   1        0,2                 1.05e-01    1.12e+00  labels swap only
+   0.16667   2        0,2                 1.39e-08    2.08e-09  vines MEET
+   0.25000   3        1,2                 1.05e-01    1.12e+00  labels swap only
+   0.33333   4        1,2                 5.35e-08    6.20e-08  vines MEET
+   0.41667   5        0,1                 1.05e-01    1.12e+00  labels swap only
+   0.50000   6        0,1                 1.04e-07    1.21e-07  vines MEET
+   0.58333   7        0,2                 1.05e-01    1.12e+00  labels swap only
+   0.66667   8        0,2                 1.34e-07    1.48e-07  vines MEET
+   0.75000   9        1,2                 1.05e-01    1.12e+00  labels swap only
+   0.83333  10        1,2                 1.43e-07    1.60e-07  vines MEET
+   0.91667  11        0,1                 1.05e-01    1.12e+00  labels swap only
+
+  vine collisions: 6    label swaps without collision: 6
+
+  The six collisions are exactly the collinear, Euler instants, where the
+  two outer bodies are mirror images and so share a diagram point. The
+  other six are the proper isosceles instants, where the tie involves the
+  tallest peak and the two points stay distinct.

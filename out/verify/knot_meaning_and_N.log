@@ -1,0 +1,51 @@
+============================================================================
+1. The knot, and what the braid actually is
+============================================================================
+  trajectory braid  s1 s2^-1        -> SL(2,Z) matrix
+[[2 1]
+ [1 1]]
+  trace 3, dilatation 2.618034, golden ratio squared 2.618034
+
+  vineyard braid    (s2^-1 s1)^2   -> SL(2,Z) matrix
+[[2 3]
+ [3 5]]
+  trace 7, dilatation 6.854102
+
+  is the vineyard dilatation the square of the trajectory one? 0.00e+00
+  topological entropy: trajectories 0.962424, vineyard 1.924847, ratio 2.000000
+
+  m004, the once-punctured-torus bundle with monodromy [[2,1],[1,1]]:
+    volume 2.029883, identified as [m004(0,0), 4_1(0,0)]
+
+  So the same pseudo-Anosov map appears twice over: as the monodromy of
+  the figure-eight knot fibration, and as the trajectory braid of the
+  figure-eight orbit. The vineyard braid is its square, with exactly
+  twice the entropy, and closes to that same knot.
+
+============================================================================
+2. N > 3: the small-bandwidth limit
+============================================================================
+
+  N = 3: kernel-free limit gives 18 walls
+      sigma   walls    max distance to the limit walls
+       0.60      12                          1.112e-01  (count differs)
+       0.35      12                          1.112e-01  (count differs)
+       0.20      12                          1.112e-01  (count differs)
+       0.12      12                          1.112e-01  (count differs)
+       0.07      14                          9.218e-02  (count differs)
+
+  N = 4: kernel-free limit gives 36 walls
+      sigma   walls    max distance to the limit walls
+       0.60      24                          7.051e-02  (count differs)
+       0.35      24                          7.051e-02  (count differs)
+       0.20      24                          7.051e-02  (count differs)
+       0.12      24                          7.051e-02  (count differs)
+       0.07      24                          7.051e-02  (count differs)
+
+  N = 5: kernel-free limit gives 54 walls
+      sigma   walls    max distance to the limit walls
+       0.60      36                          1.400e-02  (count differs)
+       0.35      40                          1.434e-02  (count differs)
+       0.20      44                          1.517e-02  (count differs)
+       0.12      44                          1.517e-02  (count differs)
+       0.07      44                          1.517e-02  (count differs)

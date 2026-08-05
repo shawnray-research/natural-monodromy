@@ -1,0 +1,80 @@
+
+Two questions left open by the note, attacked directly.
+
+Q1. Can the concavity hypothesis be made kernel-independent?
+
+    It can, and the Gaussian form of it was an accident of how I wrote it. For a
+    radial kernel the Hessian of K(|x-q|) has closed-form eigenvalues:
+
+        Hess K(|x-q|) = K''(r) * P_radial  +  (K'(r)/r) * P_tangential,
+
+    so its eigenvalues are exactly K''(r) and K'(r)/r. Summing over bodies,
+
+        lambda_max(Hess rho)(x)  <=  sum_j max( K''(r_j), K'(r_j)/r_j ),   (C')
+
+    and rho is strictly concave at x as soon as that is negative. For the
+    Gaussian, K'(r)/r = -K/s^2 and K'' = K(r^2/s^4 - 1/s^2), and K'' is the
+    larger of the two for every r > 0, so (C') collapses to
+
+        sum_j K_j r_j^2 < s^2 sum_j K_j,
+
+    which is exactly the criterion in the note. So (C) was never Gaussian-only;
+    it is (C') written out for one kernel.
+
+    CUSPED KERNELS are a separate and easier case. If K has a corner at r = 0,
+    as exp(-r/l) does, the body's own term pulls with magnitude |K'(0+)| = 1/l
+    from every direction while the other bodies pull with K(r_ij)/l < 1/l. The
+    maximum therefore sits exactly ON the body, delta = 0, so sigma M_j = q_i =
+    M_i and h_i >= rho(sigma M_j) holds with equality. No concavity needed.
+
+Q2. Can "the deaths are the two shortest, the minimum spanning tree" be proved?
+
+    The merge tree of rho is the single-linkage tree of the ultrametric
+
+        m(i,j) = max over paths from q_i to q_j of min rho along the path,
+
+    so the two merges are always the two largest m, whatever rho does. The claim
+    in the note is the further statement that this ordering of m is the reverse
+    ordering of the Euclidean distances, that is, that the pair with the LARGEST
+    separation is the one left out.
+
+    That does not look automatic. The ridge over a pair is raised both by the two
+    bodies being close AND by the third body sitting near their midpoint, and
+    those two effects can pull in opposite directions. This script searches for a
+    configuration where they do, which would settle the question the other way.
+
+==============================================================================
+Q1. Is the concavity criterion kernel-independent?
+==============================================================================
+  Checking (C') on balls of radius delta about each body, along the
+  orbit. delta is taken from the Gaussian merge tree, which is the
+  largest of the displacements in play.
+
+              kernel  worst (C prime)   worst true lam   concave?
+      gaussian s=0.3          -5.5767          -5.5768        yes
+       cauchy s=0.35          -9.7697          -9.8843        yes
+   student t3 s=0.35          -6.5216          -6.6179        yes
+
+  Cusped kernels, where the peak sits exactly on the body:
+      lambda    |M_i - q_i|   h_i - rho(sigma M_j)
+        0.25       0.00e+00      0 by construction
+        0.35       0.00e+00      0 by construction
+        0.50       0.00e+00      0 by construction
+  The maximum does not move off the body, so the hypothesis is an
+  equality and needs no concavity at all.
+
+==============================================================================
+Q2. Are the two deaths always the two shortest sides?
+==============================================================================
+  For each pair, ask directly whether a saddle exists between the two
+  bodies. Exactly two should, and they should be the two shortest.
+  Degenerate cases are dropped: if the saddle value falls below 1e-12
+  the ridge is under the arithmetic and the question is meaningless.
+
+  37127 clean triangles, 39767 dropped as degenerate
+  disagreements with the minimum spanning tree: 0
+
+  none. Over this search the two saddles are always the two
+  shortest sides. That is evidence and not a proof: it says the
+  two competing effects, short pair versus third body near the
+  midpoint, never actually cross over, and does not say why.

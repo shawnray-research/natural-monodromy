@@ -1,0 +1,10 @@
+shrink test with the exact pair tracker, plus wall types
+
+  theta  22.90 row  623.2: shrink [2, 1, 1, 1, 1]   walls ['DD', 'DD']
+  theta  38.90 row  623.2: shrink [2, 1, 1, 1, 1]   walls []
+  theta  12.90 row  639.2: shrink [2, 2, 2, 1, 1]   walls []
+  theta  13.90 row  647.2: shrink [2, 2, 1, 2, 1]   walls ['BB', 'BB']
+  theta   8.90 row  671.2: shrink [2, 2, 1, 1, 1]   walls []
+  theta  14.90 row  671.2: shrink [2, 2, 2, 1, 1]   walls []
+  theta  10.90 row  695.2: shrink [2, 1, 1, 1, 1]   walls []
+  theta  29.90 row  695.2: shrink [2, 1, 1, 1, 1]   walls []

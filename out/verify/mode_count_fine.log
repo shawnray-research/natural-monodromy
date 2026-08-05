@@ -1,0 +1,21 @@
+relative spread of the mutual distances along the orbit:
+  minimum 0.7244 at t/T=0.0833, maximum 0.8513
+  (0 is exactly equilateral; Duistermaat's window sits at 0)
+
+Fine sigma scan at the three MOST equilateral frames, dense grid:
+
+      t/T   spread |  0.20  0.22  0.24  0.26  0.28  0.30  0.32  0.34  0.36  0.38  0.40  0.42  0.44  0.46  0.48
+   0.0833   0.7244 |     3     3     3     3     3     3     3     3     2     2     2     2     2     2     2
+   0.2500   0.7244 |     3     3     3     3     3     3     3     3     2     2     2     2     2     2     2
+   0.4167   0.7244 |     3     3     3     3     3     3     3     3     2     2     2     2     2     2     2
+
+And a fine sigma scan across the whole working window at 40 frames:
+
+  frames x sigma tested: 40 x 16 = 640
+  cases with a mode count other than 3: 6
+    t/T=0.077 sigma=0.35 -> 2 max, 1 saddles, 0 minima
+    t/T=0.256 sigma=0.35 -> 2 max, 1 saddles, 0 minima
+    t/T=0.410 sigma=0.35 -> 2 max, 1 saddles, 0 minima
+    t/T=0.589 sigma=0.35 -> 2 max, 1 saddles, 0 minima
+    t/T=0.743 sigma=0.35 -> 2 max, 1 saddles, 0 minima
+    t/T=0.923 sigma=0.35 -> 2 max, 1 saddles, 0 minima

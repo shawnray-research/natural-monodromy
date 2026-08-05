@@ -1,0 +1,32 @@
+
+========================================================================
+Step 1. The corollary, as pure group theory.
+========================================================================
+  N= 3: N-cycle [3]   its square [3]   compatible
+  N= 4: N-cycle [4]   its square [2, 2]   INCOMPATIBLE -> relation false
+  N= 5: N-cycle [5]   its square [5]   compatible
+  N= 6: N-cycle [6]   its square [3, 3]   INCOMPATIBLE -> relation false
+  N= 7: N-cycle [7]   its square [7]   compatible
+  N= 8: N-cycle [8]   its square [4, 4]   INCOMPATIBLE -> relation false
+  N= 9: N-cycle [9]   its square [9]   compatible
+  N=10: N-cycle [10]   its square [5, 5]   INCOMPATIBLE -> relation false
+
+========================================================================
+Step 2. Check the proposition on the real orbit (N=3).
+========================================================================
+  vineyard   permutation cycle lengths [3]   exponent sum +0
+  trajectory permutation cycle lengths [3]   exponent sum +0
+  both are 3-cycles, as the proposition requires: True
+  square of trajectory permutation: [3]
+  permutation test at N=3: [3] vs [3] -> passes, and passes automatically
+  exponent test at N=3: e(V)=+0 vs 2e(T)=+0 -> passes, and both sides are zero
+
+========================================================================
+VERDICT
+========================================================================
+  The relation is FALSE for every even N, by the corollary.
+  At N=3, the only case where it was ever observed, both available
+  conjugation invariants are incapable of detecting a difference.
+  So the claim is refuted in general and was never supported at N=3.
+  No statement is made for odd N >= 5, and none is needed: a relation
+  that fails for every even N is not a relation.

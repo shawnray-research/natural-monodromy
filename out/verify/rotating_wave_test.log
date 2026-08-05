@@ -1,0 +1,32 @@
+  A  two identical bumps rotating rigidly (the proposed control)
+  B  three identical bumps rotating rigidly (k-armed spiral analogue)
+  C  the figure-eight choreography (known order 3), for contrast
+
+A/B  2 identical bumps, rigid rotation over one 2-th turn:
+     diagram points n = 2
+     MINIMUM separation between diagram points anywhere on the loop: 1.179e-01
+     tracker reports: order 1, cycles [(0,), (1,)]
+     -> the 2 bumps are exchanged by an isometry, so they carry equal
+        values; their diagram points coincide to 1.2e-01. The multiset
+        never moves. The reported permutation is the Hungarian matcher
+        choosing arbitrarily among identical points, which is exactly the
+        artifact that produced the 37 impossible atmospheric hits.
+
+A/B  3 identical bumps, rigid rotation over one 3-th turn:
+     diagram points n = 3
+     MINIMUM separation between diagram points anywhere on the loop: 2.185e-04
+     tracker reports: order 1, cycles [(0,), (1,), (2,)]
+     -> the 3 bumps are exchanged by an isometry, so they carry equal
+        values; their diagram points coincide to 2.2e-04. The multiset
+        never moves. The reported permutation is the Hungarian matcher
+        choosing arbitrarily among identical points, which is exactly the
+        artifact that produced the 37 impossible atmospheric hits.
+
+C    figure-eight choreography over T/3:
+     diagram points n = 3
+     MINIMUM separation between diagram points anywhere on the loop: 6.052e-03
+     order 1, cycles [(0,), (1,), (2,)]
+     -> the three bodies are exchanged by a TIME SHIFT, not by a spatial
+        isometry. At every instant they sit at different phases of the
+        orbit, so their diagram points stay 6.05e-03 apart and the
+        permutation is of genuinely distinct points.

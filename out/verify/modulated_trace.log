@@ -1,0 +1,12 @@
+Vine 0 tracked continuously by position, over one period:
+   t=0.00:  position  118.89 deg,  value +0.84621
+   t=0.20:  position  145.89 deg,  value +0.87797
+   t=0.40:  position  169.65 deg,  value +1.00512
+   t=0.60:  position  191.61 deg,  value +1.05443
+   t=0.80:  position  213.84 deg,  value +0.96394
+   t=1.00:  position  238.32 deg,  value +0.83160
+
+t=0 maxima: 118.89 deg (val +0.8462), 238.32 deg (val +0.8316), 359.73 deg (val +1.0922)
+
+final index map cur = [1, 2, 0]
+total angular travel of vine 0 = 119.43 deg  (one slot = 120 deg)

@@ -1,0 +1,49 @@
+============================================================================
+A. Planar density, GUDHI cubical complex against the exact merge tree
+============================================================================
+
+  t/T = 0.1
+    exact births [1.00000254 1.07960404 1.07960603]
+    exact deaths [0.08067567 1.00287203]
+      grid   max |birth diff|   max |death diff|    spacing
+       400           2.50e-04           5.29e-05     0.0150
+       800           9.21e-05           2.11e-05     0.0075
+      1600           2.80e-05           4.26e-06     0.0037
+
+  t/T = 0.37
+    exact births [1.00012401 1.03290396 1.03299549]
+    exact deaths [0.21104723 0.82666868]
+      grid   max |birth diff|   max |death diff|    spacing
+       400           2.08e-04           5.65e-05     0.0150
+       800           6.90e-05           7.34e-05     0.0075
+      1600           2.67e-05           1.13e-05     0.0037
+
+  t/T = 0.62
+    exact births [1.00003711 1.04812782 1.04815355]
+    exact deaths [0.15621179 0.90014342]
+      grid   max |birth diff|   max |death diff|    spacing
+       400           1.93e-04           5.57e-05     0.0150
+       800           3.49e-05           3.65e-05     0.0075
+      1600           2.12e-05           5.98e-06     0.0037
+
+============================================================================
+B. Function on the circle, GUDHI periodic cubical against mono.core
+============================================================================
+
+  trial 0: mono finds 2 pairs, gudhi finds 2 finite + 1 essential
+    mono essential class 7.012186 = global range, gudhi reports 1 essential
+    2 finite pairs, agree to 0.00e+00
+    mono   [1.29822749 4.33877189]
+    gudhi  [1.29822749 4.33877189]
+
+  trial 1: mono finds 4 pairs, gudhi finds 4 finite + 1 essential
+    mono essential class 6.321756 = global range, gudhi reports 1 essential
+    4 finite pairs, agree to 0.00e+00
+    mono   [1.46365916 1.86583477 2.50836692 3.03782506]
+    gudhi  [1.46365916 1.86583477 2.50836692 3.03782506]
+
+  trial 2: mono finds 2 pairs, gudhi finds 2 finite + 1 essential
+    mono essential class 5.501601 = global range, gudhi reports 1 essential
+    2 finite pairs, agree to 0.00e+00
+    mono   [0.44091345 0.74605198]
+    gudhi  [0.44091345 0.74605198]

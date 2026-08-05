@@ -1,0 +1,18 @@
+Minimum separation between the three diagram points, over one period:
+   min over the orbit 0.000e+00   max 3.276e-01
+   near-coincident at t/T = [0.    0.167 0.333 0.5   0.667 0.833]
+   (these are the symmetric instants of the figure-eight, where two
+    bodies are mirror images and so carry equal density values)
+
+T/3 monodromy as a function of the basepoint:
+   start t/T=0.00: s2^-1 s1 s2^-1         perm [2, 1, 0] order 2   min sep on loop 0.00e+00
+   start t/T=0.05: s2^-1 s1 s2^-1 s1      perm [1, 2, 0] order 3   min sep on loop 1.39e-08
+   start t/T=0.12: s1 s2^-1 s1 s2^-1      perm [2, 0, 1] order 3   min sep on loop 1.52e-02
+   start t/T=0.20: s2^-1 s1 s2^-1 s1      perm [1, 2, 0] order 3   min sep on loop 5.35e-08
+   start t/T=0.28: s1 s2^-1 s1 s2^-1      perm [2, 0, 1] order 3   min sep on loop 1.52e-02
+   start t/T=0.37: s2^-1 s1 s2^-1 s1      perm [1, 2, 0] order 3   min sep on loop 1.42e-02
+   start t/T=0.45: s1 s2^-1 s1 s2^-1      perm [2, 0, 1] order 3   min sep on loop 1.04e-07
+   start t/T=0.55: s2^-1 s1 s2^-1 s1      perm [1, 2, 0] order 3   min sep on loop 1.34e-07
+   start t/T=0.62: s1 s2^-1 s1 s2^-1      perm [2, 0, 1] order 3   min sep on loop 1.52e-02
+   start t/T=0.75: s2^-1 s1 s2^-1 s1      perm [1, 2, 0] order 3   min sep on loop 1.43e-07
+   start t/T=0.90: s2^-1 s1 s2^-1 s1      perm [1, 2, 0] order 3   min sep on loop 0.00e+00

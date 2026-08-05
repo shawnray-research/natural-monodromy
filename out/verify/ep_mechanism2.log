@@ -1,0 +1,14 @@
+    |psi|^2 = |phi_1|^2 + |lambda|^2 |phi_2|^2 + 2 Re( lambda conj(phi_1) phi_2 )
+
+which now depends on both the real and imaginary parts of lambda. Several
+random complex mode pairs and several loop radii are tried, so the conclusion
+does not rest on one configuration.
+
+seed      r | one loop: field moves  |D_end-D_start| | double loop: counts        order
+------------------------------------------------------------------------------------------------
+   0   0.36 |      0.952                  n 3->5 |        [3, 4, 5]    None  
+   1   0.36 |      0.935                  n 4->7 |  [4, 5, 6, 7, 9]    None  
+   2   0.36 |      0.863                1.92e+00 |           [4, 5]    None  
+   3   0.36 |      0.776                  n 4->6 |  [4, 5, 6, 7, 8]    None  
+------------------------------------------------------------------------------------------------
+double-loop monodromy orders observed: []   (cardinality varied in 4 of 4 runs)

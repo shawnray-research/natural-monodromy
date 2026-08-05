@@ -1,0 +1,26 @@
+The test does not need a Newtonian orbit. The choreography relabelling
+x_i(t + T/N) = x_{i+1}(t) is KINEMATIC: it holds for N points placed at equal
+time offsets along ANY closed curve, whatever the speed. Newton is needed for the
+motion to be a real orbit, not for this question. So the comparison can be run on
+a family of closed curves at several N, exactly and cheaply, with the true
+figure-eight orbit included as a control.
+
+CONTROL: the true figure-eight orbit, N = 3
+  figure-eight (Newtonian)     N=3  e(V)= +0  2e(T)= +0  ok |  cyc(V)=[3] cyc(T^2)=[3]  NO
+
+KINEMATIC choreographies on random closed curves
+  random curve 1               N=3  e(V)= -1  2e(T)= +0  NO |  cyc(V)=[1, 2] cyc(T^2)=[3]  NO
+  random curve 2               N=3  e(V)= -1  2e(T)= -4  NO |  cyc(V)=[1, 2] cyc(T^2)=[3]  NO
+  random curve 3               N=3  e(V)= -1  2e(T)= +0  NO |  cyc(V)=[1, 2] cyc(T^2)=[3]  NO
+  random curve 1               N=4  e(V)= +0  2e(T)= -2  NO |  cyc(V)=[1, 3] cyc(T^2)=[2, 2]  NO
+  random curve 2               N=4  e(V)= -1  2e(T)= -6  NO |  cyc(V)=[1, 1, 2] cyc(T^2)=[2, 2]  NO
+  curve 3, N=4: bodies approach to 0.00, skipped
+  curve 1, N=5: bodies approach to 0.06, skipped
+  random curve 2               N=5  e(V)= -3  2e(T)= -4  NO |  cyc(V)=[1, 1, 1, 2] cyc(T^2)=[5]  NO
+  random curve 3               N=5  e(V)= +3  2e(T)= -4  NO |  cyc(V)=[1, 1, 1, 2] cyc(T^2)=[5]  NO
+  curve 1, N=6: bodies approach to 0.06, skipped
+  random curve 2               N=6  e(V)= +2  2e(T)=-10  NO |  cyc(V)=[2, 4] cyc(T^2)=[3, 3]  NO
+  curve 3, N=6: bodies approach to 0.21, skipped
+  curve 1, N=7: bodies approach to 0.08, skipped
+  curve 2, N=7: bodies approach to 0.13, skipped
+  random curve 3               N=7  e(V)=+13  2e(T)= +0  NO |  cyc(V)=[2, 5] cyc(T^2)=[7]  NO

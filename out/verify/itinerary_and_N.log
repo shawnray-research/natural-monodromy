@@ -1,0 +1,31 @@
+==========================================================================
+A. The chamber itinerary
+==========================================================================
+  Chambers are the six orderings of the three side lengths. The orbit
+  crosses a wall twelve times per period, so the itinerary is a closed
+  walk of length twelve in the Cayley graph of S_3, which is a hexagon.
+
+  chambers visited: {'A': (np.int64(0), np.int64(1), np.int64(2)), 'B': (np.int64(0), np.int64(2), np.int64(1)), 'C': (np.int64(1), np.int64(0), np.int64(2)), 'D': (np.int64(1), np.int64(2), np.int64(0)), 'E': (np.int64(2), np.int64(0), np.int64(1)), 'F': (np.int64(2), np.int64(1), np.int64(0))}
+  itinerary (12 legs):
+    A@0.0000 -> B@0.0834 -> E@0.1667 -> F@0.2500 -> D@0.3334 -> C@0.4167 -> A@0.5000 -> B@0.5834 -> E@0.6667 -> F@0.7500 -> D@0.8334 -> C@0.9167
+
+  as a word: ABEFDCABEFDC
+  distinct chambers visited: 6 of 6
+  each chamber visited 2.0 times
+  A closed walk of length 12 on a hexagon that visits every vertex twice
+  is the hexagon traversed twice, which is what this is.
+
+==========================================================================
+B. What happens at N > 3
+==========================================================================
+  For N bodies  h_i - h_j = sum over k not i,j of [K(r_ik) - K(r_jk)].
+  At N=3 that sum has ONE term, so the wall is r_ik = r_jk and no kernel
+  appears. At N>3 it is a weighted sum, so the wall MOVES with the kernel.
+
+  N=3: Gaussian gives 12 walls, heavy tail 12, max shift 0.000e+00
+  N=4: Gaussian gives 24 walls, heavy tail 24, max shift 4.426e-02
+  N=5: Gaussian gives 36 walls, heavy tail 36, max shift 6.602e-02
+
+  So the kernel-free geometry is exactly a three-body phenomenon. For four
+  bodies and up the braid depends on the smoothing, and is no longer an
+  invariant of the shape curve alone.

@@ -1,0 +1,36 @@
+
+start t/T=0.37, K=4000
+  vine v ends at starting position [0, 1, 2], order 1, cycles [(0,), (1,), (2,)]
+  match residual 2.88e-08
+  starting deaths [0.      0.21105 0.82667]  (exactly one is 0, the essential class)
+  the essential point is index 0; it maps to 0  -> FIXED
+
+start t/T=0.37, K=12000
+  vine v ends at starting position [0, 1, 2], order 1, cycles [(0,), (1,), (2,)]
+  match residual 2.88e-08
+  starting deaths [0.      0.21105 0.82667]  (exactly one is 0, the essential class)
+  the essential point is index 0; it maps to 0  -> FIXED
+
+start t/T=0.05, K=4000
+  vine v ends at starting position [0, 1, 2], order 1, cycles [(0,), (1,), (2,)]
+  match residual 4.13e-08
+  starting deaths [0.14052 0.92175 0.     ]  (exactly one is 0, the essential class)
+  the essential point is index 2; it maps to 2  -> FIXED
+
+start t/T=0.05, K=12000
+  vine v ends at starting position [0, 1, 2], order 1, cycles [(0,), (1,), (2,)]
+  match residual 4.13e-08
+  starting deaths [0.14052 0.92175 0.     ]  (exactly one is 0, the essential class)
+  the essential point is index 2; it maps to 2  -> FIXED
+
+start t/T=0.62, K=4000
+  vine v ends at starting position [0, 1, 2], order 1, cycles [(0,), (1,), (2,)]
+  match residual 1.14e-08
+  starting deaths [0.15621 0.      0.90014]  (exactly one is 0, the essential class)
+  the essential point is index 1; it maps to 1  -> FIXED
+
+start t/T=0.62, K=12000
+  vine v ends at starting position [0, 1, 2], order 1, cycles [(0,), (1,), (2,)]
+  match residual 1.14e-08
+  starting deaths [0.15621 0.      0.90014]  (exactly one is 0, the essential class)
+  the essential point is index 1; it maps to 1  -> FIXED

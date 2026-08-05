@@ -1,0 +1,21 @@
+5001 frames at 87.5 kHz, unwrapped annulus 50 radial x 360 azimuthal, ring radii 147 and 117 px
+azimuthal field (5001, 360)  (frames x azimuth)
+
+dominant azimuthal wavenumber n = 1
+  harmonic amplitudes 1..8: [1.   0.56 0.35 0.24 0.17 0.13 0.1  0.08]
+  frames for the pattern to advance one front spacing (T/n): 21.33
+  noise (robust sigma of frame differences) 0.4448, floor 5.0 sigma = 2.2239
+  D10: median |change| per frame 0.3000 = 0.7x noise
+
+monodromy over the forced loop T/n, transport tracking:
+  start frame       0: None
+  start frame     991: None
+  start frame    1983: None
+  start frame    2974: None
+  start frame    3965: None
+  start frame    4956: None
+
+control, the FULL rotation n*(T/n), which must give the identity:
+  start frame       0: None
+  start frame    2489: None
+  start frame    4978: None

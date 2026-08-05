@@ -1,0 +1,80 @@
+patch (121, 250, 1600)  (theta x row x detector)
+  theta span 60.0 deg, row span 24.90 mm
+  smoothing 3.0 detector pixels (150 um at the detector)
+  air noise sigma = 0.00490 in attenuation; floor = 6.0 sigma = 0.02938
+  loop radius 0.75 deg x 150 um
+
+  centre diagram: 55 points, 8 above the noise floor
+
+D7: is the count above the floor constant round small loops?
+  constant on 3 of 210 loops (1%)
+  counts where constant: {8: 2, 10: 1}
+
+Scanning for monodromy...
+  row j=2: 0 hits so far
+  row j=6: 0 hits so far
+  row j=10: 0 hits so far
+  row j=14: 0 hits so far
+  row j=18: 0 hits so far
+  row j=22: 0 hits so far
+  row j=26: 0 hits so far
+  row j=30: 0 hits so far
+  row j=34: 1 hits so far
+  row j=38: 1 hits so far
+  row j=42: 1 hits so far
+  row j=46: 1 hits so far
+  row j=50: 1 hits so far
+  row j=54: 1 hits so far
+  row j=58: 1 hits so far
+  row j=62: 1 hits so far
+  row j=66: 1 hits so far
+  row j=70: 1 hits so far
+  row j=74: 1 hits so far
+  row j=78: 2 hits so far
+  row j=82: 2 hits so far
+  row j=86: 2 hits so far
+  row j=90: 2 hits so far
+  row j=94: 2 hits so far
+  row j=98: 2 hits so far
+  row j=102: 2 hits so far
+  row j=106: 2 hits so far
+  row j=110: 2 hits so far
+  row j=114: 2 hits so far
+  row j=118: 2 hits so far
+  row j=122: 2 hits so far
+  row j=126: 2 hits so far
+  row j=130: 2 hits so far
+  row j=134: 2 hits so far
+  row j=138: 2 hits so far
+  row j=142: 2 hits so far
+  row j=146: 2 hits so far
+  row j=150: 2 hits so far
+  row j=154: 2 hits so far
+  row j=158: 2 hits so far
+  row j=162: 2 hits so far
+  row j=166: 2 hits so far
+  row j=170: 2 hits so far
+  row j=174: 2 hits so far
+  row j=178: 2 hits so far
+  row j=182: 2 hits so far
+  row j=186: 2 hits so far
+  row j=190: 2 hits so far
+  row j=194: 2 hits so far
+  row j=198: 2 hits so far
+  row j=202: 2 hits so far
+  row j=206: 2 hits so far
+  row j=210: 2 hits so far
+  row j=214: 2 hits so far
+  row j=218: 2 hits so far
+  row j=222: 2 hits so far
+  row j=226: 2 hits so far
+  row j=230: 2 hits so far
+  row j=234: 2 hits so far
+  row j=238: 2 hits so far
+  row j=242: 2 hits so far
+  row j=246: 2 hits so far
+
+  well-defined on 18 of 1798 loops
+  NONTRIVIAL monodromy on 2
+    theta 47.25 deg, row 668: order 2, 10 pts, 40 changes, gap 1.09e-03
+    theta 25.25 deg, row 756: order 2, 9 pts, 40 changes, gap 5.28e-03

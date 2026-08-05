@@ -1,0 +1,71 @@
+
+Kernel independence, tested on actual persistence diagrams rather than on model
+peak heights.
+
+The reason this is a separate check. The note says six kernels give the same
+twelve crossing times. That was measured through h_i = sum_j K(r_ij), which is
+the density read AT the bodies. It is the right quantity for the algebra, but it
+is not the birth value: the true maximum sits slightly off the body, and for a
+kernel other than the Gaussian the whole merge tree machinery in mono/kde_exact
+does not even apply, since it hard-codes Gaussian derivatives. Worse, one of the
+six, an Epanechnikov with bandwidth 3, makes rho a single paraboloid over this
+configuration and so has ONE maximum, not three. As a monotone ordering function
+it is fine; as a density kernel it has no three-peak diagram to speak of.
+
+So the measured half of the claim needs redoing on real diagrams. The exact half
+does not: if r_13 = r_23 then the reflection in the perpendicular bisector of
+bodies 1 and 2 carries rho to itself for ANY radial kernel, so the two peaks are
+congruent and their birth values are equal whatever the kernel and wherever the
+maxima sit. Isosceles implies wall, always. What has to be checked per kernel is
+the converse, that no OTHER walls appear.
+
+Method. Superlevel H_0 on a cubical complex via GUDHI, which needs no derivatives
+and so works for any kernel, sampled around the period. Grid resolution caps the
+time precision, so the test is of the COUNT and the approximate locations: are
+there exactly twelve crossings, and do they sit on the twelfths?
+
+==============================================================================
+Does each kernel even give a three-peak density on this orbit?
+==============================================================================
+           gaussian s=0.30  three maxima at 24 of 24 sampled instants  usable
+             cauchy s=0.35  three maxima at 24 of 24 sampled instants  usable
+     exponential cusp 0.35  three maxima at 24 of 24 sampled instants  usable
+     quartic compact h=1.1  three maxima at  0 of 24 sampled instants  NOT A THREE-PEAK DENSITY
+         student t3 s=0.35  three maxima at 24 of 24 sampled instants  usable
+
+==============================================================================
+Do the walls sit ONLY on the twelfths, for each kernel?
+==============================================================================
+  Detecting crossings by thresholding the birth gap does not work off a
+  cubical complex: births are quantised to the grid, so the gap is noisy
+  and a fixed threshold finds hundreds of spurious minima, including for
+  the Gaussian control. The question is asked directly instead. At an
+  isosceles instant two births must coincide; anywhere else they must not.
+  So compare the smallest birth gap ON the twelfths with the smallest
+  birth gap over instants deliberately kept AWAY from them.
+
+                    kernel   max gap ON twelfths   min gap OFF them   separation
+           gaussian s=0.30             8.500e-09          6.193e-07         72.9x
+             cauchy s=0.35             1.932e-08          1.413e-02     731256.4x
+     exponential cusp 0.35             2.482e-07          1.475e-03       5942.3x
+     quartic compact h=1.1   skipped, no three-peak diagram
+         student t3 s=0.35             2.451e-08          7.946e-03     324126.8x
+
+  A separation far above 1 means every wall is on a twelfth and there
+  are no others: the births coincide at the isosceles instants and stay
+  clearly apart everywhere else, for every kernel that has a diagram.
+
+==============================================================================
+What this settles
+==============================================================================
+  Isosceles implies wall is exact for every radial kernel, by the
+  reflection argument, and needs no grid. What is measured here is the
+  converse, that no kernel introduces walls anywhere else. Resolution
+  a cubical complex, so births are quantised to the grid and the
+  coincidences read as 1e-8 rather than 1e-12. The separation is the
+  point: on a twelfth the births agree, off one they are orders of
+  magnitude apart, so no kernel puts a wall anywhere new.
+
+  The compactly supported kernel is the casualty. Wide enough to reach
+  all three bodies it makes rho unimodal, so it has no three-peak diagram
+  at all. It is a fine monotone ordering function and a poor density.

@@ -1,0 +1,5085 @@
+[
+ {
+  "idx": 11,
+  "name": "Chile",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 7290,
+  "n_raw_hits": 0,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.008338009426248417
+ },
+ {
+  "idx": 2,
+  "name": "Antarctica",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 15954,
+  "n_raw_hits": 0,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.01254006923769603
+ },
+ {
+  "idx": 4,
+  "name": "United States of America",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 12504,
+  "n_raw_hits": 4,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.022256280841104363
+ },
+ {
+  "idx": 0,
+  "name": "Russia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 22907,
+  "n_raw_hits": 1,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.021138584874824166
+ },
+ {
+  "idx": 9,
+  "name": "United States of America",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 9114,
+  "n_raw_hits": 8,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.03438263517077269
+ },
+ {
+  "idx": 7,
+  "name": "Australia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 9461,
+  "n_raw_hits": 3,
+  "certified": [
+   {
+    "x": -0.17141297627931212,
+    "y": -0.2553043755821496,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 4.0981063560105274e-10,
+    "max_gap_rel": 3.1735696817477617e-10,
+    "inner_radius": 0.9325166717982409,
+    "outer_radius": 1.1830998971581945,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0011671069804121204
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.02917767451030301
+ },
+ {
+  "idx": 10,
+  "name": "Norway",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 7910,
+  "n_raw_hits": 12,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.033073277008290186
+ },
+ {
+  "idx": 12,
+  "name": "India",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 6760,
+  "n_raw_hits": 9,
+  "certified": [
+   {
+    "x": -0.20459254818643213,
+    "y": 0.19430626366402243,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 7.705874094895053e-11,
+    "max_gap_rel": 2.8434861931362997e-11,
+    "inner_radius": 0.6838620523664914,
+    "outer_radius": 0.9832148655941318,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0016282479433751193
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.04070619858437798
+ },
+ {
+  "idx": 13,
+  "name": "Mexico",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 6119,
+  "n_raw_hits": 6,
+  "certified": [
+   {
+    "x": 0.9406662243515465,
+    "y": 0.5195032270103155,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.5056999477605546e-10,
+    "max_gap_rel": 1.3064458938002798e-10,
+    "inner_radius": 1.3615780920496303,
+    "outer_radius": 1.471048306843645,
+    "n_min": 8,
+    "n_max": 8,
+    "loop_radius": 0.001129370781146727
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.02823426952866817
+ },
+ {
+  "idx": 5,
+  "name": "China",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 11895,
+  "n_raw_hits": 3,
+  "certified": [
+   {
+    "x": 0.07167114614173462,
+    "y": -0.24770413026142302,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 3.0421172933154726e-10,
+    "max_gap_rel": 3.3247469402122005e-10,
+    "inner_radius": 0.6165336050352511,
+    "outer_radius": 0.7337899931427367,
+    "n_min": 13,
+    "n_max": 13,
+    "loop_radius": 0.0011622165924307624
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.02905541481076906
+ },
+ {
+  "idx": 3,
+  "name": "Greenland",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 15547,
+  "n_raw_hits": 7,
+  "certified": [
+   {
+    "x": -0.012569071391622558,
+    "y": 0.23996717346850172,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.2967571789142368e-10,
+    "max_gap_rel": 4.382173889676774e-10,
+    "inner_radius": 0.6842974289104486,
+    "outer_radius": 1.1370681943246197,
+    "n_min": 13,
+    "n_max": 13,
+    "loop_radius": 0.0013288882828779436
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03322220707194859
+ },
+ {
+  "idx": 6,
+  "name": "Canada",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 10887,
+  "n_raw_hits": 14,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.036241982772539476
+ },
+ {
+  "idx": 1,
+  "name": "Canada",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 20058,
+  "n_raw_hits": 6,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.030301786590581626
+ },
+ {
+  "idx": 8,
+  "name": "Brazil",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 9153,
+  "n_raw_hits": 15,
+  "certified": [
+   {
+    "x": 0.05379743055405738,
+    "y": -0.1473558435480455,
+    "order": 2,
+    "n_diagram_points": 7,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.390590430387527e-09,
+    "max_gap_rel": 6.2879664352936575e-09,
+    "inner_radius": 0.7769519112983564,
+    "outer_radius": 1.213067156941372,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0015013619692790903
+   },
+   {
+    "x": -0.4516847792584447,
+    "y": 0.22331427804762533,
+    "order": 2,
+    "n_diagram_points": 8,
+    "pairing_changes": 2,
+    "min_gap_rel": 5.375731459807118e-06,
+    "max_gap_rel": 9.764547262473692e-07,
+    "inner_radius": 0.6430444328109378,
+    "outer_radius": 0.7837098891091823,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0015013619692790903
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.12536484411200452,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [7, 8]"
+   },
+   {
+    "radius": 0.21938847719600788,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6, 7, 8]"
+   },
+   {
+    "radius": 0.31341211028001126,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6, 7, 8]"
+   },
+   {
+    "radius": 0.43877695439201575,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5, 6, 7]"
+   },
+   {
+    "radius": 0.6268242205600225,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6, 7]"
+   },
+   {
+    "radius": 0.9402363308400338,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5, 6]"
+   }
+  ],
+  "scan_radius": 0.03753404923197726
+ },
+ {
+  "idx": 14,
+  "name": "Argentina",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 4247,
+  "n_raw_hits": 1,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.02386619803302967
+ },
+ {
+  "idx": 20,
+  "name": "Sweden",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 3387,
+  "n_raw_hits": 0,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.021707649851995928
+ },
+ {
+  "idx": 19,
+  "name": "Vietnam",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 3510,
+  "n_raw_hits": 1,
+  "certified": [
+   {
+    "x": -0.4187448724488898,
+    "y": -0.5136714315650603,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.084913243395679e-08,
+    "max_gap_rel": 9.41338268005441e-09,
+    "inner_radius": 0.8754501665202049,
+    "outer_radius": 1.0889473177505324,
+    "n_min": 12,
+    "n_max": 12,
+    "loop_radius": 0.0008870766267415403
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.022176915668538508
+ },
+ {
+  "idx": 15,
+  "name": "Kazakhstan",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 4019,
+  "n_raw_hits": 10,
+  "certified": [
+   {
+    "x": 0.5109304710998945,
+    "y": 0.3383929782590741,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.8732097420435725e-11,
+    "max_gap_rel": 1.8759606780589794e-11,
+    "inner_radius": 0.8762113867525982,
+    "outer_radius": 1.047994470195969,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0009763097819293895
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.024407744548234737
+ },
+ {
+  "idx": 18,
+  "name": "Myanmar",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 3604,
+  "n_raw_hits": 2,
+  "certified": [
+   {
+    "x": 0.2175594457146063,
+    "y": 0.39899484133363,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 3.268299122060888e-11,
+    "max_gap_rel": 2.736178484518959e-10,
+    "inner_radius": 0.87242577986906,
+    "outer_radius": 1.2209803745171872,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0009412678172126673
+   },
+   {
+    "x": 0.47449997611124195,
+    "y": 0.36218554192340713,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.4500500247813514e-11,
+    "max_gap_rel": 5.72328649177562e-11,
+    "inner_radius": 1.1090707481624429,
+    "outer_radius": 1.3089489287288358,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0009412678172126673
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.051912757847595,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.09084732623329123,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.12978189461898748,
+    "enclosed": 1,
+    "order": 2,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.18169465246658245,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4]"
+   },
+   {
+    "radius": 0.25956378923797496,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4]"
+   },
+   {
+    "radius": 0.38934568385696244,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4]"
+   }
+  ],
+  "scan_radius": 0.023531695430316683
+ },
+ {
+  "idx": 17,
+  "name": "United Kingdom",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 3706,
+  "n_raw_hits": 4,
+  "certified": [
+   {
+    "x": 0.0013097615667752088,
+    "y": -0.550482084797224,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.5892303401565513e-10,
+    "max_gap_rel": 3.434703713573633e-11,
+    "inner_radius": 0.6761370886147188,
+    "outer_radius": 0.9661358523382891,
+    "n_min": 11,
+    "n_max": 11,
+    "loop_radius": 0.0009527651627967492
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.023819129069918732
+ },
+ {
+  "idx": 25,
+  "name": "Turkey",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 3049,
+  "n_raw_hits": 4,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.018150006969868637
+ },
+ {
+  "idx": 16,
+  "name": "Canada",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 3838,
+  "n_raw_hits": 9,
+  "certified": [
+   {
+    "x": 0.24480611879791642,
+    "y": 0.46927902294906704,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.286793400762342e-10,
+    "max_gap_rel": 4.230848452927043e-10,
+    "inner_radius": 0.5322026889349114,
+    "outer_radius": 1.1340237976897563,
+    "n_min": 13,
+    "n_max": 13,
+    "loop_radius": 0.0013423373159572557
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.033558432898931394
+ },
+ {
+  "idx": 22,
+  "name": "France",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 3096,
+  "n_raw_hits": 16,
+  "certified": [
+   {
+    "x": -0.04803551441298071,
+    "y": -0.0069347047956801,
+    "order": 2,
+    "n_diagram_points": 7,
+    "pairing_changes": 2,
+    "min_gap_rel": 5.757733761970233e-10,
+    "max_gap_rel": 1.1473499114364537e-09,
+    "inner_radius": 0.7948654885793541,
+    "outer_radius": 1.2529448033831363,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.001417856555772972
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.0354464138943243
+ },
+ {
+  "idx": 24,
+  "name": "Iceland",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 3062,
+  "n_raw_hits": 3,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.02872627899171809
+ },
+ {
+  "idx": 23,
+  "name": "Colombia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 3087,
+  "n_raw_hits": 10,
+  "certified": [
+   {
+    "x": -0.417362580391099,
+    "y": -0.2683258439719502,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.65133644162168e-06,
+    "max_gap_rel": 1.3832090904602469e-06,
+    "inner_radius": 0.9504777982546156,
+    "outer_radius": 1.397281229664288,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0012566919537066454
+   },
+   {
+    "x": 0.35540608643243166,
+    "y": 0.18188364055196587,
+    "order": 2,
+    "n_diagram_points": 7,
+    "pairing_changes": 2,
+    "min_gap_rel": 8.025174920177323e-08,
+    "max_gap_rel": 1.1655178285719206e-07,
+    "inner_radius": 1.1452007623970892,
+    "outer_radius": 1.2221589425995638,
+    "n_min": 12,
+    "n_max": 12,
+    "loop_radius": 0.0012566919537066454
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.1788697841872134,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6]"
+   },
+   {
+    "radius": 0.3130221223276234,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5, 6, 7, 8]"
+   },
+   {
+    "radius": 0.44717446046803344,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7, 8]"
+   },
+   {
+    "radius": 0.6260442446552468,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6]"
+   },
+   {
+    "radius": 0.8943489209360669,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   },
+   {
+    "radius": 1.3415233814041003,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4]"
+   }
+  ],
+  "scan_radius": 0.031417298842666135
+ },
+ {
+  "idx": 21,
+  "name": "Canada",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 3163,
+  "n_raw_hits": 18,
+  "certified": [
+   {
+    "x": -0.2886288506538215,
+    "y": -0.6197889435936005,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.2392661054164016e-10,
+    "max_gap_rel": 2.4403110926510614e-10,
+    "inner_radius": 1.0059720820594824,
+    "outer_radius": 1.3723273561251417,
+    "n_min": 13,
+    "n_max": 13,
+    "loop_radius": 0.0014813044794654247
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03703261198663562
+ },
+ {
+  "idx": 26,
+  "name": "Thailand",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2891,
+  "n_raw_hits": 4,
+  "certified": [
+   {
+    "x": -0.016537547029046175,
+    "y": 0.4630711295793656,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 6.65589009689118e-11,
+    "max_gap_rel": 1.7339778340724796e-10,
+    "inner_radius": 0.4570295494784955,
+    "outer_radius": 1.0168459956317828,
+    "n_min": 8,
+    "n_max": 8,
+    "loop_radius": 0.0010434546902432491
+   },
+   {
+    "x": 0.08617047815446907,
+    "y": 0.5623399136625836,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.0876243827845513e-11,
+    "max_gap_rel": 6.353050488704262e-11,
+    "inner_radius": 0.5678809878943426,
+    "outer_radius": 0.9357135434128991,
+    "n_min": 8,
+    "n_max": 8,
+    "loop_radius": 0.0010434546902432491
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.028567975028313205,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.0499939562995481,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.07141993757078301,
+    "enclosed": 1,
+    "order": 2,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.0999879125990962,
+    "enclosed": 2,
+    "order": 3,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.14283987514156601,
+    "enclosed": 2,
+    "order": 3,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.214259812712349,
+    "enclosed": 2,
+    "order": 3,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   }
+  ],
+  "scan_radius": 0.02608636725608123
+ },
+ {
+  "idx": 27,
+  "name": "Dem. Rep. Congo",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2848,
+  "n_raw_hits": 16,
+  "certified": [
+   {
+    "x": 0.6238210167349518,
+    "y": -0.09091233670163287,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 8.928753439325149e-10,
+    "max_gap_rel": 3.113363228503296e-10,
+    "inner_radius": 0.9015401469416052,
+    "outer_radius": 1.0658523188317421,
+    "n_min": 7,
+    "n_max": 7,
+    "loop_radius": 0.0014131178185232515
+   },
+   {
+    "x": -0.04593713941424445,
+    "y": 0.009684645385983544,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 4.993633459000797e-10,
+    "max_gap_rel": 4.864923945467552e-10,
+    "inner_radius": 0.7585955990565253,
+    "outer_radius": 1.2942198474564497,
+    "n_min": 8,
+    "n_max": 8,
+    "loop_radius": 0.0014131178185232515
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.13545416059073379,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5]"
+   },
+   {
+    "radius": 0.2370447810337841,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6]"
+   },
+   {
+    "radius": 0.33863540147683446,
+    "enclosed": 1,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6]"
+   },
+   {
+    "radius": 0.4740895620675682,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5]"
+   },
+   {
+    "radius": 0.6772708029536689,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6]"
+   },
+   {
+    "radius": 1.0159062044305034,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   }
+  ],
+  "scan_radius": 0.03532794546308129
+ },
+ {
+  "idx": 30,
+  "name": "Ukraine",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2607,
+  "n_raw_hits": 7,
+  "certified": [
+   {
+    "x": -0.05216122973331324,
+    "y": -1.020843875560897,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.5552855279837151e-06,
+    "max_gap_rel": 3.1975060978477185e-06,
+    "inner_radius": 1.6524970236393948,
+    "outer_radius": 1.9242275876203156,
+    "n_min": 5,
+    "n_max": 5,
+    "loop_radius": 0.0010744514901611278
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.026861287254028195
+ },
+ {
+  "idx": 31,
+  "name": "Canada",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2590,
+  "n_raw_hits": 4,
+  "certified": [
+   {
+    "x": -0.21359506725119676,
+    "y": -0.3920796676212229,
+    "order": 2,
+    "n_diagram_points": 6,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.7808576024688e-10,
+    "max_gap_rel": 4.936287105044118e-10,
+    "inner_radius": 0.9523672722166698,
+    "outer_radius": 1.620810971515936,
+    "n_min": 7,
+    "n_max": 7,
+    "loop_radius": 0.0012829379818488364
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03207344954622091
+ },
+ {
+  "idx": 28,
+  "name": "Greece",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2713,
+  "n_raw_hits": 13,
+  "certified": [
+   {
+    "x": -0.5498303874031563,
+    "y": -0.6704863905220777,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.921216320395793e-09,
+    "max_gap_rel": 5.244429497061797e-09,
+    "inner_radius": 0.5921599449537244,
+    "outer_radius": 0.9633521588459639,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.001601649487851845
+   },
+   {
+    "x": 1.1280569083971606,
+    "y": 0.1592173949551669,
+    "order": 2,
+    "n_diagram_points": 7,
+    "pairing_changes": 2,
+    "min_gap_rel": 8.376820900197754e-11,
+    "max_gap_rel": 1.335681078421824e-10,
+    "inner_radius": 1.077220055112407,
+    "outer_radius": 1.3089947030420142,
+    "n_min": 11,
+    "n_max": 11,
+    "loop_radius": 0.001601649487851845
+   },
+   {
+    "x": -0.10898898264916108,
+    "y": 0.33900929599743,
+    "order": 2,
+    "n_diagram_points": 6,
+    "pairing_changes": 2,
+    "min_gap_rel": 9.815603726329829e-11,
+    "max_gap_rel": 2.821483841483377e-11,
+    "inner_radius": 0.8735092623947324,
+    "outer_radius": 1.0515340400589988,
+    "n_min": 14,
+    "n_max": 14,
+    "loop_radius": 0.001601649487851845
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.39820086369256696,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7]"
+   },
+   {
+    "radius": 0.6968515114619921,
+    "enclosed": 1,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7]"
+   },
+   {
+    "radius": 0.9955021592314174,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6, 7]"
+   },
+   {
+    "radius": 1.3937030229239842,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5, 6, 7]"
+   },
+   {
+    "radius": 1.9910043184628348,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5, 6, 7]"
+   },
+   {
+    "radius": 2.986506477694252,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5, 6, 7]"
+   }
+  ],
+  "scan_radius": 0.040041237196296126
+ },
+ {
+  "idx": 29,
+  "name": "Venezuela",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2657,
+  "n_raw_hits": 16,
+  "certified": [
+   {
+    "x": -0.1444867088474811,
+    "y": -0.8065102087853062,
+    "order": 2,
+    "n_diagram_points": 6,
+    "pairing_changes": 2,
+    "min_gap_rel": 6.27955021405652e-11,
+    "max_gap_rel": 2.0341280791524518e-10,
+    "inner_radius": 1.3885078720032293,
+    "outer_radius": 1.7411221146541267,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0013342982928178282
+   },
+   {
+    "x": 0.10977863973053649,
+    "y": -0.08938534433454971,
+    "order": 2,
+    "n_diagram_points": 8,
+    "pairing_changes": 2,
+    "min_gap_rel": 3.7831417383865527e-10,
+    "max_gap_rel": 5.630196584000892e-10,
+    "inner_radius": 0.6315248850545216,
+    "outer_radius": 1.1697977957236614,
+    "n_min": 8,
+    "n_max": 8,
+    "loop_radius": 0.0013342982928178282
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.15217344560744056,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [6, 7, 8]"
+   },
+   {
+    "radius": 0.26630352981302097,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [6, 7, 8]"
+   },
+   {
+    "radius": 0.3804336140186014,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5, 6, 7, 8]"
+   },
+   {
+    "radius": 0.5326070596260419,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5, 6, 7, 8]"
+   },
+   {
+    "radius": 0.7608672280372027,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6, 7]"
+   },
+   {
+    "radius": 1.1413008420558042,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6, 7]"
+   }
+  ],
+  "scan_radius": 0.033357457320445705
+ },
+ {
+  "idx": 37,
+  "name": "Mozambique",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2258,
+  "n_raw_hits": 1,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.02921441781812627
+ },
+ {
+  "idx": 32,
+  "name": "Iran",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2488,
+  "n_raw_hits": 9,
+  "certified": [
+   {
+    "x": 0.7412176015688714,
+    "y": 0.8537949118647821,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 5.820816443481651e-10,
+    "max_gap_rel": 7.99632525118456e-10,
+    "inner_radius": 1.7411076708235929,
+    "outer_radius": 1.8700441362283327,
+    "n_min": 6,
+    "n_max": 6,
+    "loop_radius": 0.0012795189574329737
+   },
+   {
+    "x": 0.7858430040616217,
+    "y": 0.9172003130330048,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 3.201578168932642e-10,
+    "max_gap_rel": 3.9002263613878055e-10,
+    "inner_radius": 1.8013546967683147,
+    "outer_radius": 1.9462352819419246,
+    "n_min": 6,
+    "n_max": 6,
+    "loop_radius": 0.0012795189574329737
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.015506993834967809,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 5,
+    "reason": ""
+   },
+   {
+    "radius": 0.027137239211193664,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 5,
+    "reason": ""
+   },
+   {
+    "radius": 0.03876748458741952,
+    "enclosed": 1,
+    "order": 1,
+    "ok": true,
+    "n": 5,
+    "reason": ""
+   },
+   {
+    "radius": 0.05427447842238733,
+    "enclosed": 2,
+    "order": 3,
+    "ok": true,
+    "n": 5,
+    "reason": ""
+   },
+   {
+    "radius": 0.07753496917483904,
+    "enclosed": 2,
+    "order": 3,
+    "ok": true,
+    "n": 5,
+    "reason": ""
+   },
+   {
+    "radius": 0.11630245376225856,
+    "enclosed": 2,
+    "order": 3,
+    "ok": true,
+    "n": 5,
+    "reason": ""
+   }
+  ],
+  "scan_radius": 0.031987973935824345
+ },
+ {
+  "idx": 33,
+  "name": "Japan",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2478,
+  "n_raw_hits": 6,
+  "certified": [
+   {
+    "x": -0.2596351964140893,
+    "y": 0.6262990771682999,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.507109372636243e-10,
+    "max_gap_rel": 2.786721855091482e-10,
+    "inner_radius": 1.1119244859507007,
+    "outer_radius": 1.3717723391559509,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0014242452955521385
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03560613238880346
+ },
+ {
+  "idx": 39,
+  "name": "Finland",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2198,
+  "n_raw_hits": 1,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.020726080894500842
+ },
+ {
+  "idx": 35,
+  "name": "Peru",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2367,
+  "n_raw_hits": 3,
+  "certified": [
+   {
+    "x": -0.13398368643691758,
+    "y": 0.30558466720627864,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.7220344254868274e-11,
+    "max_gap_rel": 1.6721100813132244e-10,
+    "inner_radius": 0.6467309452441131,
+    "outer_radius": 0.9871638523721517,
+    "n_min": 6,
+    "n_max": 6,
+    "loop_radius": 0.001193510345564438
+   },
+   {
+    "x": -0.05468041166791819,
+    "y": 0.5434712846349974,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 7.017084427464014e-11,
+    "max_gap_rel": 1.556721255015443e-10,
+    "inner_radius": 0.5023573507126494,
+    "outer_radius": 0.7549195284041132,
+    "n_min": 5,
+    "n_max": 5,
+    "loop_radius": 0.001193510345564438
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.05015139166195292,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.0877649354084176,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.1253784791548823,
+    "enclosed": 0,
+    "order": 2,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.1755298708168352,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4]"
+   },
+   {
+    "radius": 0.2507569583097646,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4]"
+   },
+   {
+    "radius": 0.37613543746464684,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4]"
+   }
+  ],
+  "scan_radius": 0.02983775863911095
+ },
+ {
+  "idx": 40,
+  "name": "Spain",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2157,
+  "n_raw_hits": 3,
+  "certified": [
+   {
+    "x": -0.3464256072043074,
+    "y": 0.01423212535848034,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.2797868579926221e-10,
+    "max_gap_rel": 2.9524113426413164e-10,
+    "inner_radius": 1.077177759693738,
+    "outer_radius": 1.2000481993010959,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0012706902008836657
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03176725502209164
+ },
+ {
+  "idx": 41,
+  "name": "Pakistan",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2124,
+  "n_raw_hits": 5,
+  "certified": [
+   {
+    "x": -0.5356020924123215,
+    "y": -0.37970391618030375,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 9.913152631736974e-11,
+    "max_gap_rel": 1.6490024329000822e-10,
+    "inner_radius": 0.4323315377674582,
+    "outer_radius": 0.7649651362391804,
+    "n_min": 7,
+    "n_max": 7,
+    "loop_radius": 0.0014508776104270283
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.036271940260675706
+ },
+ {
+  "idx": 34,
+  "name": "Germany",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2373,
+  "n_raw_hits": 12,
+  "certified": [
+   {
+    "x": -0.017122207071311298,
+    "y": -0.7029231092641353,
+    "order": 2,
+    "n_diagram_points": 6,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.3752091001330448e-10,
+    "max_gap_rel": 1.3692860845432782e-10,
+    "inner_radius": 0.4975517698558174,
+    "outer_radius": 0.6958772110493606,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.001149868461071552
+   },
+   {
+    "x": 0.4455232576116699,
+    "y": -0.13455248864089478,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 6.09986948678066e-11,
+    "max_gap_rel": 1.2523856080920597e-08,
+    "inner_radius": 1.128712318279447,
+    "outer_radius": 1.4211491809112917,
+    "n_min": 12,
+    "n_max": 12,
+    "loop_radius": 0.001149868461071552
+   },
+   {
+    "x": 0.2894508795079245,
+    "y": -0.012346860408545247,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.088745945408723e-10,
+    "max_gap_rel": 3.1905147739510633e-10,
+    "inner_radius": 1.0761993531835439,
+    "outer_radius": 1.2229943597475919,
+    "n_min": 12,
+    "n_max": 12,
+    "loop_radius": 0.001149868461071552
+   },
+   {
+    "x": 0.22146530399042544,
+    "y": 0.31394141988833446,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.675480461983998e-10,
+    "max_gap_rel": 1.414498690805422e-10,
+    "inner_radius": 0.6218099215624694,
+    "outer_radius": 0.774121114643804,
+    "n_min": 13,
+    "n_max": 13,
+    "loop_radius": 0.001149868461071552
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.24889738008659454,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6, 7, 8]"
+   },
+   {
+    "radius": 0.4355704151515404,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7, 8]"
+   },
+   {
+    "radius": 0.6222434502164863,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6]"
+   },
+   {
+    "radius": 0.8711408303030808,
+    "enclosed": 4,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5]"
+   },
+   {
+    "radius": 1.2444869004329726,
+    "enclosed": 4,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   },
+   {
+    "radius": 1.8667303506494588,
+    "enclosed": 4,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   }
+  ],
+  "scan_radius": 0.028746711526788805
+ },
+ {
+  "idx": 36,
+  "name": "Ireland",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2260,
+  "n_raw_hits": 25,
+  "certified": [
+   {
+    "x": 0.46711132941220534,
+    "y": 0.14414734639863863,
+    "order": 2,
+    "n_diagram_points": 9,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.4092490818523635e-10,
+    "max_gap_rel": 9.084362520653116e-11,
+    "inner_radius": 0.7751235215147602,
+    "outer_radius": 1.268498720092752,
+    "n_min": 13,
+    "n_max": 13,
+    "loop_radius": 0.0011440623730923204
+   },
+   {
+    "x": -0.11354840151079466,
+    "y": 0.3516577005861503,
+    "order": 2,
+    "n_diagram_points": 8,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.4327102054537886e-10,
+    "max_gap_rel": 6.673365338611786e-09,
+    "inner_radius": 0.45522695506501515,
+    "outer_radius": 0.652985056201753,
+    "n_min": 13,
+    "n_max": 13,
+    "loop_radius": 0.0011440623730923204
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.1233249804720191,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [8, 9, 10]"
+   },
+   {
+    "radius": 0.2158187158260334,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [8, 9, 10, 11]"
+   },
+   {
+    "radius": 0.30831245118004774,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [6, 7, 8, 9, 10, 11]"
+   },
+   {
+    "radius": 0.4316374316520668,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5, 6, 7, 8, 9, 10, 11]"
+   },
+   {
+    "radius": 0.6166249023600955,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7, 8, 9, 10]"
+   },
+   {
+    "radius": 0.9249373535401433,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6, 7, 8, 9]"
+   }
+  ],
+  "scan_radius": 0.02860155932730801
+ },
+ {
+  "idx": 38,
+  "name": "Canada",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 2207,
+  "n_raw_hits": 28,
+  "certified": [
+   {
+    "x": -0.7194746701577444,
+    "y": -1.2167407736900313,
+    "order": 2,
+    "n_diagram_points": 6,
+    "pairing_changes": 2,
+    "min_gap_rel": 7.464899539728907e-06,
+    "max_gap_rel": 8.82216162067164e-06,
+    "inner_radius": 1.899986978379951,
+    "outer_radius": 2.2025860573752465,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0013097452881888853
+   },
+   {
+    "x": 0.28147709993386194,
+    "y": -0.23419150444822479,
+    "order": 2,
+    "n_diagram_points": 8,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.947540625725376e-10,
+    "max_gap_rel": 5.49184163841385e-10,
+    "inner_radius": 0.5756053929182774,
+    "outer_radius": 1.2385535726912682,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0013097452881888853
+   },
+   {
+    "x": -0.007869284159689788,
+    "y": -0.1261098030560306,
+    "order": 2,
+    "n_diagram_points": 8,
+    "pairing_changes": 2,
+    "min_gap_rel": 4.529678460895168e-10,
+    "max_gap_rel": 2.244881236452685e-10,
+    "inner_radius": 0.8292996051617886,
+    "outer_radius": 1.0037166764814538,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0013097452881888853
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.3585384732465443,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [6, 7, 8]"
+   },
+   {
+    "radius": 0.6274423281814525,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6, 7, 8]"
+   },
+   {
+    "radius": 0.8963461831163607,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7, 8]"
+   },
+   {
+    "radius": 1.254884656362905,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6, 7]"
+   },
+   {
+    "radius": 1.7926923662327214,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7, 8]"
+   },
+   {
+    "radius": 2.6890385493490823,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7, 8]"
+   }
+  ],
+  "scan_radius": 0.03274363220472213
+ },
+ {
+  "idx": 42,
+  "name": "Saudi Arabia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1997,
+  "n_raw_hits": 5,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.03198294161456487
+ },
+ {
+  "idx": 43,
+  "name": "Indonesia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1979,
+  "n_raw_hits": 2,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.03338099428569616
+ },
+ {
+  "idx": 44,
+  "name": "Italy",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1950,
+  "n_raw_hits": 5,
+  "certified": [
+   {
+    "x": 0.4146907194569436,
+    "y": -0.6945580796276445,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 8.482384992980647e-11,
+    "max_gap_rel": 4.322185270681834e-11,
+    "inner_radius": 0.37691428263670806,
+    "outer_radius": 0.7137811929235723,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0015007133333115935
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03751783333278984
+ },
+ {
+  "idx": 46,
+  "name": "New Zealand",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1847,
+  "n_raw_hits": 5,
+  "certified": [
+   {
+    "x": 0.051293186229915605,
+    "y": -0.4444078711376809,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.0519648756190119e-12,
+    "max_gap_rel": 1.3103827110970453e-10,
+    "inner_radius": 0.5966827919124416,
+    "outer_radius": 1.1464578889904675,
+    "n_min": 7,
+    "n_max": 7,
+    "loop_radius": 0.0012343811606081384
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03085952901520346
+ },
+ {
+  "idx": 49,
+  "name": "Papua New Guinea",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1825,
+  "n_raw_hits": 4,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.032588677974805
+ },
+ {
+  "idx": 52,
+  "name": "Central African Rep.",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1791,
+  "n_raw_hits": 0,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.029504653771388074
+ },
+ {
+  "idx": 50,
+  "name": "Egypt",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1800,
+  "n_raw_hits": 6,
+  "certified": [
+   {
+    "x": 0.14018951281308548,
+    "y": -0.5111874470929227,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.929630921678084e-11,
+    "max_gap_rel": 3.089621404265971e-11,
+    "inner_radius": 1.3997827542131867,
+    "outer_radius": 1.466170888000358,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.001187243978036986
+   },
+   {
+    "x": -0.1919822656936684,
+    "y": 0.0685591126388809,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.2221077760275815e-10,
+    "max_gap_rel": 7.99594569565602e-11,
+    "inner_radius": 0.7724868543583651,
+    "outer_radius": 1.1483714839092074,
+    "n_min": 7,
+    "n_max": 7,
+    "loop_radius": 0.001187243978036986
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.13363295461183244,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 6,
+    "reason": ""
+   },
+   {
+    "radius": 0.23385767057070675,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6]"
+   },
+   {
+    "radius": 0.3340823865295811,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6]"
+   },
+   {
+    "radius": 0.4677153411414135,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5]"
+   },
+   {
+    "radius": 0.6681647730591622,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5]"
+   },
+   {
+    "radius": 1.0022471595887432,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4]"
+   }
+  ],
+  "scan_radius": 0.029681099450924647
+ },
+ {
+  "idx": 45,
+  "name": "South Africa",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1847,
+  "n_raw_hits": 10,
+  "certified": [
+   {
+    "x": 0.1768375262955324,
+    "y": -0.6764352290895661,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.2247379674186956e-10,
+    "max_gap_rel": 9.189696922363112e-11,
+    "inner_radius": 1.153572117483239,
+    "outer_radius": 1.5293692865162174,
+    "n_min": 7,
+    "n_max": 7,
+    "loop_radius": 0.0013113071573881635
+   },
+   {
+    "x": -0.3859014316764088,
+    "y": -0.2779443764882569,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 3.720489038276682e-12,
+    "max_gap_rel": 1.7113135761737352e-10,
+    "inner_radius": 0.6478046858711259,
+    "outer_radius": 0.8538594323052056,
+    "n_min": 7,
+    "n_max": 7,
+    "loop_radius": 0.0013113071573881635
+   },
+   {
+    "x": -0.16328966331749253,
+    "y": 0.15501999857401025,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 5.877311543689406e-10,
+    "max_gap_rel": 9.148256864122342e-10,
+    "inner_radius": 1.0755173423171314,
+    "outer_radius": 1.3334378523662347,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0013113071573881635
+   },
+   {
+    "x": -0.3681544477408689,
+    "y": 0.6064629787627274,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.4442390055084845e-10,
+    "max_gap_rel": 1.7250356589121513e-10,
+    "inner_radius": 1.5289892458080145,
+    "outer_radius": 1.59767824722504,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0013113071573881635
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.2900117162576038,
+    "enclosed": 1,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5, 6]"
+   },
+   {
+    "radius": 0.5075205034508066,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6]"
+   },
+   {
+    "radius": 0.7250292906440094,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6]"
+   },
+   {
+    "radius": 1.0150410069016131,
+    "enclosed": 4,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   },
+   {
+    "radius": 1.450058581288019,
+    "enclosed": 4,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   },
+   {
+    "radius": 2.1750878719320283,
+    "enclosed": 4,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   }
+  ],
+  "scan_radius": 0.03278267893470409
+ },
+ {
+  "idx": 48,
+  "name": "Bangladesh",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1832,
+  "n_raw_hits": 15,
+  "certified": [
+   {
+    "x": -0.45207265192609164,
+    "y": -0.23904231694726275,
+    "order": 2,
+    "n_diagram_points": 7,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.2693760812305438e-10,
+    "max_gap_rel": 5.118673796311604e-11,
+    "inner_radius": 0.4433244719923102,
+    "outer_radius": 0.6796690317076017,
+    "n_min": 11,
+    "n_max": 11,
+    "loop_radius": 0.0012948854560139444
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03237213640034861
+ },
+ {
+  "idx": 54,
+  "name": "Cuba",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1748,
+  "n_raw_hits": 0,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.01721840327548869
+ },
+ {
+  "idx": 47,
+  "name": "Indonesia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1837,
+  "n_raw_hits": 12,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.03292619604315449
+ },
+ {
+  "idx": 51,
+  "name": "Indonesia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1791,
+  "n_raw_hits": 13,
+  "certified": [
+   {
+    "x": -0.3372311832159947,
+    "y": -0.23871380451952012,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 6.310079671204593e-11,
+    "max_gap_rel": 2.5890803066197615e-10,
+    "inner_radius": 0.34377989019738575,
+    "outer_radius": 1.1676739356556585,
+    "n_min": 7,
+    "n_max": 7,
+    "loop_radius": 0.0014927871293903459
+   },
+   {
+    "x": -0.542257168400736,
+    "y": -0.15719028079821534,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 4.098424984253273e-09,
+    "max_gap_rel": 3.774077159082315e-09,
+    "inner_radius": 0.36911670702675653,
+    "outer_radius": 1.3743254421386017,
+    "n_min": 5,
+    "n_max": 5,
+    "loop_radius": 0.0014927871293903459
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.04412787759270184,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.0772237857872282,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.11031969398175459,
+    "enclosed": 1,
+    "order": 1,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.1544475715744564,
+    "enclosed": 2,
+    "order": 3,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.22063938796350918,
+    "enclosed": 2,
+    "order": 3,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.3309590819452638,
+    "enclosed": 2,
+    "order": 3,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   }
+  ],
+  "scan_radius": 0.037319678234758645
+ },
+ {
+  "idx": 53,
+  "name": "Laos",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1760,
+  "n_raw_hits": 10,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.03564473109012089
+ },
+ {
+  "idx": 55,
+  "name": "Mali",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1746,
+  "n_raw_hits": 5,
+  "certified": [
+   {
+    "x": -0.4533924689825908,
+    "y": -0.26453809214388246,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.805824421674081e-11,
+    "max_gap_rel": 6.577855162846513e-11,
+    "inner_radius": 0.580791587684471,
+    "outer_radius": 0.8180106443472116,
+    "n_min": 7,
+    "n_max": 7,
+    "loop_radius": 0.0014756975224566571
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03689243806141643
+ },
+ {
+  "idx": 56,
+  "name": "New Zealand",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1738,
+  "n_raw_hits": 3,
+  "certified": [
+   {
+    "x": -0.5491361461919173,
+    "y": 0.9380001215901239,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.504720182783509e-08,
+    "max_gap_rel": 9.864635574966997e-09,
+    "inner_radius": 1.3730887206781734,
+    "outer_radius": 1.5392657269228338,
+    "n_min": 8,
+    "n_max": 8,
+    "loop_radius": 0.0013921395813462601
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.0348034895336565
+ },
+ {
+  "idx": 61,
+  "name": "Panama",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1603,
+  "n_raw_hits": 1,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.01949812929801792
+ },
+ {
+  "idx": 59,
+  "name": "Turkmenistan",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1618,
+  "n_raw_hits": 6,
+  "certified": [
+   {
+    "x": -0.16764794589061974,
+    "y": -1.0036645469753454,
+    "order": 2,
+    "n_diagram_points": 6,
+    "pairing_changes": 2,
+    "min_gap_rel": 5.5131037325899706e-11,
+    "max_gap_rel": 2.0789510036115114e-11,
+    "inner_radius": 1.4939807481343077,
+    "outer_radius": 1.8216898203879692,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0011519771310518736
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.02879942827629684
+ },
+ {
+  "idx": 58,
+  "name": "Guinea",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1627,
+  "n_raw_hits": 5,
+  "certified": [
+   {
+    "x": -0.460968079555115,
+    "y": -0.05181832641936733,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.6742573696346567e-11,
+    "max_gap_rel": 1.2758141681100739e-11,
+    "inner_radius": 0.7980470746767736,
+    "outer_radius": 0.9957356320016878,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.001212266726757911
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.030306668168947778
+ },
+ {
+  "idx": 66,
+  "name": "Madagascar",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1565,
+  "n_raw_hits": 0,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.023318919140878625
+ },
+ {
+  "idx": 57,
+  "name": "Nigeria",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1726,
+  "n_raw_hits": 15,
+  "certified": [
+   {
+    "x": -0.2540631373367843,
+    "y": -0.09791425697863088,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 4.319574198176589e-11,
+    "max_gap_rel": 2.0334226923616826e-10,
+    "inner_radius": 0.7361232783150057,
+    "outer_radius": 0.9564538028075804,
+    "n_min": 11,
+    "n_max": 11,
+    "loop_radius": 0.0011796687265129208
+   },
+   {
+    "x": -0.15201126293460432,
+    "y": -0.07905886504912474,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 4.007781399040713e-10,
+    "max_gap_rel": 6.806753649581113e-10,
+    "inner_radius": 0.7817133799742829,
+    "outer_radius": 1.053920604600898,
+    "n_min": 12,
+    "n_max": 12,
+    "loop_radius": 0.0011796687265129208
+   },
+   {
+    "x": -0.07833809739383145,
+    "y": 0.5529858135635058,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.0753270129571863e-10,
+    "max_gap_rel": 2.661731453781443e-10,
+    "inner_radius": 1.1841396772443042,
+    "outer_radius": 1.3424714162093931,
+    "n_min": 12,
+    "n_max": 12,
+    "loop_radius": 0.0011796687265129208
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.17426144824027,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5]"
+   },
+   {
+    "radius": 0.30495753442047246,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5]"
+   },
+   {
+    "radius": 0.435653620600675,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5]"
+   },
+   {
+    "radius": 0.6099150688409449,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   },
+   {
+    "radius": 0.87130724120135,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4]"
+   },
+   {
+    "radius": 1.306960861802025,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3]"
+   }
+  ],
+  "scan_radius": 0.029491718162823023
+ },
+ {
+  "idx": 63,
+  "name": "Uzbekistan",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1590,
+  "n_raw_hits": 5,
+  "certified": [
+   {
+    "x": 0.27924180177325314,
+    "y": 0.30215390078218324,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 5.964299884149467e-11,
+    "max_gap_rel": 1.7270151920089489e-10,
+    "inner_radius": 0.8050806640689736,
+    "outer_radius": 1.2992351642578888,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0011623911500303682
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.029059778750759203
+ },
+ {
+  "idx": 60,
+  "name": "North Korea",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1612,
+  "n_raw_hits": 17,
+  "certified": [
+   {
+    "x": 0.20453383340494244,
+    "y": -0.6219243041183724,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 6.673522296410899e-11,
+    "max_gap_rel": 2.345596893686458e-12,
+    "inner_radius": 1.1930304896699164,
+    "outer_radius": 1.3855671729453571,
+    "n_min": 7,
+    "n_max": 7,
+    "loop_radius": 0.0014266120716340197
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03566530179085049
+ },
+ {
+  "idx": 62,
+  "name": "South Korea",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1592,
+  "n_raw_hits": 8,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.026675027407452652
+ },
+ {
+  "idx": 64,
+  "name": "C\u00f4te d'Ivoire",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1576,
+  "n_raw_hits": 14,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.03197357697249685
+ },
+ {
+  "idx": 65,
+  "name": "Canada",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1568,
+  "n_raw_hits": 4,
+  "certified": [
+   {
+    "x": -1.1220890393189102,
+    "y": -0.1363933098911541,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.5229805702404223e-11,
+    "max_gap_rel": 6.571519530106454e-11,
+    "inner_radius": 0.8004339174161049,
+    "outer_radius": 1.1081990919681088,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.001091912305298844
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.027297807632471097
+ },
+ {
+  "idx": 67,
+  "name": "Afghanistan",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1529,
+  "n_raw_hits": 3,
+  "certified": [
+   {
+    "x": 0.3980947418050734,
+    "y": -0.9650015036526252,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.4487115074722352e-06,
+    "max_gap_rel": 5.149301488175648e-06,
+    "inner_radius": 1.57526075146768,
+    "outer_radius": 1.867470405239878,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0012215774195380106
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.030539435488450263
+ },
+ {
+  "idx": 68,
+  "name": "Zambia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1507,
+  "n_raw_hits": 4,
+  "certified": [
+   {
+    "x": -0.4001993387385335,
+    "y": -0.36687941258224743,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 9.154944172251999e-11,
+    "max_gap_rel": 1.112721467006312e-10,
+    "inner_radius": 0.6459734043625291,
+    "outer_radius": 0.9344751388901206,
+    "n_min": 8,
+    "n_max": 8,
+    "loop_radius": 0.001354506837054234
+   },
+   {
+    "x": -0.49522463062581445,
+    "y": -0.07332089127562767,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.0417294863728365e-07,
+    "max_gap_rel": 3.077938468134074e-08,
+    "inner_radius": 0.9197673818362612,
+    "outer_radius": 1.0220934933258925,
+    "n_min": 8,
+    "n_max": 8,
+    "loop_radius": 0.001354506837054234
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.06171107243598739,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.10799437676297793,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5]"
+   },
+   {
+    "radius": 0.15427768108996848,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5]"
+   },
+   {
+    "radius": 0.21598875352595587,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5]"
+   },
+   {
+    "radius": 0.30855536217993695,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5]"
+   },
+   {
+    "radius": 0.46283304326990543,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5]"
+   }
+  ],
+  "scan_radius": 0.03386267092635585
+ },
+ {
+  "idx": 69,
+  "name": "Norway",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1498,
+  "n_raw_hits": 13,
+  "certified": [
+   {
+    "x": -0.5149810542954627,
+    "y": -0.49098138081048337,
+    "order": 2,
+    "n_diagram_points": 9,
+    "pairing_changes": 2,
+    "min_gap_rel": 8.05011539164103e-06,
+    "max_gap_rel": 2.5206154024319455e-06,
+    "inner_radius": 0.576892344856667,
+    "outer_radius": 0.7503768383330606,
+    "n_min": 12,
+    "n_max": 12,
+    "loop_radius": 0.001244106221854609
+   },
+   {
+    "x": -0.13471198411906204,
+    "y": 0.20088487219630563,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 9.563101007334586e-07,
+    "max_gap_rel": 1.632646452126727e-06,
+    "inner_radius": 0.8790088701730563,
+    "outer_radius": 1.1960119507145486,
+    "n_min": 12,
+    "n_max": 12,
+    "loop_radius": 0.001244106221854609
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.15789660892906832,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [6, 7, 8]"
+   },
+   {
+    "radius": 0.27631906562586955,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6, 7, 8, 9]"
+   },
+   {
+    "radius": 0.3947415223226708,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6, 7, 8, 9]"
+   },
+   {
+    "radius": 0.5526381312517391,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6, 7, 8, 9]"
+   },
+   {
+    "radius": 0.7894830446453416,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7, 8, 9]"
+   },
+   {
+    "radius": 1.1842245669680125,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6, 7, 8, 9]"
+   }
+  ],
+  "scan_radius": 0.031102655546365224
+ },
+ {
+  "idx": 70,
+  "name": "Mongolia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1493,
+  "n_raw_hits": 6,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.022375656371446007
+ },
+ {
+  "idx": 72,
+  "name": "Bolivia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1490,
+  "n_raw_hits": 5,
+  "certified": [
+   {
+    "x": 1.3557729169521708,
+    "y": 0.05382893099805411,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.0084501171619858e-07,
+    "max_gap_rel": 1.7073647380368606e-07,
+    "inner_radius": 2.152851468888863,
+    "outer_radius": 2.2397246421603896,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0012998717282989999
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.032496793207475
+ },
+ {
+  "idx": 76,
+  "name": "Indonesia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1442,
+  "n_raw_hits": 0,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.03617196619452314
+ },
+ {
+  "idx": 75,
+  "name": "Cameroon",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1455,
+  "n_raw_hits": 1,
+  "certified": [
+   {
+    "x": -0.1737254784009168,
+    "y": -0.31364661383007675,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.7056293244039073e-06,
+    "max_gap_rel": 1.4866765799005118e-06,
+    "inner_radius": 0.7422963127188846,
+    "outer_radius": 0.9469396985129178,
+    "n_min": 4,
+    "n_max": 4,
+    "loop_radius": 0.0011566040014997293
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.02891510003749323
+ },
+ {
+  "idx": 74,
+  "name": "Malaysia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1489,
+  "n_raw_hits": 4,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.02884614298456092
+ },
+ {
+  "idx": 78,
+  "name": "Tanzania",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1388,
+  "n_raw_hits": 5,
+  "certified": [
+   {
+    "x": -0.3630241107009893,
+    "y": -0.17926960105043577,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 4.670041555278632e-11,
+    "max_gap_rel": 3.002901893215074e-11,
+    "inner_radius": 1.1647134606806115,
+    "outer_radius": 1.292547636037819,
+    "n_min": 7,
+    "n_max": 7,
+    "loop_radius": 0.0013102630070015403
+   },
+   {
+    "x": 0.12033062698350623,
+    "y": 0.30514140477214524,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.4544480738434073e-07,
+    "max_gap_rel": 2.86899873497536e-09,
+    "inner_radius": 0.9784984552991823,
+    "outer_radius": 1.18579548848749,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0013102630070015403
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.13686282548655673,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.23950994460147426,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4]"
+   },
+   {
+    "radius": 0.3421570637163918,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4]"
+   },
+   {
+    "radius": 0.4790198892029485,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3]"
+   },
+   {
+    "radius": 0.6843141274327836,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4]"
+   },
+   {
+    "radius": 1.0264711911491755,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3]"
+   }
+  ],
+  "scan_radius": 0.03275657517503851
+ },
+ {
+  "idx": 73,
+  "name": "Angola",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1490,
+  "n_raw_hits": 28,
+  "certified": [
+   {
+    "x": -0.21804585340318244,
+    "y": -0.1979198562193169,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 9.85325011524467e-11,
+    "max_gap_rel": 2.047861616669042e-10,
+    "inner_radius": 0.9321886574198635,
+    "outer_radius": 1.3326067460339155,
+    "n_min": 5,
+    "n_max": 5,
+    "loop_radius": 0.0012875326078367242
+   },
+   {
+    "x": -0.0057207190105679085,
+    "y": -0.16332055705245335,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.6495722084693953e-10,
+    "max_gap_rel": 1.5076139441120507e-11,
+    "inner_radius": 0.7230225167939404,
+    "outer_radius": 1.1820651090796428,
+    "n_min": 6,
+    "n_max": 6,
+    "loop_radius": 0.0012875326078367242
+   },
+   {
+    "x": 0.12390303100121869,
+    "y": 0.04837067491559699,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 3.5151974773915715e-10,
+    "max_gap_rel": 3.19924705239406e-10,
+    "inner_radius": 0.6596148333857547,
+    "outer_radius": 0.9278643766410888,
+    "n_min": 8,
+    "n_max": 8,
+    "loop_radius": 0.0012875326078367242
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.08764859584247625,
+    "enclosed": 1,
+    "order": 2,
+    "ok": true,
+    "n": 5,
+    "reason": ""
+   },
+   {
+    "radius": 0.15338504272433343,
+    "enclosed": 1,
+    "order": 2,
+    "ok": true,
+    "n": 5,
+    "reason": ""
+   },
+   {
+    "radius": 0.21912148960619063,
+    "enclosed": 2,
+    "order": 4,
+    "ok": true,
+    "n": 5,
+    "reason": ""
+   },
+   {
+    "radius": 0.30677008544866685,
+    "enclosed": 3,
+    "order": 4,
+    "ok": true,
+    "n": 5,
+    "reason": ""
+   },
+   {
+    "radius": 0.43824297921238126,
+    "enclosed": 3,
+    "order": 2,
+    "ok": true,
+    "n": 5,
+    "reason": ""
+   },
+   {
+    "radius": 0.6573644688185719,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5]"
+   }
+  ],
+  "scan_radius": 0.0321883151959181
+ },
+ {
+  "idx": 80,
+  "name": "Croatia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1362,
+  "n_raw_hits": 5,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.03918924241341963
+ },
+ {
+  "idx": 79,
+  "name": "Senegal",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1377,
+  "n_raw_hits": 11,
+  "certified": [
+   {
+    "x": -0.04276597225459676,
+    "y": 0.19642911972741212,
+    "order": 2,
+    "n_diagram_points": 6,
+    "pairing_changes": 2,
+    "min_gap_rel": 3.9760312278854135e-09,
+    "max_gap_rel": 1.4108340059267625e-08,
+    "inner_radius": 0.9877620566528666,
+    "outer_radius": 1.1495815207166085,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0012466626031320744
+   },
+   {
+    "x": -0.28767776364377345,
+    "y": 0.6866065024763783,
+    "order": 2,
+    "n_diagram_points": 6,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.377796208471378e-11,
+    "max_gap_rel": 5.865365399379752e-11,
+    "inner_radius": 0.760772341914357,
+    "outer_radius": 0.9374707416846028,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0012466626031320744
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.10959117703904493,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6, 7]"
+   },
+   {
+    "radius": 0.19178455981832862,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6, 7]"
+   },
+   {
+    "radius": 0.2739779425976123,
+    "enclosed": 1,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5, 6, 7]"
+   },
+   {
+    "radius": 0.38356911963665724,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6]"
+   },
+   {
+    "radius": 0.5479558851952246,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6]"
+   },
+   {
+    "radius": 0.821933827792837,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6]"
+   }
+  ],
+  "scan_radius": 0.03116656507830186
+ },
+ {
+  "idx": 71,
+  "name": "Philippines",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1493,
+  "n_raw_hits": 17,
+  "certified": [
+   {
+    "x": 0.4295450605682133,
+    "y": 0.4469867956974942,
+    "order": 2,
+    "n_diagram_points": 7,
+    "pairing_changes": 2,
+    "min_gap_rel": 5.297953758238664e-12,
+    "max_gap_rel": 1.1887122283668858e-10,
+    "inner_radius": 1.0976471552264147,
+    "outer_radius": 1.4371331335951272,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0012510788720191876
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03127697180047969
+ },
+ {
+  "idx": 81,
+  "name": "Congo",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1344,
+  "n_raw_hits": 3,
+  "certified": [
+   {
+    "x": -0.48924441472825664,
+    "y": -0.1795272671993206,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.248806615392701e-07,
+    "max_gap_rel": 9.49858369548087e-08,
+    "inner_radius": 0.9060525530949399,
+    "outer_radius": 1.0714018184525156,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0013452339040786907
+   },
+   {
+    "x": -1.0773388196663929,
+    "y": 0.0903221973093313,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.144049174608615e-07,
+    "max_gap_rel": 1.7183143677854707e-07,
+    "inner_radius": 0.7861164778346602,
+    "outer_radius": 0.9992947876770177,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0013452339040786907
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.12941000929064903,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4]"
+   },
+   {
+    "radius": 0.2264675162586358,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   },
+   {
+    "radius": 0.3235250232266226,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   },
+   {
+    "radius": 0.4529350325172716,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   },
+   {
+    "radius": 0.6470500464532452,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   },
+   {
+    "radius": 0.9705750696798677,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5, 6]"
+   }
+  ],
+  "scan_radius": 0.033630847601967266
+ },
+ {
+  "idx": 82,
+  "name": "Poland",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1331,
+  "n_raw_hits": 21,
+  "certified": [
+   {
+    "x": -0.15263979586449344,
+    "y": 0.22281259168529305,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.107973496768172e-11,
+    "max_gap_rel": 1.8103425087769103e-10,
+    "inner_radius": 0.8840171876566785,
+    "outer_radius": 1.0131380341706837,
+    "n_min": 13,
+    "n_max": 13,
+    "loop_radius": 0.0012406051174102695
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.031015127935256737
+ },
+ {
+  "idx": 77,
+  "name": "Gabon",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1430,
+  "n_raw_hits": 19,
+  "certified": [
+   {
+    "x": -0.07289782100989516,
+    "y": -0.15136337855968435,
+    "order": 2,
+    "n_diagram_points": 8,
+    "pairing_changes": 2,
+    "min_gap_rel": 5.580431430537868e-10,
+    "max_gap_rel": 6.414479833388932e-10,
+    "inner_radius": 0.7777623355885882,
+    "outer_radius": 1.0390626389760256,
+    "n_min": 13,
+    "n_max": 13,
+    "loop_radius": 0.0013744740547544413
+   },
+   {
+    "x": 0.2103998557113695,
+    "y": 0.11489038811628961,
+    "order": 2,
+    "n_diagram_points": 8,
+    "pairing_changes": 2,
+    "min_gap_rel": 6.906240236003667e-10,
+    "max_gap_rel": 7.657470248445637e-10,
+    "inner_radius": 0.6774143331275001,
+    "outer_radius": 1.059541097672328,
+    "n_min": 12,
+    "n_max": 12,
+    "loop_radius": 0.0013744740547544413
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.07775567938223166,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [8, 9]"
+   },
+   {
+    "radius": 0.1360724389189054,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [7, 8, 9]"
+   },
+   {
+    "radius": 0.19438919845557914,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [7, 8, 9]"
+   },
+   {
+    "radius": 0.2721448778378108,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [6, 7, 8, 9, 10]"
+   },
+   {
+    "radius": 0.3887783969111583,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [6, 7, 8]"
+   },
+   {
+    "radius": 0.5831675953667375,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5, 6, 7, 8]"
+   }
+  ],
+  "scan_radius": 0.03436185136886103
+ },
+ {
+  "idx": 83,
+  "name": "Russia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1310,
+  "n_raw_hits": 6,
+  "certified": [
+   {
+    "x": -0.39111183012156575,
+    "y": 0.3432041469389341,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 5.130584952017534e-07,
+    "max_gap_rel": 7.426233060067569e-07,
+    "inner_radius": 0.5232191424910188,
+    "outer_radius": 1.1345628363448208,
+    "n_min": 13,
+    "n_max": 13,
+    "loop_radius": 0.0014441177440149497
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03610294360037374
+ },
+ {
+  "idx": 84,
+  "name": "Algeria",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1248,
+  "n_raw_hits": 9,
+  "certified": [
+   {
+    "x": 0.21654595724994444,
+    "y": -0.3507847424463255,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 5.657774796298116e-09,
+    "max_gap_rel": 1.6538661568062885e-08,
+    "inner_radius": 0.6838720921579337,
+    "outer_radius": 0.8340121319172082,
+    "n_min": 8,
+    "n_max": 8,
+    "loop_radius": 0.0014148120886392857
+   },
+   {
+    "x": 0.17115449165029356,
+    "y": 0.4865406509873019,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 5.3067838767658056e-11,
+    "max_gap_rel": 1.2653919382543932e-10,
+    "inner_radius": 0.5935505914406671,
+    "outer_radius": 0.7543961797610352,
+    "n_min": 5,
+    "n_max": 5,
+    "loop_radius": 0.0014148120886392857
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.1677109656090577,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4]"
+   },
+   {
+    "radius": 0.29349418981585096,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4]"
+   },
+   {
+    "radius": 0.41927741402264423,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5]"
+   },
+   {
+    "radius": 0.5869883796317019,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4]"
+   },
+   {
+    "radius": 0.8385548280452885,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3]"
+   },
+   {
+    "radius": 1.2578322420679326,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2]"
+   }
+  ],
+  "scan_radius": 0.03537030221598214
+ },
+ {
+  "idx": 87,
+  "name": "Chad",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1215,
+  "n_raw_hits": 7,
+  "certified": [
+   {
+    "x": -0.18249030479640727,
+    "y": -0.34017919621056036,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.75747535041232e-10,
+    "max_gap_rel": 4.62097083513842e-10,
+    "inner_radius": 0.7609833387533658,
+    "outer_radius": 0.9509347105411496,
+    "n_min": 7,
+    "n_max": 7,
+    "loop_radius": 0.0010569791005465975
+   },
+   {
+    "x": -0.14781246684352667,
+    "y": 0.23255721031337834,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.3900402999459486e-10,
+    "max_gap_rel": 3.759496086329927e-11,
+    "inner_radius": 0.882311655316489,
+    "outer_radius": 1.1193153788042842,
+    "n_min": 8,
+    "n_max": 8,
+    "loop_radius": 0.0010569791005465975
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.1147570553479028,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5]"
+   },
+   {
+    "radius": 0.20082484685882987,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5]"
+   },
+   {
+    "radius": 0.286892638369757,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5]"
+   },
+   {
+    "radius": 0.40164969371765974,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5]"
+   },
+   {
+    "radius": 0.573785276739514,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4]"
+   },
+   {
+    "radius": 0.8606779151092709,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3]"
+   }
+  ],
+  "scan_radius": 0.026424477513664935
+ },
+ {
+  "idx": 90,
+  "name": "Namibia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1182,
+  "n_raw_hits": 2,
+  "certified": [
+   {
+    "x": 0.04952090523897331,
+    "y": 0.0012862482282226667,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 6.453616848228929e-10,
+    "max_gap_rel": 7.383243308165658e-10,
+    "inner_radius": 0.7150162149460082,
+    "outer_radius": 1.3838034677137958,
+    "n_min": 4,
+    "n_max": 4,
+    "loop_radius": 0.0014092081261211998
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03523020315302999
+ },
+ {
+  "idx": 85,
+  "name": "Tajikistan",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1224,
+  "n_raw_hits": 12,
+  "certified": [
+   {
+    "x": -0.25937946146473634,
+    "y": 0.02116848838467872,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.2647874252215763e-10,
+    "max_gap_rel": 5.8111684279387144e-11,
+    "inner_radius": 0.754317015994685,
+    "outer_radius": 1.058905207353797,
+    "n_min": 7,
+    "n_max": 7,
+    "loop_radius": 0.0012556088113566222
+   },
+   {
+    "x": 0.7628279143356484,
+    "y": 0.017169837989460243,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 3.6143278386335645e-11,
+    "max_gap_rel": 1.4029254658612981e-10,
+    "inner_radius": 0.648754554001608,
+    "outer_radius": 1.0288421040269728,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0012556088113566222
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.204443039338168,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6, 7]"
+   },
+   {
+    "radius": 0.357775318841794,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5, 6, 7]"
+   },
+   {
+    "radius": 0.51110759834542,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7, 8]"
+   },
+   {
+    "radius": 0.715550637683588,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7]"
+   },
+   {
+    "radius": 1.02221519669084,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6]"
+   },
+   {
+    "radius": 1.53332279503626,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6]"
+   }
+  ],
+  "scan_radius": 0.031390220283915554
+ },
+ {
+  "idx": 88,
+  "name": "Romania",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1197,
+  "n_raw_hits": 12,
+  "certified": [
+   {
+    "x": 0.027215952140299163,
+    "y": 0.5482200707302314,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.7064439692255396e-10,
+    "max_gap_rel": 2.7877225493166773e-11,
+    "inner_radius": 1.2503937510044076,
+    "outer_radius": 1.4330768408910295,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0011197222188897116
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.02799305547224279
+ },
+ {
+  "idx": 86,
+  "name": "Canada",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1219,
+  "n_raw_hits": 20,
+  "certified": [
+   {
+    "x": -0.2715760197798217,
+    "y": -0.16272583189089912,
+    "order": 2,
+    "n_diagram_points": 6,
+    "pairing_changes": 2,
+    "min_gap_rel": 5.826341115950676e-11,
+    "max_gap_rel": 1.6778284652752042e-10,
+    "inner_radius": 0.989662482668906,
+    "outer_radius": 1.3352835337013242,
+    "n_min": 14,
+    "n_max": 14,
+    "loop_radius": 0.0012065124491415068
+   },
+   {
+    "x": 0.37329681182450347,
+    "y": 0.524963714987305,
+    "order": 2,
+    "n_diagram_points": 8,
+    "pairing_changes": 2,
+    "min_gap_rel": 7.487833914725831e-11,
+    "max_gap_rel": 4.235664505741825e-10,
+    "inner_radius": 0.9015910558293659,
+    "outer_radius": 1.2980631887391505,
+    "n_min": 13,
+    "n_max": 13,
+    "loop_radius": 0.0012065124491415068
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.18855003387185376,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [7, 8, 9, 10]"
+   },
+   {
+    "radius": 0.3299625592757441,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [6, 7, 8]"
+   },
+   {
+    "radius": 0.4713750846796344,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5, 6, 7, 8, 9, 10]"
+   },
+   {
+    "radius": 0.6599251185514882,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5, 6, 7, 8, 9, 10]"
+   },
+   {
+    "radius": 0.9427501693592688,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7, 8, 9, 10]"
+   },
+   {
+    "radius": 1.414125254038903,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6, 7, 8, 9, 10]"
+   }
+  ],
+  "scan_radius": 0.03016281122853767
+ },
+ {
+  "idx": 91,
+  "name": "Belarus",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1172,
+  "n_raw_hits": 18,
+  "certified": [
+   {
+    "x": 0.06025765458493164,
+    "y": 0.06922675314546026,
+    "order": 2,
+    "n_diagram_points": 7,
+    "pairing_changes": 2,
+    "min_gap_rel": 6.776461469795072e-10,
+    "max_gap_rel": 3.4276267599442323e-10,
+    "inner_radius": 0.8426573208238617,
+    "outer_radius": 1.123167405649817,
+    "n_min": 14,
+    "n_max": 14,
+    "loop_radius": 0.0012562927772446528
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03140731943111632
+ },
+ {
+  "idx": 96,
+  "name": "Paraguay",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1138,
+  "n_raw_hits": 1,
+  "certified": [
+   {
+    "x": -0.4586638372106276,
+    "y": -1.0104052859070525,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.736450006776242e-10,
+    "max_gap_rel": 1.4980704406182678e-10,
+    "inner_radius": 1.511101260451431,
+    "outer_radius": 1.7093873933430206,
+    "n_min": 4,
+    "n_max": 4,
+    "loop_radius": 0.00138303706709648
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.034575926677412
+ },
+ {
+  "idx": 95,
+  "name": "Russia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1141,
+  "n_raw_hits": 7,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.036051596151838915
+ },
+ {
+  "idx": 94,
+  "name": "S. Sudan",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1157,
+  "n_raw_hits": 12,
+  "certified": [
+   {
+    "x": 0.04479444441244075,
+    "y": 0.44761148638149967,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.5341436407064459e-10,
+    "max_gap_rel": 1.171707605624056e-10,
+    "inner_radius": 0.6537949195549094,
+    "outer_radius": 0.796741279636732,
+    "n_min": 8,
+    "n_max": 8,
+    "loop_radius": 0.0012339626230782918
+   },
+   {
+    "x": 0.2886812296637578,
+    "y": 0.9142738581011025,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 8.829252989693376e-11,
+    "max_gap_rel": 6.669827103892787e-11,
+    "inner_radius": 1.6980259412112324,
+    "outer_radius": 1.846994188582608,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0012339626230782918
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.10530992986403265,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5, 6]"
+   },
+   {
+    "radius": 0.18429237726205713,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5, 6]"
+   },
+   {
+    "radius": 0.2632748246600816,
+    "enclosed": 1,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6]"
+   },
+   {
+    "radius": 0.36858475452411427,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5]"
+   },
+   {
+    "radius": 0.5265496493201632,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   },
+   {
+    "radius": 0.7898244739802449,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4]"
+   }
+  ],
+  "scan_radius": 0.030849065576957293
+ },
+ {
+  "idx": 92,
+  "name": "Sudan",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1166,
+  "n_raw_hits": 12,
+  "certified": [
+   {
+    "x": 0.13115243147396724,
+    "y": -0.059071057637474195,
+    "order": 2,
+    "n_diagram_points": 6,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.0914167511858847e-10,
+    "max_gap_rel": 5.670857553933308e-10,
+    "inner_radius": 0.9766995552086445,
+    "outer_radius": 1.2380655640650227,
+    "n_min": 11,
+    "n_max": 11,
+    "loop_radius": 0.0011806414138234044
+   },
+   {
+    "x": 0.16811643881016616,
+    "y": 0.16237838002873398,
+    "order": 2,
+    "n_diagram_points": 6,
+    "pairing_changes": 2,
+    "min_gap_rel": 5.237511166668633e-10,
+    "max_gap_rel": 1.3395622836658826e-10,
+    "inner_radius": 0.757833916171892,
+    "outer_radius": 1.051549603805667,
+    "n_min": 11,
+    "n_max": 11,
+    "loop_radius": 0.0011806414138234044
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.04490264637236001,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 6,
+    "reason": ""
+   },
+   {
+    "radius": 0.07857963115163001,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 6,
+    "reason": ""
+   },
+   {
+    "radius": 0.11225661593090001,
+    "enclosed": 0,
+    "order": 3,
+    "ok": true,
+    "n": 6,
+    "reason": ""
+   },
+   {
+    "radius": 0.15715926230326002,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6, 7]"
+   },
+   {
+    "radius": 0.22451323186180003,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6, 7]"
+   },
+   {
+    "radius": 0.33676984779270003,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7]"
+   }
+  ],
+  "scan_radius": 0.029516035345585112
+ },
+ {
+  "idx": 89,
+  "name": "Canada",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1192,
+  "n_raw_hits": 32,
+  "certified": [
+   {
+    "x": 0.516747125902307,
+    "y": -0.15064640738462304,
+    "order": 2,
+    "n_diagram_points": 7,
+    "pairing_changes": 2,
+    "min_gap_rel": 6.750805648320761e-11,
+    "max_gap_rel": 5.315745482206938e-10,
+    "inner_radius": 0.43744104918095505,
+    "outer_radius": 1.3307319775674713,
+    "n_min": 8,
+    "n_max": 8,
+    "loop_radius": 0.0014271625502846538
+   },
+   {
+    "x": 0.3211404070410051,
+    "y": 0.03360749051125969,
+    "order": 2,
+    "n_diagram_points": 8,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.4136248890157784e-10,
+    "max_gap_rel": 5.485302329223541e-10,
+    "inner_radius": 0.6878543279806654,
+    "outer_radius": 1.1956011434667964,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0014271625502846538
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.05374439035043965,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [7, 8]"
+   },
+   {
+    "radius": 0.09405268311326939,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [7, 8]"
+   },
+   {
+    "radius": 0.13436097587609913,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [7, 8]"
+   },
+   {
+    "radius": 0.18810536622653878,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [7, 8]"
+   },
+   {
+    "radius": 0.26872195175219826,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [7, 8]"
+   },
+   {
+    "radius": 0.4030829276282974,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [6, 7, 8, 9]"
+   }
+  ],
+  "scan_radius": 0.035679063757116346
+ },
+ {
+  "idx": 97,
+  "name": "Kyrgyzstan",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1124,
+  "n_raw_hits": 0,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.02303335267042724
+ },
+ {
+  "idx": 93,
+  "name": "Canada",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1159,
+  "n_raw_hits": 19,
+  "certified": [
+   {
+    "x": -0.21631474761161695,
+    "y": -0.42231708340709456,
+    "order": 2,
+    "n_diagram_points": 7,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.7132508661853644e-10,
+    "max_gap_rel": 4.502100466041943e-11,
+    "inner_radius": 0.7995440613393037,
+    "outer_radius": 1.213763351500002,
+    "n_min": 12,
+    "n_max": 12,
+    "loop_radius": 0.0012586067877111218
+   },
+   {
+    "x": 0.07562168345031442,
+    "y": 0.6420934829331792,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 3.1057742380369064e-06,
+    "max_gap_rel": 3.0037696717882875e-06,
+    "inner_radius": 0.4008689932585487,
+    "outer_radius": 0.7584616556119923,
+    "n_min": 13,
+    "n_max": 13,
+    "loop_radius": 0.0012586067877111218
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.220743899894697,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6, 7]"
+   },
+   {
+    "radius": 0.3863018248157197,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7, 8, 9]"
+   },
+   {
+    "radius": 0.5518597497367425,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7, 8, 9, 10]"
+   },
+   {
+    "radius": 0.7726036496314393,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6, 7, 8, 9]"
+   },
+   {
+    "radius": 1.103719499473485,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6, 7, 8]"
+   },
+   {
+    "radius": 1.6555792492102275,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6, 7]"
+   }
+  ],
+  "scan_radius": 0.031465169692778044
+ },
+ {
+  "idx": 98,
+  "name": "Burkina Faso",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1109,
+  "n_raw_hits": 8,
+  "certified": [
+   {
+    "x": 0.04045640168225669,
+    "y": -0.6295484496345471,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.5732824036715537e-10,
+    "max_gap_rel": 9.910033029315415e-10,
+    "inner_radius": 1.195941930360224,
+    "outer_radius": 1.3519756997933123,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.001211762508413182
+   },
+   {
+    "x": 0.18464643041883938,
+    "y": -0.14256483193947922,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.833007162837243e-06,
+    "max_gap_rel": 2.1022905292883525e-06,
+    "inner_radius": 0.9184944808374985,
+    "outer_radius": 1.2118621944107764,
+    "n_min": 11,
+    "n_max": 11,
+    "loop_radius": 0.001211762508413182
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.10157633745916075,
+    "enclosed": 0,
+    "order": 1,
+    "ok": true,
+    "n": 4,
+    "reason": ""
+   },
+   {
+    "radius": 0.1777585905535313,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5]"
+   },
+   {
+    "radius": 0.25394084364790187,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5]"
+   },
+   {
+    "radius": 0.3555171811070626,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5]"
+   },
+   {
+    "radius": 0.5078816872958037,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5]"
+   },
+   {
+    "radius": 0.7618225309437057,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   }
+  ],
+  "scan_radius": 0.030294062710329545
+ },
+ {
+  "idx": 100,
+  "name": "Austria",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1093,
+  "n_raw_hits": 1,
+  "certified": [
+   {
+    "x": 0.17601454360188995,
+    "y": 0.49997609671412746,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.5346763230760178e-10,
+    "max_gap_rel": 5.018313904416989e-11,
+    "inner_radius": 1.0796418915719912,
+    "outer_radius": 1.2408107678690679,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0009158862165981136
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.02289715541495284
+ },
+ {
+  "idx": 99,
+  "name": "Guyana",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1106,
+  "n_raw_hits": 7,
+  "certified": [
+   {
+    "x": -0.720939544049356,
+    "y": -0.07409435205857702,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.2993226004095247e-10,
+    "max_gap_rel": 2.7156329908187135e-10,
+    "inner_radius": 1.1047730489219891,
+    "outer_radius": 1.4970779832041714,
+    "n_min": 6,
+    "n_max": 6,
+    "loop_radius": 0.0011423478652268374
+   },
+   {
+    "x": -0.008669067014422785,
+    "y": 0.5460021247845095,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 8.72451138275269e-11,
+    "max_gap_rel": 2.3677536900661987e-10,
+    "inner_radius": 0.6239636862263345,
+    "outer_radius": 0.9116273169967086,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0011423478652268374
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.18887550111634704,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5]"
+   },
+   {
+    "radius": 0.3305321269536073,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5]"
+   },
+   {
+    "radius": 0.4721887527908676,
+    "enclosed": 1,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5, 6]"
+   },
+   {
+    "radius": 0.6610642539072146,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5, 6]"
+   },
+   {
+    "radius": 0.9443775055817352,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5, 6]"
+   },
+   {
+    "radius": 1.4165662583726029,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   }
+  ],
+  "scan_radius": 0.028558696630670934
+ },
+ {
+  "idx": 103,
+  "name": "Honduras",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1078,
+  "n_raw_hits": 1,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.023683149334489863
+ },
+ {
+  "idx": 101,
+  "name": "Mauritania",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1091,
+  "n_raw_hits": 9,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.03257145834637648
+ },
+ {
+  "idx": 104,
+  "name": "Ethiopia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1073,
+  "n_raw_hits": 2,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.031441904537260666
+ },
+ {
+  "idx": 108,
+  "name": "Nepal",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1020,
+  "n_raw_hits": 0,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.02493452465663072
+ },
+ {
+  "idx": 109,
+  "name": "Morocco",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1018,
+  "n_raw_hits": 0,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.0370079896155044
+ },
+ {
+  "idx": 107,
+  "name": "Russia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1031,
+  "n_raw_hits": 0,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.012004928882164992
+ },
+ {
+  "idx": 102,
+  "name": "Cambodia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1089,
+  "n_raw_hits": 8,
+  "certified": [
+   {
+    "x": -0.2139467725803099,
+    "y": -0.04252473823250362,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.52472269936579e-10,
+    "max_gap_rel": 3.327652433287009e-10,
+    "inner_radius": 0.7889351514855188,
+    "outer_radius": 1.0400434817524438,
+    "n_min": 15,
+    "n_max": 15,
+    "loop_radius": 0.0011661882035045301
+   },
+   {
+    "x": 0.29887243022109344,
+    "y": 0.35858938973890464,
+    "order": 2,
+    "n_diagram_points": 6,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.5893804754279703e-06,
+    "max_gap_rel": 7.575166641562997e-06,
+    "inner_radius": 0.7762165807586819,
+    "outer_radius": 0.922004884560602,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0011661882035045301
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.13021153227270313,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6]"
+   },
+   {
+    "radius": 0.22787018147723045,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [5, 6, 7]"
+   },
+   {
+    "radius": 0.3255288306817578,
+    "enclosed": 1,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5, 6, 7]"
+   },
+   {
+    "radius": 0.4557403629544609,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6]"
+   },
+   {
+    "radius": 0.6510576613635156,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6]"
+   },
+   {
+    "radius": 0.9765864920452734,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5]"
+   }
+  ],
+  "scan_radius": 0.029154705087613253
+ },
+ {
+  "idx": 106,
+  "name": "Niger",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1041,
+  "n_raw_hits": 4,
+  "certified": [
+   {
+    "x": 0.702577788598935,
+    "y": -0.5693548863614638,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 9.285534679551644e-11,
+    "max_gap_rel": 2.57927307596915e-10,
+    "inner_radius": 1.4791840163025234,
+    "outer_radius": 1.632750727829889,
+    "n_min": 6,
+    "n_max": 6,
+    "loop_radius": 0.0011921008768687826
+   },
+   {
+    "x": 0.15388985645344017,
+    "y": 0.3309914923609871,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.6831576428647747e-11,
+    "max_gap_rel": 4.2295243404572294e-10,
+    "inner_radius": 0.948173240842187,
+    "outer_radius": 1.0693638565238495,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0011921008768687826
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.21087266760400505,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3]"
+   },
+   {
+    "radius": 0.3690271683070088,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3]"
+   },
+   {
+    "radius": 0.5271816690100126,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3]"
+   },
+   {
+    "radius": 0.7380543366140176,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3]"
+   },
+   {
+    "radius": 1.0543633380200252,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3]"
+   },
+   {
+    "radius": 1.5815450070300379,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3]"
+   }
+  ],
+  "scan_radius": 0.029802521921719567
+ },
+ {
+  "idx": 111,
+  "name": "Ecuador",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 998,
+  "n_raw_hits": 6,
+  "certified": [
+   {
+    "x": 0.1806402049923986,
+    "y": 0.13190839712634958,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 5.259927696628208e-10,
+    "max_gap_rel": 1.0743221641768394e-09,
+    "inner_radius": 0.7417188951460388,
+    "outer_radius": 1.1465137019290845,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0013767486194875814
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.034418715487189534
+ },
+ {
+  "idx": 110,
+  "name": "Australia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1016,
+  "n_raw_hits": 10,
+  "certified": [
+   {
+    "x": -0.025104896076626068,
+    "y": -0.34973543360249193,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.3418156069307156e-10,
+    "max_gap_rel": 4.2705039836041384e-10,
+    "inner_radius": 0.6352869282580755,
+    "outer_radius": 0.7983007447863295,
+    "n_min": 11,
+    "n_max": 11,
+    "loop_radius": 0.001306384367907182
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03265960919767955
+ },
+ {
+  "idx": 105,
+  "name": "Philippines",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 1069,
+  "n_raw_hits": 10,
+  "certified": [
+   {
+    "x": -0.7568317393978629,
+    "y": -1.0287709572436952,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.2060082507865418e-09,
+    "max_gap_rel": 8.329926098871272e-10,
+    "inner_radius": 0.9307354164904807,
+    "outer_radius": 1.1361507707432985,
+    "n_min": 11,
+    "n_max": 11,
+    "loop_radius": 0.0014740300521159622
+   },
+   {
+    "x": -0.7782966638017874,
+    "y": -0.13611446912762504,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.3586963115243485e-10,
+    "max_gap_rel": 3.116224843165327e-10,
+    "inner_radius": 0.4958568510290901,
+    "outer_radius": 0.7472621002283539,
+    "n_min": 9,
+    "n_max": 9,
+    "loop_radius": 0.0014740300521159622
+   },
+   {
+    "x": -0.0630500281026338,
+    "y": 0.03264130622986633,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 3.441065526027488e-08,
+    "max_gap_rel": 1.1316348402039523e-07,
+    "inner_radius": 1.133257230723226,
+    "outer_radius": 1.235845188559157,
+    "n_min": 11,
+    "n_max": 11,
+    "loop_radius": 0.0014740300521159622
+   },
+   {
+    "x": 0.517718085979993,
+    "y": 0.2068966850412391,
+    "order": 2,
+    "n_diagram_points": 5,
+    "pairing_changes": 2,
+    "min_gap_rel": 1.8845982598538427e-10,
+    "max_gap_rel": 1.9961825530784365e-10,
+    "inner_radius": 0.5479363727815406,
+    "outer_radius": 0.9971810499589971,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0014740300521159622
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.37369383013874224,
+    "enclosed": 1,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5]"
+   },
+   {
+    "radius": 0.6539642027427989,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5]"
+   },
+   {
+    "radius": 0.9342345753468556,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5]"
+   },
+   {
+    "radius": 1.3079284054855977,
+    "enclosed": 4,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6]"
+   },
+   {
+    "radius": 1.8684691506937112,
+    "enclosed": 4,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6]"
+   },
+   {
+    "radius": 2.802703726040567,
+    "enclosed": 4,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [1, 2, 3, 4, 5, 6]"
+   }
+  ],
+  "scan_radius": 0.036850751302899054
+ },
+ {
+  "idx": 112,
+  "name": "Chile",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 985,
+  "n_raw_hits": 15,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.03480230612964932
+ },
+ {
+  "idx": 119,
+  "name": "Indonesia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 893,
+  "n_raw_hits": 0,
+  "certified": [],
+  "global_loops": [],
+  "scan_radius": 0.015064810593980765
+ },
+ {
+  "idx": 118,
+  "name": "Czechia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 921,
+  "n_raw_hits": 5,
+  "certified": [
+   {
+    "x": -0.4567709701781152,
+    "y": 0.1832075206249253,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 6.451952813611785e-10,
+    "max_gap_rel": 4.566177365930766e-11,
+    "inner_radius": 0.7709511004252453,
+    "outer_radius": 0.9591006824851844,
+    "n_min": 8,
+    "n_max": 8,
+    "loop_radius": 0.0010063173852985895
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.025157934632464737
+ },
+ {
+  "idx": 115,
+  "name": "Russia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 964,
+  "n_raw_hits": 13,
+  "certified": [
+   {
+    "x": 0.3299235611435286,
+    "y": -0.6140853047837426,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.4706335625874238e-11,
+    "max_gap_rel": 7.307626364437373e-12,
+    "inner_radius": 0.4781087087377622,
+    "outer_radius": 0.7228209384656953,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.001137320079281039
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.028433001982025974
+ },
+ {
+  "idx": 116,
+  "name": "Botswana",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 955,
+  "n_raw_hits": 22,
+  "certified": [
+   {
+    "x": -0.25586104802156817,
+    "y": 0.6670549726472783,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.748222160831197e-10,
+    "max_gap_rel": 3.186664363070616e-10,
+    "inner_radius": 1.4307451809993597,
+    "outer_radius": 1.6410698275387323,
+    "n_min": 7,
+    "n_max": 7,
+    "loop_radius": 0.0013555746152068271
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.03388936538017068
+ },
+ {
+  "idx": 114,
+  "name": "Denmark",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 969,
+  "n_raw_hits": 8,
+  "certified": [
+   {
+    "x": -0.08676518283241905,
+    "y": -1.004121771668214,
+    "order": 2,
+    "n_diagram_points": 6,
+    "pairing_changes": 2,
+    "min_gap_rel": 3.0568877428682845e-11,
+    "max_gap_rel": 4.239509415985542e-11,
+    "inner_radius": 1.2093145635031544,
+    "outer_radius": 1.4044618185490614,
+    "n_min": 11,
+    "n_max": 11,
+    "loop_radius": 0.001075353089066995
+   },
+   {
+    "x": 0.18052731330663038,
+    "y": 0.6870563854089669,
+    "order": 2,
+    "n_diagram_points": 3,
+    "pairing_changes": 2,
+    "min_gap_rel": 3.748344239080085e-12,
+    "max_gap_rel": 1.279416868038821e-10,
+    "inner_radius": 0.25070385727400507,
+    "outer_radius": 0.9070894447423631,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.001075353089066995
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.34243415936306437,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7]"
+   },
+   {
+    "radius": 0.5992597788853625,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6]"
+   },
+   {
+    "radius": 0.8560853984076608,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7]"
+   },
+   {
+    "radius": 1.198519557770725,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6, 7]"
+   },
+   {
+    "radius": 1.7121707968153217,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6, 7, 8]"
+   },
+   {
+    "radius": 2.5682561952229825,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [2, 3, 4, 5, 6, 7]"
+   }
+  ],
+  "scan_radius": 0.026883827226674872
+ },
+ {
+  "idx": 113,
+  "name": "Japan",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 975,
+  "n_raw_hits": 18,
+  "certified": [
+   {
+    "x": 0.3363554087892756,
+    "y": -0.41787592302675614,
+    "order": 2,
+    "n_diagram_points": 8,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.5460148319527137e-07,
+    "max_gap_rel": 2.0883912935341412e-07,
+    "inner_radius": 0.5497611271782566,
+    "outer_radius": 1.0782623074200888,
+    "n_min": 11,
+    "n_max": 11,
+    "loop_radius": 0.001256454323496781
+   },
+   {
+    "x": -0.4913326306360819,
+    "y": -0.27754157688105674,
+    "order": 2,
+    "n_diagram_points": 8,
+    "pairing_changes": 2,
+    "min_gap_rel": 6.845651255467849e-07,
+    "max_gap_rel": 1.4938653771446822e-06,
+    "inner_radius": 1.18714103651075,
+    "outer_radius": 1.3026651512789278,
+    "n_min": 15,
+    "n_max": 15,
+    "loop_radius": 0.001256454323496781
+   },
+   {
+    "x": 0.04284552020247466,
+    "y": 0.3289155767922589,
+    "order": 2,
+    "n_diagram_points": 7,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.7113376791755245e-10,
+    "max_gap_rel": 2.6887441215416327e-10,
+    "inner_radius": 0.801360166456769,
+    "outer_radius": 1.029760724465179,
+    "n_min": 12,
+    "n_max": 12,
+    "loop_radius": 0.001256454323496781
+   }
+  ],
+  "global_loops": [
+   {
+    "radius": 0.19192359553305463,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [8, 9, 10]"
+   },
+   {
+    "radius": 0.3358662921828456,
+    "enclosed": 0,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [7, 8, 9]"
+   },
+   {
+    "radius": 0.47980898883263656,
+    "enclosed": 2,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [6, 7, 8]"
+   },
+   {
+    "radius": 0.6717325843656912,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [4, 5, 6, 7, 8]"
+   },
+   {
+    "radius": 0.9596179776652731,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6, 7]"
+   },
+   {
+    "radius": 1.4394269664979098,
+    "enclosed": 3,
+    "order": null,
+    "ok": false,
+    "n": 0,
+    "reason": "cardinality varies [3, 4, 5, 6]"
+   }
+  ],
+  "scan_radius": 0.03141135808741952
+ },
+ {
+  "idx": 117,
+  "name": "Serbia",
+  "status": "ok",
+  "smooth_frac": 0.007,
+  "n_vertices": 939,
+  "n_raw_hits": 5,
+  "certified": [
+   {
+    "x": -0.15454053022012698,
+    "y": -0.36541018050783713,
+    "order": 2,
+    "n_diagram_points": 4,
+    "pairing_changes": 2,
+    "min_gap_rel": 2.752659213896283e-10,
+    "max_gap_rel": 3.753247498612866e-10,
+    "inner_radius": 0.907510504657975,
+    "outer_radius": 1.2186374001221247,
+    "n_min": 10,
+    "n_max": 10,
+    "loop_radius": 0.0012012545562702346
+   }
+  ],
+  "global_loops": [],
+  "scan_radius": 0.030031363906755867
+ }
+]

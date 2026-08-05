@@ -1,0 +1,25 @@
+Equilateral triangle, circumradius 1, three equal isotropic Gaussians.
+The centroid is a critical point by symmetry, so its index can be read
+straight off the Hessian without any search.
+
+   sigma       centre Hessian eigenvalues   centre is   search: max/sad/min
+    0.50                    [1.624 1.624]     minimum       3/3/1
+    0.54                  [1.3236 1.3236]     minimum       3/3/1
+    0.58                    [0.981 0.981]     minimum       3/3/1
+    0.62                  [0.6392 0.6392]     minimum       3/3/1
+    0.66                  [0.3231 0.3231]     minimum       3/3/1
+    0.70                    [0.045 0.045]     minimum       3/3/1
+    0.74                [-0.1911 -0.1911]     MAXIMUM       1/0/0
+         ^ transition between minimum and MAXIMUM
+    0.78                [-0.3862 -0.3862]     MAXIMUM       1/0/0
+    0.82                [-0.5438 -0.5438]     MAXIMUM       1/0/0
+    0.86                [-0.6684 -0.6684]     MAXIMUM       1/0/0
+    0.90                [-0.7646 -0.7646]     MAXIMUM       1/0/0
+    0.94                  [-0.837 -0.837]     MAXIMUM       1/0/0
+    0.98                [-0.8897 -0.8897]     MAXIMUM       1/0/0
+
+The centre changes from a local minimum to a local maximum as sigma grows,
+and at the transition the three vertex modes are still present, which is
+the Duistermaat situation: more modes than components. The finder reports
+the fourth mode when it is there, so 'always three' on the figure-eight is
+a measurement and not a blind spot.

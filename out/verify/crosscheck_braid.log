@@ -1,0 +1,22 @@
+============================================================================
+A. Two independent extractions of the braid word
+============================================================================
+  loop T/3  K= 2000  mono s2^-1 s1 s2^-1 s1                 
+                         events s2 s1^-1 s2 s1^-1                   DIFFER
+  loop T/3  K= 4000  mono s2^-1 s1 s2^-1 s1                 
+                         events s2 s1^-1 s2 s1^-1                   DIFFER
+  loop T    K= 2000  mono s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1
+                         events s2 s1^-1 s2 s1^-1 s2 s1^-1 s2 s1^-1 s2 s1^-1 s2 s1^-1  DIFFER
+  loop T    K= 4000  mono s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1
+                         events s2 s1^-1 s2 s1^-1 s2 s1^-1 s2 s1^-1 s2 s1^-1 s2 s1^-1  DIFFER
+
+============================================================================
+B. Independent identification of the closure
+============================================================================
+  measured word: s2^-1 s1 s2^-1 s1
+  spherogram failed: SnapPy doesn't seem to be available.  Try: from snappy import *
+  snappy identification: [t12840(0,0)(0,0), 10^2_138(0,0)(0,0), L10n46(0,0)(0,0), otet08_00002(0,0)(0,0)]
+  snappy: unsupported format string passed to Number.__format__
+
+  Reference: the figure-eight knot 4_1 has Alexander polynomial
+  t - 3 + 1/t and hyperbolic volume 2.029883...

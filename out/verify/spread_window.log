@@ -1,0 +1,16 @@
+   lambda   spread     4-mode window in sigma    width
+  ------------------------------------------------------
+    1.000   0.0000             0.710 to 0.735    0.030
+    1.005   0.0025             0.720 to 0.735    0.020
+    1.010   0.0050             0.725 to 0.740    0.020
+    1.020   0.0100             0.735 to 0.740    0.010
+    1.035   0.0173             0.745 to 0.745    0.005
+    1.050   0.0247                       none        -
+    1.080   0.0392                       none        -
+    1.120   0.0582                       none        -
+    1.200   0.0951                       none        -
+    1.400   0.1808                       none        -
+    1.800   0.3275                       none        -
+
+  The orbit's minimum spread is 0.7244, far outside anything that supports
+  a fourth mode.

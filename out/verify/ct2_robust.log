@@ -1,0 +1,38 @@
+Baseline and then DIFFERENT SUBSETS of the same measured scan.
+targets: ['theta 26.33 deg, row 714', 'theta 7.71 deg, row 957'] 
+
+  stride 4/8, offset 0/0 (base)      snr 3.7/3.3x  |                       lost |                       lost 
+
+ different GANTRY ANGLES (offset in theta):
+  stride 4/8, theta offset 1         snr 4.0/3.6x  |                       lost |                       lost 
+  stride 4/8, theta offset 2         snr 3.9/3.5x  | th  26.84 row  716.3 o2 |                       lost 
+  stride 4/8, theta offset 3         snr 3.9/3.4x  |                       lost |                       lost 
+
+ different DETECTOR ROWS (offset in v):
+  stride 4/8, row offset 2           snr 4.0/3.5x  |                       lost |                       lost 
+  stride 4/8, row offset 4           snr 3.9/3.4x  |                       lost |                       lost 
+  stride 4/8, row offset 6           snr 3.8/3.4x  |                       lost |                       lost 
+
+ different STRIDES (different subset AND spacing):
+  stride 3/6                         snr 3.0/2.8x  | th  26.82 row  716.9 o2 |                       lost 
+  stride 5/10                        snr 4.9/4.2x  |                       lost |                       lost 
+  stride 6/12                        snr 5.8/5.0x  |                       lost |                       lost 
+  stride 3/10                        snr 3.1/4.2x  | th  26.88 row  717.1 o2 |                       lost 
+  stride 5/6                         snr 4.8/2.8x  |                       lost |                       lost 
+
+ different SMOOTHING:
+  sigma 12.0 px, stride 4/8          snr 4.2/3.6x  | th  27.08 row  715.0 o2 |                       lost 
+  sigma 18.0 px, stride 4/8          snr 3.2/2.9x  |                       lost |                       lost 
+  sigma 22.0 px, stride 4/8          snr 2.5/2.5x  |                       lost |                       lost 
+
+ different NOISE FLOOR:
+  floor 2.0 sigma                    snr 3.7/3.3x  |                       lost |                       lost 
+  floor 4.0 sigma                    snr 3.7/3.3x  |                       lost |                       lost 
+  floor 5.0 sigma                    snr 3.7/3.3x  |                       lost |                       lost 
+
+
+SUMMARY: how often is each target recovered, and how far does it move?
+  target theta 26.33, row   714: recovered 4/18
+     orders {2},  wall types {('BB', 'DD')}
+     theta spread max 0.755 deg,  row spread max 3.1 (157 um)
+  target theta 7.71: recovered 0/18

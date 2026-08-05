@@ -1,0 +1,94 @@
+
+Finishing the argument: replacing the basin hypothesis with a concavity one.
+
+What was left. The proposition needs h_i >= rho(sigma M_j). We know exactly that
+|sigma M_j - q_i| = delta_j, so sigma M_j lies in the closed ball B(q_i, delta_j).
+It would be enough that M_i is the largest value of rho on that ball, and "M_i is
+in a basin containing the ball" is an awkward thing to verify.
+
+Concavity settles it in one line. If rho is strictly concave on a convex set,
+a critical point in it is the unique maximum there. M_i is a critical point, and
+if it lies in B(q_i, delta_j) then
+
+    h_i = rho(M_i) = max over B(q_i, delta_j) of rho  >=  rho(sigma M_j),
+
+with no mention of basins, ascent, or which peak belongs to whom.
+
+An explicit criterion, with no eigenvalues. For a Gaussian,
+
+    Hess rho (x) = (1/sigma^2) sum_j K_j [ (x-q_j)(x-q_j)^T / sigma^2 - I ],
+    K_j = K(|x - q_j|),
+
+so for any unit u,
+
+    u^T Hess rho u = (1/sigma^2) sum_j K_j [ ((x-q_j).u)^2 / sigma^2 - 1 ]
+                  <= (1/sigma^2) [ sum_j K_j |x-q_j|^2 / sigma^2 - sum_j K_j ].
+
+Hence rho is strictly concave at x as soon as
+
+    sum_j K_j |x - q_j|^2  <  sigma^2 sum_j K_j,                            (C)
+
+that is, as soon as the K-weighted mean square distance from x to the bodies is
+below sigma^2. Near a body the weight sits almost entirely on that body, where
+the distance is nearly zero, so (C) is comfortable; it fails only when the bodies
+crowd to within about sigma of each other, which is also when the three peaks
+stop existing.
+
+    THEOREM. Let K be the Gaussian of width sigma and suppose (C) holds
+    throughout each ball B(q_i, delta), delta = max_j |M_j - q_j|. Then
+    h_i > h_j precisely when r_ik < r_jk.
+
+    So the walls of the vineyard are exactly the isosceles configurations, and
+    the strand order is the order of the opposite sides.
+
+This is the whole argument, with one hypothesis that is an explicit inequality in
+the configuration and the bandwidth rather than a statement about basins. What
+follows checks (C), and the margin in it, on the orbit and on random triangles.
+
+==============================================================================
+  slack   = margin in (C) over the balls. Must be > 0.
+  lam_max = the true top Hessian eigenvalue there. Must be < 0, and
+            tells how much (C) gives away by not using eigenvalues.
+  delta   = largest peak displacement, the ball radius used.
+  concl   = (h_i - h_j) signed by (r_jk - r_ik). The theorem's
+            conclusion, checked end to end. Must be >= 0.
+==============================================================================
+                        case      n        slack      lam_max     delta        concl
+    figure-eight, sigma=0.22    300    4.506e-02   -1.924e+01    0.0054    0.000e+00  OK
+    figure-eight, sigma=0.24    300    4.993e-02   -1.505e+01    0.0126    0.000e+00  OK
+    figure-eight, sigma=0.28    300    5.137e-02   -8.357e+00    0.0463    0.000e+00  OK
+     figure-eight, sigma=0.3    300    4.517e-02   -5.577e+00    0.0795    0.000e+00  OK
+    figure-eight, sigma=0.32    300    3.176e-02   -3.030e+00    0.1337    0.000e+00  OK
+  ---- outside the note's window [0.24, 0.30], for contrast ----
+    figure-eight, sigma=0.36    210   -2.114e-02   -3.466e-01    0.2775    0.000e+00  FAILS
+  At 0.36 the sufficient criterion (C) goes negative while the true top
+  eigenvalue is still -3.5e-01, so rho is concave and only the bound has
+  given out. The conclusion holds there regardless. That bandwidth is
+  past the note's upper bound anyway, where a feature meets the diagonal.
+      random, min sep > 0.75   1500    4.285e-02   -6.509e+00    0.0557   -2.220e-16  OK
+       random, min sep > 1.0   1500    8.380e-02   -1.044e+01    0.0054   -0.000e+00  OK
+       random, min sep > 1.5   1500    8.999e-02   -1.111e+01    0.0000   -2.220e-16  OK
+
+==============================================================================
+Where the hypothesis gives out
+==============================================================================
+  (C) is not free: it must fail somewhere, since three bodies pushed
+  together stop having three peaks at all. Sweeping an isosceles
+  triangle from wide to tight at sigma = 0.30:
+
+      base     delta   slack in (C)      lam_max  three peaks?
+      2.00    0.0000      9.000e-02   -1.111e+01           yes
+      1.50    0.0000      8.998e-02   -1.111e+01           yes
+      1.20    0.0007      8.909e-02   -1.103e+01           yes
+      1.00    0.0071      8.249e-02   -1.044e+01           yes
+      0.90    0.0201      7.122e-02   -9.452e+00           yes
+      0.80    0.0560      4.427e-02   -7.173e+00           yes
+      0.75    0.0987      1.596e-02   -4.916e+00           yes
+      0.70         -              -            -            no
+      0.65         -              -            -            no
+
+  So (C) and the existence of the diagram give out together, which is
+  the right behaviour: where there is a vineyard to speak of, the
+  hypothesis holds.
+
+  verdict inside the note's window and on random triangles: (C) holds and the conclusion holds

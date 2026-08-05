@@ -1,0 +1,9132 @@
+[
+ {
+  "seed": 1,
+  "n": 1,
+  "enclosing": true,
+  "u": 1.7216225626956838,
+  "v": 3.4268189517173955,
+  "gap": 9.377219637229928e-06,
+  "coarse_min_gap": 0.08837174856822116,
+  "coarse_max_gap": 14.36461916356646,
+  "radius": 0.01,
+  "min_gap": 0.0006001520407785677,
+  "reorg": 1.9999996399147772,
+  "dgm_sizes": [
+   3,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 1,
+  "n": 1,
+  "enclosing": true,
+  "u": 1.7216225626956838,
+  "v": 3.4268189517173955,
+  "gap": 9.377219637229928e-06,
+  "coarse_min_gap": 0.08837174856822116,
+  "coarse_max_gap": 14.36461916356646,
+  "radius": 0.04,
+  "min_gap": 0.0019103075501671896,
+  "reorg": 1.9999997217099397,
+  "dgm_sizes": [
+   3,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 1,
+  "n": 1,
+  "enclosing": true,
+  "u": 1.7216225626956838,
+  "v": 3.4268189517173955,
+  "gap": 9.377219637229928e-06,
+  "coarse_min_gap": 0.08837174856822116,
+  "coarse_max_gap": 14.36461916356646,
+  "radius": 0.12,
+  "min_gap": 0.001893137344630702,
+  "reorg": 1.9999998469810645,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 1,
+  "n": 1,
+  "enclosing": true,
+  "u": 1.7216225626956838,
+  "v": 3.4268189517173955,
+  "gap": 9.377219637229928e-06,
+  "coarse_min_gap": 0.08837174856822116,
+  "coarse_max_gap": 14.36461916356646,
+  "radius": 0.3,
+  "min_gap": 0.015783019826137945,
+  "reorg": 1.9999999516085427,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 1,
+  "n": 1,
+  "enclosing": false,
+  "u": 1.7216225626956838,
+  "v": 3.4268189517173955,
+  "gap": 9.377219637229928e-06,
+  "coarse_min_gap": 0.08837174856822116,
+  "coarse_max_gap": 14.36461916356646,
+  "radius": 0.12,
+  "min_gap": 14.833092921095052,
+  "reorg": 0.03255473519316106,
+  "dgm_sizes": [
+   2,
+   2
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1
+   ]
+  }
+ },
+ {
+  "seed": 1,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.4384712818116038,
+  "v": -1.4550485061780734,
+  "gap": 0.0,
+  "coarse_min_gap": 0.06666974040243412,
+  "coarse_max_gap": 10.802565584078657,
+  "radius": 0.01,
+  "min_gap": 5.0519494804834864e-05,
+  "reorg": 1.999951155740561,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 1,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.4384712818116038,
+  "v": -1.4550485061780734,
+  "gap": 0.0,
+  "coarse_min_gap": 0.06666974040243412,
+  "coarse_max_gap": 10.802565584078657,
+  "radius": 0.04,
+  "min_gap": 0.00023621333173529102,
+  "reorg": 1.9999521964715599,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 1,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.4384712818116038,
+  "v": -1.4550485061780734,
+  "gap": 0.0,
+  "coarse_min_gap": 0.06666974040243412,
+  "coarse_max_gap": 10.802565584078657,
+  "radius": 0.12,
+  "min_gap": 0.0004678444630650258,
+  "reorg": 1.9999527282937628,
+  "dgm_sizes": [
+   4,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 1,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.4384712818116038,
+  "v": -1.4550485061780734,
+  "gap": 0.0,
+  "coarse_min_gap": 0.06666974040243412,
+  "coarse_max_gap": 10.802565584078657,
+  "radius": 0.3,
+  "min_gap": 0.0012723100066360793,
+  "reorg": 1.9999349740723702,
+  "dgm_sizes": [
+   4,
+   6
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    3
+   ],
+   "image": [
+    4
+   ],
+   "n_diagonal": 4
+  }
+ },
+ {
+  "seed": 1,
+  "n": 3,
+  "enclosing": false,
+  "u": -0.4384712818116038,
+  "v": -1.4550485061780734,
+  "gap": 0.0,
+  "coarse_min_gap": 0.06666974040243412,
+  "coarse_max_gap": 10.802565584078657,
+  "radius": 0.12,
+  "min_gap": 3.220692892160281,
+  "reorg": 0.5485067644741962,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ]
+   ],
+   "n_survivors": 4,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 1,
+  "n": 5,
+  "enclosing": true,
+  "u": -0.14697208974308873,
+  "v": 1.004079293716861,
+  "gap": 0.0,
+  "coarse_min_gap": 0.08847877636099977,
+  "coarse_max_gap": 8.916920071622847,
+  "radius": 0.01,
+  "min_gap": 0.005039141366403044,
+  "reorg": 1.9850464009713975,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "image": [
+    0,
+    2,
+    4,
+    5,
+    6
+   ],
+   "n_diagonal": 2
+  }
+ },
+ {
+  "seed": 1,
+  "n": 5,
+  "enclosing": true,
+  "u": -0.14697208974308873,
+  "v": 1.004079293716861,
+  "gap": 0.0,
+  "coarse_min_gap": 0.08847877636099977,
+  "coarse_max_gap": 8.916920071622847,
+  "radius": 0.04,
+  "min_gap": 0.01991067654428491,
+  "reorg": 1.9848589898198656,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "image": [
+    1,
+    2,
+    4,
+    5,
+    6
+   ],
+   "n_diagonal": 2
+  }
+ },
+ {
+  "seed": 1,
+  "n": 5,
+  "enclosing": true,
+  "u": -0.14697208974308873,
+  "v": 1.004079293716861,
+  "gap": 0.0,
+  "coarse_min_gap": 0.08847877636099977,
+  "coarse_max_gap": 8.916920071622847,
+  "radius": 0.12,
+  "min_gap": 0.057245288945969364,
+  "reorg": 1.98362986245647,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    1,
+    2,
+    3,
+    5,
+    6
+   ],
+   "image": [
+    0,
+    3,
+    4,
+    5,
+    6
+   ],
+   "n_diagonal": 2
+  }
+ },
+ {
+  "seed": 1,
+  "n": 5,
+  "enclosing": true,
+  "u": -0.14697208974308873,
+  "v": 1.004079293716861,
+  "gap": 0.0,
+  "coarse_min_gap": 0.08847877636099977,
+  "coarse_max_gap": 8.916920071622847,
+  "radius": 0.3,
+  "min_gap": 0.12572912470665276,
+  "reorg": 1.9593205362955581,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ]
+   ],
+   "n_survivors": 5,
+   "n_diagonal": 2,
+   "diagonal": [
+    2,
+    4
+   ],
+   "survivors": [
+    0,
+    1,
+    3,
+    5,
+    6
+   ]
+  }
+ },
+ {
+  "seed": 1,
+  "n": 5,
+  "enclosing": false,
+  "u": -0.14697208974308873,
+  "v": 1.004079293716861,
+  "gap": 0.0,
+  "coarse_min_gap": 0.08847877636099977,
+  "coarse_max_gap": 8.916920071622847,
+  "radius": 0.12,
+  "min_gap": 0.7026602700301403,
+  "reorg": 0.5703958043820899,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "n_survivors": 6,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 2,
+  "enclosing": true,
+  "u": 2.14930242638133,
+  "v": -2.6910429760065497,
+  "gap": 2.8647797662983976e-06,
+  "coarse_min_gap": 0.27424424046845886,
+  "coarse_max_gap": 15.284579470529629,
+  "radius": 0.01,
+  "min_gap": 5.993477326882157e-05,
+  "reorg": 1.9999999410802143,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 2,
+  "enclosing": true,
+  "u": 2.14930242638133,
+  "v": -2.6910429760065497,
+  "gap": 2.8647797662983976e-06,
+  "coarse_min_gap": 0.27424424046845886,
+  "coarse_max_gap": 15.284579470529629,
+  "radius": 0.04,
+  "min_gap": 0.00016753888613507684,
+  "reorg": 1.9999999520364933,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 2,
+  "enclosing": true,
+  "u": 2.14930242638133,
+  "v": -2.6910429760065497,
+  "gap": 2.8647797662983976e-06,
+  "coarse_min_gap": 0.27424424046845886,
+  "coarse_max_gap": 15.284579470529629,
+  "radius": 0.12,
+  "min_gap": 0.000983759735376566,
+  "reorg": 1.9999999677506763,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 2,
+  "enclosing": true,
+  "u": 2.14930242638133,
+  "v": -2.6910429760065497,
+  "gap": 2.8647797662983976e-06,
+  "coarse_min_gap": 0.27424424046845886,
+  "coarse_max_gap": 15.284579470529629,
+  "radius": 0.3,
+  "min_gap": 0.000363861055134862,
+  "reorg": 1.9999999862115865,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 2,
+  "enclosing": false,
+  "u": 2.14930242638133,
+  "v": -2.6910429760065497,
+  "gap": 2.8647797662983976e-06,
+  "coarse_min_gap": 0.27424424046845886,
+  "coarse_max_gap": 15.284579470529629,
+  "radius": 0.12,
+  "min_gap": 2.992526320284469,
+  "reorg": 0.01473848996098996,
+  "dgm_sizes": [
+   3,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 3,
+  "enclosing": true,
+  "u": 1.1000465679599027,
+  "v": -1.57391251907127,
+  "gap": 0.0,
+  "coarse_min_gap": 0.03149841469533321,
+  "coarse_max_gap": 12.60905394178382,
+  "radius": 0.01,
+  "min_gap": 0.00014840820470940486,
+  "reorg": 1.999991855158942,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 3,
+  "enclosing": true,
+  "u": 1.1000465679599027,
+  "v": -1.57391251907127,
+  "gap": 0.0,
+  "coarse_min_gap": 0.03149841469533321,
+  "coarse_max_gap": 12.60905394178382,
+  "radius": 0.04,
+  "min_gap": 0.00032961157668331964,
+  "reorg": 1.99999265557228,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 3,
+  "enclosing": true,
+  "u": 1.1000465679599027,
+  "v": -1.57391251907127,
+  "gap": 0.0,
+  "coarse_min_gap": 0.03149841469533321,
+  "coarse_max_gap": 12.60905394178382,
+  "radius": 0.12,
+  "min_gap": 0.0036665652365925894,
+  "reorg": 1.9999944526072801,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 3,
+  "enclosing": true,
+  "u": 1.1000465679599027,
+  "v": -1.57391251907127,
+  "gap": 0.0,
+  "coarse_min_gap": 0.03149841469533321,
+  "coarse_max_gap": 12.60905394178382,
+  "radius": 0.3,
+  "min_gap": 0.0032217774209710726,
+  "reorg": 1.999996771299345,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 3,
+  "enclosing": false,
+  "u": 1.1000465679599027,
+  "v": -1.57391251907127,
+  "gap": 0.0,
+  "coarse_min_gap": 0.03149841469533321,
+  "coarse_max_gap": 12.60905394178382,
+  "radius": 0.12,
+  "min_gap": 1.7832626449699243,
+  "reorg": 0.028458287458262364,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ]
+   ],
+   "n_survivors": 4,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 4,
+  "enclosing": true,
+  "u": 1.8161345635915662,
+  "v": 3.9941371340558103,
+  "gap": 8.262964978911214e-06,
+  "coarse_min_gap": 0.0054726735531041015,
+  "coarse_max_gap": 10.113185888060183,
+  "radius": 0.01,
+  "min_gap": 0.00013287829154862152,
+  "reorg": 1.9999999085331273,
+  "dgm_sizes": [
+   5,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 5,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "survivors": [
+    5
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 4,
+  "enclosing": true,
+  "u": 1.8161345635915662,
+  "v": 3.9941371340558103,
+  "gap": 8.262964978911214e-06,
+  "coarse_min_gap": 0.0054726735531041015,
+  "coarse_max_gap": 10.113185888060183,
+  "radius": 0.04,
+  "min_gap": 0.00041216621282202937,
+  "reorg": 1.9999999181496606,
+  "dgm_sizes": [
+   5,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 5,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "survivors": [
+    5
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 4,
+  "enclosing": true,
+  "u": 1.8161345635915662,
+  "v": 3.9941371340558103,
+  "gap": 8.262964978911214e-06,
+  "coarse_min_gap": 0.0054726735531041015,
+  "coarse_max_gap": 10.113185888060183,
+  "radius": 0.12,
+  "min_gap": 0.0002824255892868166,
+  "reorg": 1.9999999020352293,
+  "dgm_sizes": [
+   6,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 5,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "survivors": [
+    5
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 4,
+  "enclosing": true,
+  "u": 1.8161345635915662,
+  "v": 3.9941371340558103,
+  "gap": 8.262964978911214e-06,
+  "coarse_min_gap": 0.0054726735531041015,
+  "coarse_max_gap": 10.113185888060183,
+  "radius": 0.3,
+  "min_gap": 0.004737249523516951,
+  "reorg": 1.999998207605094,
+  "dgm_sizes": [
+   6,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 5,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "survivors": [
+    5
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 4,
+  "enclosing": false,
+  "u": 1.8161345635915662,
+  "v": 3.9941371340558103,
+  "gap": 8.262964978911214e-06,
+  "coarse_min_gap": 0.0054726735531041015,
+  "coarse_max_gap": 10.113185888060183,
+  "radius": 0.12,
+  "min_gap": 3.7935492762496885,
+  "reorg": 0.051703352991604126,
+  "dgm_sizes": [
+   5,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    2,
+    1,
+    3,
+    4
+   ],
+   "order": 2,
+   "cycles": [
+    [
+     1,
+     2
+    ],
+    [
+     0
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ]
+   ],
+   "n_survivors": 5,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.577899740672711,
+  "v": 8.17719564655848,
+  "gap": 2.0236998068412504e-06,
+  "coarse_min_gap": 0.07864610141328487,
+  "coarse_max_gap": 11.547213324520758,
+  "radius": 0.01,
+  "min_gap": 0.0005083575746098745,
+  "reorg": 1.9999999926897203,
+  "dgm_sizes": [
+   7,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.577899740672711,
+  "v": 8.17719564655848,
+  "gap": 2.0236998068412504e-06,
+  "coarse_min_gap": 0.07864610141328487,
+  "coarse_max_gap": 11.547213324520758,
+  "radius": 0.04,
+  "min_gap": 0.0020155941090180818,
+  "reorg": 1.9999999931059307,
+  "dgm_sizes": [
+   7,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.577899740672711,
+  "v": 8.17719564655848,
+  "gap": 2.0236998068412504e-06,
+  "coarse_min_gap": 0.07864610141328487,
+  "coarse_max_gap": 11.547213324520758,
+  "radius": 0.12,
+  "min_gap": 0.005905580401986299,
+  "reorg": 1.999999993891034,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    2,
+    0,
+    1
+   ],
+   "order": 3,
+   "cycles": [
+    [
+     0,
+     2,
+     1
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.577899740672711,
+  "v": 8.17719564655848,
+  "gap": 2.0236998068412504e-06,
+  "coarse_min_gap": 0.07864610141328487,
+  "coarse_max_gap": 11.547213324520758,
+  "radius": 0.3,
+  "min_gap": 0.013994833573647725,
+  "reorg": 1.999999995309,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    1,
+    0,
+    2
+   ],
+   "order": 2,
+   "cycles": [
+    [
+     0,
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 2,
+  "n": 5,
+  "enclosing": false,
+  "u": -1.577899740672711,
+  "v": 8.17719564655848,
+  "gap": 2.0236998068412504e-06,
+  "coarse_min_gap": 0.07864610141328487,
+  "coarse_max_gap": 11.547213324520758,
+  "radius": 0.12,
+  "min_gap": 12.214616173665057,
+  "reorg": 1.9999999976027047,
+  "dgm_sizes": [
+   6,
+   6
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    2,
+    4,
+    5
+   ],
+   "image": [
+    1,
+    4,
+    5
+   ],
+   "n_diagonal": 3
+  }
+ },
+ {
+  "seed": 3,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.257053048917834,
+  "v": -0.8272793388626409,
+  "gap": 0.0,
+  "coarse_min_gap": 0.015070211252936616,
+  "coarse_max_gap": 14.873413561932637,
+  "radius": 0.01,
+  "min_gap": 0.000313004465407829,
+  "reorg": 1.9995588195759555,
+  "dgm_sizes": [
+   2,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.257053048917834,
+  "v": -0.8272793388626409,
+  "gap": 0.0,
+  "coarse_min_gap": 0.015070211252936616,
+  "coarse_max_gap": 14.873413561932637,
+  "radius": 0.04,
+  "min_gap": 0.0005106034479096522,
+  "reorg": 1.9993581158211011,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.257053048917834,
+  "v": -0.8272793388626409,
+  "gap": 0.0,
+  "coarse_min_gap": 0.015070211252936616,
+  "coarse_max_gap": 14.873413561932637,
+  "radius": 0.12,
+  "min_gap": 0.002532973532678451,
+  "reorg": 1.998639773674947,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.257053048917834,
+  "v": -0.8272793388626409,
+  "gap": 0.0,
+  "coarse_min_gap": 0.015070211252936616,
+  "coarse_max_gap": 14.873413561932637,
+  "radius": 0.3,
+  "min_gap": 0.007418144421777129,
+  "reorg": 1.99929307153476,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 1,
+  "enclosing": false,
+  "u": 0.257053048917834,
+  "v": -0.8272793388626409,
+  "gap": 0.0,
+  "coarse_min_gap": 0.015070211252936616,
+  "coarse_max_gap": 14.873413561932637,
+  "radius": 0.12,
+  "min_gap": 0.426717757849457,
+  "reorg": 1.113792190362702,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 2,
+  "enclosing": true,
+  "u": -6.175999601041799,
+  "v": -0.21559758789826877,
+  "gap": 1.0653219426615124e-06,
+  "coarse_min_gap": 0.08650485402653452,
+  "coarse_max_gap": 13.800974570738823,
+  "radius": 0.01,
+  "min_gap": 1.2801738648704486e-05,
+  "reorg": 1.9999999612852815,
+  "dgm_sizes": [
+   5,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 2,
+  "enclosing": true,
+  "u": -6.175999601041799,
+  "v": -0.21559758789826877,
+  "gap": 1.0653219426615124e-06,
+  "coarse_min_gap": 0.08650485402653452,
+  "coarse_max_gap": 13.800974570738823,
+  "radius": 0.04,
+  "min_gap": 0.00010492492160096845,
+  "reorg": 1.9999999731102718,
+  "dgm_sizes": [
+   5,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 2,
+  "enclosing": true,
+  "u": -6.175999601041799,
+  "v": -0.21559758789826877,
+  "gap": 1.0653219426615124e-06,
+  "coarse_min_gap": 0.08650485402653452,
+  "coarse_max_gap": 13.800974570738823,
+  "radius": 0.12,
+  "min_gap": 0.000939895750697417,
+  "reorg": 1.999999979338188,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 2,
+  "enclosing": true,
+  "u": -6.175999601041799,
+  "v": -0.21559758789826877,
+  "gap": 1.0653219426615124e-06,
+  "coarse_min_gap": 0.08650485402653452,
+  "coarse_max_gap": 13.800974570738823,
+  "radius": 0.3,
+  "min_gap": 0.0007906894354903216,
+  "reorg": 1.9999999780259499,
+  "dgm_sizes": [
+   3,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 2,
+  "enclosing": false,
+  "u": -6.175999601041799,
+  "v": -0.21559758789826877,
+  "gap": 1.0653219426615124e-06,
+  "coarse_min_gap": 0.08650485402653452,
+  "coarse_max_gap": 13.800974570738823,
+  "radius": 0.12,
+  "min_gap": 0.024555302783475952,
+  "reorg": 1.9983231399420178,
+  "dgm_sizes": [
+   3,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 3,
+  "enclosing": true,
+  "u": 0.0484380366085507,
+  "v": -0.3306129874077635,
+  "gap": 0.0,
+  "coarse_min_gap": 0.03074989364792069,
+  "coarse_max_gap": 12.781582267762218,
+  "radius": 0.01,
+  "min_gap": 0.00044090880638253394,
+  "reorg": 1.9994185706416714,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 3,
+  "enclosing": true,
+  "u": 0.0484380366085507,
+  "v": -0.3306129874077635,
+  "gap": 0.0,
+  "coarse_min_gap": 0.03074989364792069,
+  "coarse_max_gap": 12.781582267762218,
+  "radius": 0.04,
+  "min_gap": 0.0013297652177549427,
+  "reorg": 1.9994253491297325,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 3,
+  "enclosing": true,
+  "u": 0.0484380366085507,
+  "v": -0.3306129874077635,
+  "gap": 0.0,
+  "coarse_min_gap": 0.03074989364792069,
+  "coarse_max_gap": 12.781582267762218,
+  "radius": 0.12,
+  "min_gap": 0.0059897326176269194,
+  "reorg": 1.9993369257377422,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 3,
+  "enclosing": true,
+  "u": 0.0484380366085507,
+  "v": -0.3306129874077635,
+  "gap": 0.0,
+  "coarse_min_gap": 0.03074989364792069,
+  "coarse_max_gap": 12.781582267762218,
+  "radius": 0.3,
+  "min_gap": 0.019524349797795937,
+  "reorg": 1.9956220866751422,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [],
+   "order": 1,
+   "cycles": [],
+   "n_survivors": 0,
+   "n_diagonal": 5,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "note": "all vines touch the diagonal"
+  }
+ },
+ {
+  "seed": 3,
+  "n": 3,
+  "enclosing": false,
+  "u": 0.0484380366085507,
+  "v": -0.3306129874077635,
+  "gap": 0.0,
+  "coarse_min_gap": 0.03074989364792069,
+  "coarse_max_gap": 12.781582267762218,
+  "radius": 0.12,
+  "min_gap": 2.5369115094416843,
+  "reorg": 1.9978721779980118,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    1,
+    3
+   ],
+   "image": [
+    0,
+    3
+   ],
+   "n_diagonal": 2
+  }
+ },
+ {
+  "seed": 3,
+  "n": 4,
+  "enclosing": true,
+  "u": -8.807876177875691,
+  "v": -0.5440052557523543,
+  "gap": 4.294726387854553e-07,
+  "coarse_min_gap": 0.02357563670847629,
+  "coarse_max_gap": 11.883398787654839,
+  "radius": 0.01,
+  "min_gap": 0.00011929121887988003,
+  "reorg": 1.9999999551287746,
+  "dgm_sizes": [
+   7,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 4,
+  "enclosing": true,
+  "u": -8.807876177875691,
+  "v": -0.5440052557523543,
+  "gap": 4.294726387854553e-07,
+  "coarse_min_gap": 0.02357563670847629,
+  "coarse_max_gap": 11.883398787654839,
+  "radius": 0.04,
+  "min_gap": 0.0003045859623114211,
+  "reorg": 1.9999999654258338,
+  "dgm_sizes": [
+   7,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 4,
+  "enclosing": true,
+  "u": -8.807876177875691,
+  "v": -0.5440052557523543,
+  "gap": 4.294726387854553e-07,
+  "coarse_min_gap": 0.02357563670847629,
+  "coarse_max_gap": 11.883398787654839,
+  "radius": 0.12,
+  "min_gap": 0.00043545868683736444,
+  "reorg": 1.9999999785629095,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 4,
+  "enclosing": true,
+  "u": -8.807876177875691,
+  "v": -0.5440052557523543,
+  "gap": 4.294726387854553e-07,
+  "coarse_min_gap": 0.02357563670847629,
+  "coarse_max_gap": 11.883398787654839,
+  "radius": 0.3,
+  "min_gap": 0.0056938175761871435,
+  "reorg": 1.9999999873335332,
+  "dgm_sizes": [
+   5,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 6,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "survivors": [
+    6
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 4,
+  "enclosing": false,
+  "u": -8.807876177875691,
+  "v": -0.5440052557523543,
+  "gap": 4.294726387854553e-07,
+  "coarse_min_gap": 0.02357563670847629,
+  "coarse_max_gap": 11.883398787654839,
+  "radius": 0.12,
+  "min_gap": 0.007124229620856681,
+  "reorg": 1.9998517000022695,
+  "dgm_sizes": [
+   7,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 6,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "survivors": [
+    6
+   ]
+  }
+ },
+ {
+  "seed": 3,
+  "n": 5,
+  "enclosing": true,
+  "u": 0.34906099055513307,
+  "v": 0.5253274442103613,
+  "gap": 0.0,
+  "coarse_min_gap": 0.057303173845145494,
+  "coarse_max_gap": 11.37568307135027,
+  "radius": 0.01,
+  "min_gap": 0.010359323067110182,
+  "reorg": 1.9453670274299242,
+  "dgm_sizes": [
+   6,
+   8
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    1,
+    3,
+    4,
+    5,
+    7
+   ],
+   "image": [
+    0,
+    1,
+    3,
+    4,
+    7
+   ],
+   "n_diagonal": 3
+  }
+ },
+ {
+  "seed": 3,
+  "n": 5,
+  "enclosing": true,
+  "u": 0.34906099055513307,
+  "v": 0.5253274442103613,
+  "gap": 0.0,
+  "coarse_min_gap": 0.057303173845145494,
+  "coarse_max_gap": 11.37568307135027,
+  "radius": 0.04,
+  "min_gap": 0.036979759980084737,
+  "reorg": 1.970607589375082,
+  "dgm_sizes": [
+   6,
+   8
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    0,
+    3,
+    4,
+    5,
+    7
+   ],
+   "image": [
+    1,
+    2,
+    3,
+    4,
+    7
+   ],
+   "n_diagonal": 3
+  }
+ },
+ {
+  "seed": 3,
+  "n": 5,
+  "enclosing": true,
+  "u": 0.34906099055513307,
+  "v": 0.5253274442103613,
+  "gap": 0.0,
+  "coarse_min_gap": 0.057303173845145494,
+  "coarse_max_gap": 11.37568307135027,
+  "radius": 0.12,
+  "min_gap": 0.060340136401382694,
+  "reorg": 1.9910404453581687,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "image": [
+    0,
+    2,
+    3,
+    4,
+    5
+   ],
+   "n_diagonal": 1
+  }
+ },
+ {
+  "seed": 3,
+  "n": 5,
+  "enclosing": true,
+  "u": 0.34906099055513307,
+  "v": 0.5253274442103613,
+  "gap": 0.0,
+  "coarse_min_gap": 0.057303173845145494,
+  "coarse_max_gap": 11.37568307135027,
+  "radius": 0.3,
+  "min_gap": 0.03802693946474278,
+  "reorg": 1.9982008495861987,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    5
+   ],
+   "image": [
+    3
+   ],
+   "n_diagonal": 5
+  }
+ },
+ {
+  "seed": 3,
+  "n": 5,
+  "enclosing": false,
+  "u": 0.34906099055513307,
+  "v": 0.5253274442103613,
+  "gap": 0.0,
+  "coarse_min_gap": 0.057303173845145494,
+  "coarse_max_gap": 11.37568307135027,
+  "radius": 0.12,
+  "min_gap": 1.7017273277413878,
+  "reorg": 0.1795561682978699,
+  "dgm_sizes": [
+   6,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "n_survivors": 6,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.2601072304287065,
+  "v": 0.426700720979644,
+  "gap": 0.0,
+  "coarse_min_gap": 0.0459972967338409,
+  "coarse_max_gap": 16.107952450803527,
+  "radius": 0.01,
+  "min_gap": 0.003160267918213222,
+  "reorg": 1.993422862976827,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.2601072304287065,
+  "v": 0.426700720979644,
+  "gap": 0.0,
+  "coarse_min_gap": 0.0459972967338409,
+  "coarse_max_gap": 16.107952450803527,
+  "radius": 0.04,
+  "min_gap": 0.004683663528386006,
+  "reorg": 1.9990252267208268,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.2601072304287065,
+  "v": 0.426700720979644,
+  "gap": 0.0,
+  "coarse_min_gap": 0.0459972967338409,
+  "coarse_max_gap": 16.107952450803527,
+  "radius": 0.12,
+  "min_gap": 0.0063163895427629235,
+  "reorg": 1.9998168566837273,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.2601072304287065,
+  "v": 0.426700720979644,
+  "gap": 0.0,
+  "coarse_min_gap": 0.0459972967338409,
+  "coarse_max_gap": 16.107952450803527,
+  "radius": 0.3,
+  "min_gap": 0.011652077767102753,
+  "reorg": 1.9999219942523696,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 1,
+  "enclosing": false,
+  "u": 0.2601072304287065,
+  "v": 0.426700720979644,
+  "gap": 0.0,
+  "coarse_min_gap": 0.0459972967338409,
+  "coarse_max_gap": 16.107952450803527,
+  "radius": 0.12,
+  "min_gap": 0.23289340630813982,
+  "reorg": 1.4868815021842143,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1,
+    2
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 2,
+  "enclosing": true,
+  "u": 2.1291178048833395,
+  "v": -2.8342959618639156,
+  "gap": 7.377424932286658e-06,
+  "coarse_min_gap": 0.006682004649942286,
+  "coarse_max_gap": 11.059910804244263,
+  "radius": 0.01,
+  "min_gap": 0.00033285031037522117,
+  "reorg": 1.999999896790121,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 2,
+  "enclosing": true,
+  "u": 2.1291178048833395,
+  "v": -2.8342959618639156,
+  "gap": 7.377424932286658e-06,
+  "coarse_min_gap": 0.006682004649942286,
+  "coarse_max_gap": 11.059910804244263,
+  "radius": 0.04,
+  "min_gap": 0.0010628084574868524,
+  "reorg": 1.999999910734449,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 2,
+  "enclosing": true,
+  "u": 2.1291178048833395,
+  "v": -2.8342959618639156,
+  "gap": 7.377424932286658e-06,
+  "coarse_min_gap": 0.006682004649942286,
+  "coarse_max_gap": 11.059910804244263,
+  "radius": 0.12,
+  "min_gap": 0.0010229621545292389,
+  "reorg": 1.9999999310299812,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 2,
+  "enclosing": true,
+  "u": 2.1291178048833395,
+  "v": -2.8342959618639156,
+  "gap": 7.377424932286658e-06,
+  "coarse_min_gap": 0.006682004649942286,
+  "coarse_max_gap": 11.059910804244263,
+  "radius": 0.3,
+  "min_gap": 0.009798823298307724,
+  "reorg": 1.9999999598456812,
+  "dgm_sizes": [
+   3,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 2,
+  "enclosing": false,
+  "u": 2.1291178048833395,
+  "v": -2.8342959618639156,
+  "gap": 7.377424932286658e-06,
+  "coarse_min_gap": 0.006682004649942286,
+  "coarse_max_gap": 11.059910804244263,
+  "radius": 0.12,
+  "min_gap": 6.691096789458484,
+  "reorg": 0.036005563102492116,
+  "dgm_sizes": [
+   3,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.22635615967251319,
+  "v": 0.7011189166729824,
+  "gap": 3.3306690738754696e-13,
+  "coarse_min_gap": 0.021177130779871156,
+  "coarse_max_gap": 9.135450697429254,
+  "radius": 0.01,
+  "min_gap": 0.009706865891527361,
+  "reorg": 1.917165508300483,
+  "dgm_sizes": [
+   4,
+   6
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "image": [
+    0,
+    1,
+    2,
+    4
+   ],
+   "n_diagonal": 1
+  }
+ },
+ {
+  "seed": 4,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.22635615967251319,
+  "v": 0.7011189166729824,
+  "gap": 3.3306690738754696e-13,
+  "coarse_min_gap": 0.021177130779871156,
+  "coarse_max_gap": 9.135450697429254,
+  "radius": 0.04,
+  "min_gap": 0.026317689389130372,
+  "reorg": 1.9601205831272448,
+  "dgm_sizes": [
+   4,
+   6
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    0,
+    2,
+    3,
+    4
+   ],
+   "image": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "n_diagonal": 1
+  }
+ },
+ {
+  "seed": 4,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.22635615967251319,
+  "v": 0.7011189166729824,
+  "gap": 3.3306690738754696e-13,
+  "coarse_min_gap": 0.021177130779871156,
+  "coarse_max_gap": 9.135450697429254,
+  "radius": 0.12,
+  "min_gap": 0.04929404461065934,
+  "reorg": 1.982747802253463,
+  "dgm_sizes": [
+   4,
+   6
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    0,
+    3,
+    4
+   ],
+   "image": [
+    2,
+    3,
+    4
+   ],
+   "n_diagonal": 2
+  }
+ },
+ {
+  "seed": 4,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.22635615967251319,
+  "v": 0.7011189166729824,
+  "gap": 3.3306690738754696e-13,
+  "coarse_min_gap": 0.021177130779871156,
+  "coarse_max_gap": 9.135450697429254,
+  "radius": 0.3,
+  "min_gap": 0.10213460958106246,
+  "reorg": 1.990039230277024,
+  "dgm_sizes": [
+   4,
+   6
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    0,
+    1,
+    3
+   ],
+   "image": [
+    0,
+    1,
+    2
+   ],
+   "n_diagonal": 1
+  }
+ },
+ {
+  "seed": 4,
+  "n": 3,
+  "enclosing": false,
+  "u": -0.22635615967251319,
+  "v": 0.7011189166729824,
+  "gap": 3.3306690738754696e-13,
+  "coarse_min_gap": 0.021177130779871156,
+  "coarse_max_gap": 9.135450697429254,
+  "radius": 0.12,
+  "min_gap": 0.46416946902588685,
+  "reorg": 0.3582302160334617,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ]
+   ],
+   "n_survivors": 4,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 5,
+  "enclosing": true,
+  "u": -0.6766555013153048,
+  "v": -2.688804101371216,
+  "gap": 0.0,
+  "coarse_min_gap": 0.054434697350413064,
+  "coarse_max_gap": 7.668856712556877,
+  "radius": 0.01,
+  "min_gap": 0.0005746505075130415,
+  "reorg": 1.9982394859325672,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    2,
+    1
+   ],
+   "order": 2,
+   "cycles": [
+    [
+     1,
+     2
+    ],
+    [
+     0
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 5,
+  "enclosing": true,
+  "u": -0.6766555013153048,
+  "v": -2.688804101371216,
+  "gap": 0.0,
+  "coarse_min_gap": 0.054434697350413064,
+  "coarse_max_gap": 7.668856712556877,
+  "radius": 0.04,
+  "min_gap": 0.0016145252450598946,
+  "reorg": 1.9984304064202263,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    2,
+    1
+   ],
+   "order": 2,
+   "cycles": [
+    [
+     1,
+     2
+    ],
+    [
+     0
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 5,
+  "enclosing": true,
+  "u": -0.6766555013153048,
+  "v": -2.688804101371216,
+  "gap": 0.0,
+  "coarse_min_gap": 0.054434697350413064,
+  "coarse_max_gap": 7.668856712556877,
+  "radius": 0.12,
+  "min_gap": 0.0007651771804262353,
+  "reorg": 1.9988261563681864,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 5,
+  "enclosing": true,
+  "u": -0.6766555013153048,
+  "v": -2.688804101371216,
+  "gap": 0.0,
+  "coarse_min_gap": 0.054434697350413064,
+  "coarse_max_gap": 7.668856712556877,
+  "radius": 0.3,
+  "min_gap": 0.017731194053862254,
+  "reorg": 1.9993603389358998,
+  "dgm_sizes": [
+   6,
+   8
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 4,
+  "n": 5,
+  "enclosing": false,
+  "u": -0.6766555013153048,
+  "v": -2.688804101371216,
+  "gap": 0.0,
+  "coarse_min_gap": 0.054434697350413064,
+  "coarse_max_gap": 7.668856712556877,
+  "radius": 0.12,
+  "min_gap": 2.576914717509842,
+  "reorg": 1.9990973446593199,
+  "dgm_sizes": [
+   6,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.5755054821948613,
+  "v": -3.4502254940019235,
+  "gap": 2.550470725282139e-06,
+  "coarse_min_gap": 0.07304627240534955,
+  "coarse_max_gap": 13.630351693145501,
+  "radius": 0.01,
+  "min_gap": 0.000477651832934356,
+  "reorg": 1.9999999744400818,
+  "dgm_sizes": [
+   3,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.5755054821948613,
+  "v": -3.4502254940019235,
+  "gap": 2.550470725282139e-06,
+  "coarse_min_gap": 0.07304627240534955,
+  "coarse_max_gap": 13.630351693145501,
+  "radius": 0.04,
+  "min_gap": 0.0018480076484941321,
+  "reorg": 1.9999999761734444,
+  "dgm_sizes": [
+   3,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.5755054821948613,
+  "v": -3.4502254940019235,
+  "gap": 2.550470725282139e-06,
+  "coarse_min_gap": 0.07304627240534955,
+  "coarse_max_gap": 13.630351693145501,
+  "radius": 0.12,
+  "min_gap": 0.005049440807233907,
+  "reorg": 1.999999979328115,
+  "dgm_sizes": [
+   3,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.5755054821948613,
+  "v": -3.4502254940019235,
+  "gap": 2.550470725282139e-06,
+  "coarse_min_gap": 0.07304627240534955,
+  "coarse_max_gap": 13.630351693145501,
+  "radius": 0.3,
+  "min_gap": 0.009955737613623228,
+  "reorg": 1.9999999856675983,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 1,
+  "enclosing": false,
+  "u": 0.5755054821948613,
+  "v": -3.4502254940019235,
+  "gap": 2.550470725282139e-06,
+  "coarse_min_gap": 0.07304627240534955,
+  "coarse_max_gap": 13.630351693145501,
+  "radius": 0.12,
+  "min_gap": 7.54904908076465,
+  "reorg": 0.040902473023316004,
+  "dgm_sizes": [
+   2,
+   2
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 2,
+  "enclosing": true,
+  "u": -0.6103170104841922,
+  "v": -4.016015958665257,
+  "gap": 9.68621937147418e-06,
+  "coarse_min_gap": 0.020544604199114858,
+  "coarse_max_gap": 13.135576302523592,
+  "radius": 0.01,
+  "min_gap": 0.000576274262584775,
+  "reorg": 1.9999998980105747,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 2,
+  "enclosing": true,
+  "u": -0.6103170104841922,
+  "v": -4.016015958665257,
+  "gap": 9.68621937147418e-06,
+  "coarse_min_gap": 0.020544604199114858,
+  "coarse_max_gap": 13.135576302523592,
+  "radius": 0.04,
+  "min_gap": 0.0021352552511757494,
+  "reorg": 1.9999999081189803,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 2,
+  "enclosing": true,
+  "u": -0.6103170104841922,
+  "v": -4.016015958665257,
+  "gap": 9.68621937147418e-06,
+  "coarse_min_gap": 0.020544604199114858,
+  "coarse_max_gap": 13.135576302523592,
+  "radius": 0.12,
+  "min_gap": 0.005055686491921563,
+  "reorg": 1.9999999200682437,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 2,
+  "enclosing": true,
+  "u": -0.6103170104841922,
+  "v": -4.016015958665257,
+  "gap": 9.68621937147418e-06,
+  "coarse_min_gap": 0.020544604199114858,
+  "coarse_max_gap": 13.135576302523592,
+  "radius": 0.3,
+  "min_gap": 0.005276337787826435,
+  "reorg": 1.9999999453174275,
+  "dgm_sizes": [
+   3,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1,
+    2
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 2,
+  "enclosing": false,
+  "u": -0.6103170104841922,
+  "v": -4.016015958665257,
+  "gap": 9.68621937147418e-06,
+  "coarse_min_gap": 0.020544604199114858,
+  "coarse_max_gap": 13.135576302523592,
+  "radius": 0.12,
+  "min_gap": 8.29260331796991,
+  "reorg": 0.03844872596248151,
+  "dgm_sizes": [
+   3,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 3,
+  "enclosing": true,
+  "u": 0.21384197473979244,
+  "v": -0.8309781128359537,
+  "gap": 3.576791640647059e-13,
+  "coarse_min_gap": 0.02791264372640523,
+  "coarse_max_gap": 9.978220531888901,
+  "radius": 0.01,
+  "min_gap": 0.0007026044937311696,
+  "reorg": 1.9956153559337462,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 3,
+  "enclosing": true,
+  "u": 0.21384197473979244,
+  "v": -0.8309781128359537,
+  "gap": 3.576791640647059e-13,
+  "coarse_min_gap": 0.02791264372640523,
+  "coarse_max_gap": 9.978220531888901,
+  "radius": 0.04,
+  "min_gap": 0.0013161386493541613,
+  "reorg": 1.9952074711080137,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 3,
+  "enclosing": true,
+  "u": 0.21384197473979244,
+  "v": -0.8309781128359537,
+  "gap": 3.576791640647059e-13,
+  "coarse_min_gap": 0.02791264372640523,
+  "coarse_max_gap": 9.978220531888901,
+  "radius": 0.12,
+  "min_gap": 0.008217737724552802,
+  "reorg": 1.9940222841682673,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 3,
+  "enclosing": true,
+  "u": 0.21384197473979244,
+  "v": -0.8309781128359537,
+  "gap": 3.576791640647059e-13,
+  "coarse_min_gap": 0.02791264372640523,
+  "coarse_max_gap": 9.978220531888901,
+  "radius": 0.3,
+  "min_gap": 0.011030648848623759,
+  "reorg": 1.9931951994486596,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 3,
+  "enclosing": false,
+  "u": 0.21384197473979244,
+  "v": -0.8309781128359537,
+  "gap": 3.576791640647059e-13,
+  "coarse_min_gap": 0.02791264372640523,
+  "coarse_max_gap": 9.978220531888901,
+  "radius": 0.12,
+  "min_gap": 0.036705587983741905,
+  "reorg": 1.9401654976373224,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    2,
+    0,
+    1,
+    3
+   ],
+   "order": 3,
+   "cycles": [
+    [
+     0,
+     2,
+     1
+    ],
+    [
+     3
+    ]
+   ],
+   "n_survivors": 4,
+   "n_diagonal": 1,
+   "diagonal": [
+    1
+   ],
+   "survivors": [
+    0,
+    2,
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 5,
+  "enclosing": true,
+  "u": 0.0019635959662865597,
+  "v": 2.2375988433858556,
+  "gap": 0.0,
+  "coarse_min_gap": 0.0765413573445386,
+  "coarse_max_gap": 8.28322592422518,
+  "radius": 0.01,
+  "min_gap": 0.00037052547608595887,
+  "reorg": 1.9996282278789124,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 5,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "survivors": [
+    5
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 5,
+  "enclosing": true,
+  "u": 0.0019635959662865597,
+  "v": 2.2375988433858556,
+  "gap": 0.0,
+  "coarse_min_gap": 0.0765413573445386,
+  "coarse_max_gap": 8.28322592422518,
+  "radius": 0.04,
+  "min_gap": 0.001380416745455193,
+  "reorg": 1.9996368929569948,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 5,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "survivors": [
+    5
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 5,
+  "enclosing": true,
+  "u": 0.0019635959662865597,
+  "v": 2.2375988433858556,
+  "gap": 0.0,
+  "coarse_min_gap": 0.0765413573445386,
+  "coarse_max_gap": 8.28322592422518,
+  "radius": 0.12,
+  "min_gap": 0.0037622074492547064,
+  "reorg": 1.9996320573191972,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 5,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "survivors": [
+    5
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 5,
+  "enclosing": true,
+  "u": 0.0019635959662865597,
+  "v": 2.2375988433858556,
+  "gap": 0.0,
+  "coarse_min_gap": 0.0765413573445386,
+  "coarse_max_gap": 8.28322592422518,
+  "radius": 0.3,
+  "min_gap": 0.008844945189316888,
+  "reorg": 1.9998515581077143,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 5,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "survivors": [
+    5
+   ]
+  }
+ },
+ {
+  "seed": 5,
+  "n": 5,
+  "enclosing": false,
+  "u": 0.0019635959662865597,
+  "v": 2.2375988433858556,
+  "gap": 0.0,
+  "coarse_min_gap": 0.0765413573445386,
+  "coarse_max_gap": 8.28322592422518,
+  "radius": 0.12,
+  "min_gap": 1.4501919235511251,
+  "reorg": 0.15529165469581896,
+  "dgm_sizes": [
+   6,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "n_survivors": 6,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 1,
+  "enclosing": true,
+  "u": -1.7326472715989176,
+  "v": -2.673630249745572,
+  "gap": 5.440151930713455e-06,
+  "coarse_min_gap": 0.13084208761950933,
+  "coarse_max_gap": 15.562565472635178,
+  "radius": 0.01,
+  "min_gap": 0.0004988149681217635,
+  "reorg": 1.9999999192336135,
+  "dgm_sizes": [
+   3,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 1,
+  "enclosing": true,
+  "u": -1.7326472715989176,
+  "v": -2.673630249745572,
+  "gap": 5.440151930713455e-06,
+  "coarse_min_gap": 0.13084208761950933,
+  "coarse_max_gap": 15.562565472635178,
+  "radius": 0.04,
+  "min_gap": 0.000794519982314057,
+  "reorg": 1.999999929484906,
+  "dgm_sizes": [
+   3,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 1,
+  "enclosing": true,
+  "u": -1.7326472715989176,
+  "v": -2.673630249745572,
+  "gap": 5.440151930713455e-06,
+  "coarse_min_gap": 0.13084208761950933,
+  "coarse_max_gap": 15.562565472635178,
+  "radius": 0.12,
+  "min_gap": 0.0012057041039099659,
+  "reorg": 1.99999994924107,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 1,
+  "enclosing": true,
+  "u": -1.7326472715989176,
+  "v": -2.673630249745572,
+  "gap": 5.440151930713455e-06,
+  "coarse_min_gap": 0.13084208761950933,
+  "coarse_max_gap": 15.562565472635178,
+  "radius": 0.3,
+  "min_gap": 0.002924355745676621,
+  "reorg": 1.999999975747548,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 1,
+  "enclosing": false,
+  "u": -1.7326472715989176,
+  "v": -2.673630249745572,
+  "gap": 5.440151930713455e-06,
+  "coarse_min_gap": 0.13084208761950933,
+  "coarse_max_gap": 15.562565472635178,
+  "radius": 0.12,
+  "min_gap": 9.4745059725616,
+  "reorg": 0.13754875084703438,
+  "dgm_sizes": [
+   2,
+   2
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.7344199879779605,
+  "v": -2.34158887779295,
+  "gap": 1.5687808350151045e-06,
+  "coarse_min_gap": 0.02152791811295529,
+  "coarse_max_gap": 12.385010678262876,
+  "radius": 0.01,
+  "min_gap": 0.0006691877213356179,
+  "reorg": 1.9999995973624143,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.7344199879779605,
+  "v": -2.34158887779295,
+  "gap": 1.5687808350151045e-06,
+  "coarse_min_gap": 0.02152791811295529,
+  "coarse_max_gap": 12.385010678262876,
+  "radius": 0.04,
+  "min_gap": 0.0017566426342998653,
+  "reorg": 1.9999996406794651,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.7344199879779605,
+  "v": -2.34158887779295,
+  "gap": 1.5687808350151045e-06,
+  "coarse_min_gap": 0.02152791811295529,
+  "coarse_max_gap": 12.385010678262876,
+  "radius": 0.12,
+  "min_gap": 0.0027903336280896696,
+  "reorg": 1.9999997306653674,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.7344199879779605,
+  "v": -2.34158887779295,
+  "gap": 1.5687808350151045e-06,
+  "coarse_min_gap": 0.02152791811295529,
+  "coarse_max_gap": 12.385010678262876,
+  "radius": 0.3,
+  "min_gap": 0.0048791902800999765,
+  "reorg": 1.9999998614038264,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 3,
+  "enclosing": false,
+  "u": -0.7344199879779605,
+  "v": -2.34158887779295,
+  "gap": 1.5687808350151045e-06,
+  "coarse_min_gap": 0.02152791811295529,
+  "coarse_max_gap": 12.385010678262876,
+  "radius": 0.12,
+  "min_gap": 8.669592109128457,
+  "reorg": 0.1512139823418853,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ]
+   ],
+   "n_survivors": 4,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 4,
+  "enclosing": true,
+  "u": -0.8876977328552176,
+  "v": -3.996971310655832,
+  "gap": 5.8009676813242095e-06,
+  "coarse_min_gap": 0.0024182206148624097,
+  "coarse_max_gap": 11.963253161212567,
+  "radius": 0.01,
+  "min_gap": 0.0006562315176310562,
+  "reorg": 1.9999999550856886,
+  "dgm_sizes": [
+   6,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 4,
+  "enclosing": true,
+  "u": -0.8876977328552176,
+  "v": -3.996971310655832,
+  "gap": 5.8009676813242095e-06,
+  "coarse_min_gap": 0.0024182206148624097,
+  "coarse_max_gap": 11.963253161212567,
+  "radius": 0.04,
+  "min_gap": 0.0025144807009294112,
+  "reorg": 1.9999999595162903,
+  "dgm_sizes": [
+   6,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 4,
+  "enclosing": true,
+  "u": -0.8876977328552176,
+  "v": -3.996971310655832,
+  "gap": 5.8009676813242095e-06,
+  "coarse_min_gap": 0.0024182206148624097,
+  "coarse_max_gap": 11.963253161212567,
+  "radius": 0.12,
+  "min_gap": 0.006668494159857374,
+  "reorg": 1.9999999670684177,
+  "dgm_sizes": [
+   6,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 4,
+  "enclosing": true,
+  "u": -0.8876977328552176,
+  "v": -3.996971310655832,
+  "gap": 5.8009676813242095e-06,
+  "coarse_min_gap": 0.0024182206148624097,
+  "coarse_max_gap": 11.963253161212567,
+  "radius": 0.3,
+  "min_gap": 0.01202836899857651,
+  "reorg": 1.9999999786086216,
+  "dgm_sizes": [
+   5,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 4,
+  "enclosing": false,
+  "u": -0.8876977328552176,
+  "v": -3.996971310655832,
+  "gap": 5.8009676813242095e-06,
+  "coarse_min_gap": 0.0024182206148624097,
+  "coarse_max_gap": 11.963253161212567,
+  "radius": 0.12,
+  "min_gap": 8.177705422544744,
+  "reorg": 1.9999999988241761,
+  "dgm_sizes": [
+   5,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.2822883730700427,
+  "v": 0.932647625733781,
+  "gap": 0.0,
+  "coarse_min_gap": 0.034410084572023436,
+  "coarse_max_gap": 12.161862341888053,
+  "radius": 0.01,
+  "min_gap": 0.0004648309796992933,
+  "reorg": 1.9985178718610617,
+  "dgm_sizes": [
+   7,
+   8
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 7,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "survivors": [
+    7
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.2822883730700427,
+  "v": 0.932647625733781,
+  "gap": 0.0,
+  "coarse_min_gap": 0.034410084572023436,
+  "coarse_max_gap": 12.161862341888053,
+  "radius": 0.04,
+  "min_gap": 0.0013264506778210006,
+  "reorg": 1.99880338702211,
+  "dgm_sizes": [
+   6,
+   8
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 7,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "survivors": [
+    7
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.2822883730700427,
+  "v": 0.932647625733781,
+  "gap": 0.0,
+  "coarse_min_gap": 0.034410084572023436,
+  "coarse_max_gap": 12.161862341888053,
+  "radius": 0.12,
+  "min_gap": 0.006848640430602515,
+  "reorg": 1.9989626412412635,
+  "dgm_sizes": [
+   6,
+   8
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 7,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+   ],
+   "survivors": [
+    7
+   ]
+  }
+ },
+ {
+  "seed": 6,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.2822883730700427,
+  "v": 0.932647625733781,
+  "gap": 0.0,
+  "coarse_min_gap": 0.034410084572023436,
+  "coarse_max_gap": 12.161862341888053,
+  "radius": 0.3,
+  "min_gap": 0.015743337103378607,
+  "reorg": 1.9983624099382844,
+  "dgm_sizes": [
+   6,
+   8
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    4
+   ],
+   "image": [
+    6
+   ],
+   "n_diagonal": 6
+  }
+ },
+ {
+  "seed": 6,
+  "n": 5,
+  "enclosing": false,
+  "u": -1.2822883730700427,
+  "v": 0.932647625733781,
+  "gap": 0.0,
+  "coarse_min_gap": 0.034410084572023436,
+  "coarse_max_gap": 12.161862341888053,
+  "radius": 0.12,
+  "min_gap": 3.3846392147608695,
+  "reorg": 0.22795820199552536,
+  "dgm_sizes": [
+   6,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "n_survivors": 6,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.4279194735810065,
+  "v": -5.106658688076817,
+  "gap": 1.782752171664015e-06,
+  "coarse_min_gap": 0.10591069654486773,
+  "coarse_max_gap": 17.798073482231686,
+  "radius": 0.01,
+  "min_gap": 0.001958290988042677,
+  "reorg": 1.9999999874411893,
+  "dgm_sizes": [
+   3,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.4279194735810065,
+  "v": -5.106658688076817,
+  "gap": 1.782752171664015e-06,
+  "coarse_min_gap": 0.10591069654486773,
+  "coarse_max_gap": 17.798073482231686,
+  "radius": 0.04,
+  "min_gap": 0.007809722617302839,
+  "reorg": 1.9999999884045228,
+  "dgm_sizes": [
+   3,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.4279194735810065,
+  "v": -5.106658688076817,
+  "gap": 1.782752171664015e-06,
+  "coarse_min_gap": 0.10591069654486773,
+  "coarse_max_gap": 17.798073482231686,
+  "radius": 0.12,
+  "min_gap": 0.02323963859792144,
+  "reorg": 1.9999999904938266,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 1,
+  "enclosing": true,
+  "u": 0.4279194735810065,
+  "v": -5.106658688076817,
+  "gap": 1.782752171664015e-06,
+  "coarse_min_gap": 0.10591069654486773,
+  "coarse_max_gap": 17.798073482231686,
+  "radius": 0.3,
+  "min_gap": 0.05702187487049315,
+  "reorg": 1.999999993794576,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 1,
+  "enclosing": false,
+  "u": 0.4279194735810065,
+  "v": -5.106658688076817,
+  "gap": 1.782752171664015e-06,
+  "coarse_min_gap": 0.10591069654486773,
+  "coarse_max_gap": 17.798073482231686,
+  "radius": 0.12,
+  "min_gap": 7.997976508262894,
+  "reorg": 0.009421771310247235,
+  "dgm_sizes": [
+   2,
+   2
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 2,
+  "enclosing": true,
+  "u": 0.9002462990984266,
+  "v": -4.968062502350101,
+  "gap": 6.470790523849246e-06,
+  "coarse_min_gap": 0.2258107913854932,
+  "coarse_max_gap": 14.362741004137868,
+  "radius": 0.01,
+  "min_gap": 2.9158504503357108e-05,
+  "reorg": 1.9999999513011142,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 2,
+  "enclosing": true,
+  "u": 0.9002462990984266,
+  "v": -4.968062502350101,
+  "gap": 6.470790523849246e-06,
+  "coarse_min_gap": 0.2258107913854932,
+  "coarse_max_gap": 14.362741004137868,
+  "radius": 0.04,
+  "min_gap": 7.45161877944156e-05,
+  "reorg": 1.999999955165037,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 2,
+  "enclosing": true,
+  "u": 0.9002462990984266,
+  "v": -4.968062502350101,
+  "gap": 6.470790523849246e-06,
+  "coarse_min_gap": 0.2258107913854932,
+  "coarse_max_gap": 14.362741004137868,
+  "radius": 0.12,
+  "min_gap": 8.982699822013274e-05,
+  "reorg": 1.9999999627880138,
+  "dgm_sizes": [
+   3,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1,
+    2
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 2,
+  "enclosing": true,
+  "u": 0.9002462990984266,
+  "v": -4.968062502350101,
+  "gap": 6.470790523849246e-06,
+  "coarse_min_gap": 0.2258107913854932,
+  "coarse_max_gap": 14.362741004137868,
+  "radius": 0.3,
+  "min_gap": 0.0018770359439450601,
+  "reorg": 1.999999975221351,
+  "dgm_sizes": [
+   3,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1,
+    2
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 2,
+  "enclosing": false,
+  "u": 0.9002462990984266,
+  "v": -4.968062502350101,
+  "gap": 6.470790523849246e-06,
+  "coarse_min_gap": 0.2258107913854932,
+  "coarse_max_gap": 14.362741004137868,
+  "radius": 0.12,
+  "min_gap": 10.759562400726658,
+  "reorg": 1.9999999987356096,
+  "dgm_sizes": [
+   3,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 4,
+  "enclosing": true,
+  "u": 0.5747341934664894,
+  "v": -7.679446236649731,
+  "gap": 2.2327707398517305e-06,
+  "coarse_min_gap": 0.13082273171576486,
+  "coarse_max_gap": 11.199568738036419,
+  "radius": 0.01,
+  "min_gap": 0.0007930775373949928,
+  "reorg": 1.9999999870927796,
+  "dgm_sizes": [
+   6,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 4,
+  "enclosing": true,
+  "u": 0.5747341934664894,
+  "v": -7.679446236649731,
+  "gap": 2.2327707398517305e-06,
+  "coarse_min_gap": 0.13082273171576486,
+  "coarse_max_gap": 11.199568738036419,
+  "radius": 0.04,
+  "min_gap": 0.0031539117719461274,
+  "reorg": 1.9999999878107688,
+  "dgm_sizes": [
+   6,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    2,
+    1
+   ],
+   "order": 2,
+   "cycles": [
+    [
+     1,
+     2
+    ],
+    [
+     0
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 4,
+  "enclosing": true,
+  "u": 0.5747341934664894,
+  "v": -7.679446236649731,
+  "gap": 2.2327707398517305e-06,
+  "coarse_min_gap": 0.13082273171576486,
+  "coarse_max_gap": 11.199568738036419,
+  "radius": 0.12,
+  "min_gap": 0.009315005068344817,
+  "reorg": 1.9999999892706648,
+  "dgm_sizes": [
+   5,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    2,
+    1
+   ],
+   "order": 2,
+   "cycles": [
+    [
+     1,
+     2
+    ],
+    [
+     0
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 4,
+  "enclosing": true,
+  "u": 0.5747341934664894,
+  "v": -7.679446236649731,
+  "gap": 2.2327707398517305e-06,
+  "coarse_min_gap": 0.13082273171576486,
+  "coarse_max_gap": 11.199568738036419,
+  "radius": 0.3,
+  "min_gap": 0.02250626196419958,
+  "reorg": 1.999999991863707,
+  "dgm_sizes": [
+   5,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2,
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 4,
+  "enclosing": false,
+  "u": 0.5747341934664894,
+  "v": -7.679446236649731,
+  "gap": 2.2327707398517305e-06,
+  "coarse_min_gap": 0.13082273171576486,
+  "coarse_max_gap": 11.199568738036419,
+  "radius": 0.12,
+  "min_gap": 11.697580377030242,
+  "reorg": 0.15399112669363813,
+  "dgm_sizes": [
+   5,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    1,
+    0,
+    2,
+    3,
+    4
+   ],
+   "order": 2,
+   "cycles": [
+    [
+     0,
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ]
+   ],
+   "n_survivors": 5,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 5,
+  "enclosing": true,
+  "u": 1.0858063614390465,
+  "v": -8.470538141831117,
+  "gap": 1.655703236735917e-06,
+  "coarse_min_gap": 0.08615320369390456,
+  "coarse_max_gap": 8.97507308130508,
+  "radius": 0.01,
+  "min_gap": 0.0006440412887798175,
+  "reorg": 1.9999999917285176,
+  "dgm_sizes": [
+   7,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 5,
+  "enclosing": true,
+  "u": 1.0858063614390465,
+  "v": -8.470538141831117,
+  "gap": 1.655703236735917e-06,
+  "coarse_min_gap": 0.08615320369390456,
+  "coarse_max_gap": 8.97507308130508,
+  "radius": 0.04,
+  "min_gap": 0.0025651287079320184,
+  "reorg": 1.9999999921705558,
+  "dgm_sizes": [
+   7,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 5,
+  "enclosing": true,
+  "u": 1.0858063614390465,
+  "v": -8.470538141831117,
+  "gap": 1.655703236735917e-06,
+  "coarse_min_gap": 0.08615320369390456,
+  "coarse_max_gap": 8.97507308130508,
+  "radius": 0.12,
+  "min_gap": 0.007605850244218004,
+  "reorg": 1.999999993100704,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5,
+    6
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 5,
+  "enclosing": true,
+  "u": 1.0858063614390465,
+  "v": -8.470538141831117,
+  "gap": 1.655703236735917e-06,
+  "coarse_min_gap": 0.08615320369390456,
+  "coarse_max_gap": 8.97507308130508,
+  "radius": 0.3,
+  "min_gap": 0.01850282192326347,
+  "reorg": 1.999999994771671,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    1,
+    0,
+    2
+   ],
+   "order": 2,
+   "cycles": [
+    [
+     0,
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 7,
+  "n": 5,
+  "enclosing": false,
+  "u": 1.0858063614390465,
+  "v": -8.470538141831117,
+  "gap": 1.655703236735917e-06,
+  "coarse_min_gap": 0.08615320369390456,
+  "coarse_max_gap": 8.97507308130508,
+  "radius": 0.12,
+  "min_gap": 13.276344200779,
+  "reorg": 0.13040816892405666,
+  "dgm_sizes": [
+   6,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "n_survivors": 6,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 8,
+  "n": 1,
+  "enclosing": true,
+  "u": -0.5809188313005851,
+  "v": 1.8624069434680894,
+  "gap": 1.1304308955573106e-07,
+  "coarse_min_gap": 0.057380492090956636,
+  "coarse_max_gap": 17.477911831858123,
+  "radius": 0.01,
+  "min_gap": 0.00017548893496410756,
+  "reorg": 1.999999684099459,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 8,
+  "n": 1,
+  "enclosing": true,
+  "u": -0.5809188313005851,
+  "v": 1.8624069434680894,
+  "gap": 1.1304308955573106e-07,
+  "coarse_min_gap": 0.057380492090956636,
+  "coarse_max_gap": 17.477911831858123,
+  "radius": 0.04,
+  "min_gap": 0.0017555617832663017,
+  "reorg": 1.9999996323016622,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 8,
+  "n": 1,
+  "enclosing": true,
+  "u": -0.5809188313005851,
+  "v": 1.8624069434680894,
+  "gap": 1.1304308955573106e-07,
+  "coarse_min_gap": 0.057380492090956636,
+  "coarse_max_gap": 17.477911831858123,
+  "radius": 0.12,
+  "min_gap": 0.0005541802943227481,
+  "reorg": 1.999999293649553,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 8,
+  "n": 1,
+  "enclosing": true,
+  "u": -0.5809188313005851,
+  "v": 1.8624069434680894,
+  "gap": 1.1304308955573106e-07,
+  "coarse_min_gap": 0.057380492090956636,
+  "coarse_max_gap": 17.477911831858123,
+  "radius": 0.3,
+  "min_gap": 0.009403126414746055,
+  "reorg": 1.9999896646746755,
+  "dgm_sizes": [
+   2,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 8,
+  "n": 1,
+  "enclosing": false,
+  "u": -0.5809188313005851,
+  "v": 1.8624069434680894,
+  "gap": 1.1304308955573106e-07,
+  "coarse_min_gap": 0.057380492090956636,
+  "coarse_max_gap": 17.477911831858123,
+  "radius": 0.12,
+  "min_gap": 3.1802820928257347,
+  "reorg": 0.09337149603368625,
+  "dgm_sizes": [
+   2,
+   2
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1
+   ]
+  }
+ },
+ {
+  "seed": 8,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.771685916627712,
+  "v": -0.3516630175548877,
+  "gap": 0.0,
+  "coarse_min_gap": 0.0079753555943185,
+  "coarse_max_gap": 14.051724029806259,
+  "radius": 0.01,
+  "min_gap": 0.0005357083840242804,
+  "reorg": 1.9999868733483042,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 8,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.771685916627712,
+  "v": -0.3516630175548877,
+  "gap": 0.0,
+  "coarse_min_gap": 0.0079753555943185,
+  "coarse_max_gap": 14.051724029806259,
+  "radius": 0.04,
+  "min_gap": 0.0007403248309709731,
+  "reorg": 1.9999867832502365,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 8,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.771685916627712,
+  "v": -0.3516630175548877,
+  "gap": 0.0,
+  "coarse_min_gap": 0.0079753555943185,
+  "coarse_max_gap": 14.051724029806259,
+  "radius": 0.12,
+  "min_gap": 0.0009390858956612735,
+  "reorg": 1.9999857978825828,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 8,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.771685916627712,
+  "v": -0.3516630175548877,
+  "gap": 0.0,
+  "coarse_min_gap": 0.0079753555943185,
+  "coarse_max_gap": 14.051724029806259,
+  "radius": 0.3,
+  "min_gap": 0.0023249176631301577,
+  "reorg": 1.9999758868736204,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 8,
+  "n": 3,
+  "enclosing": false,
+  "u": -0.771685916627712,
+  "v": -0.3516630175548877,
+  "gap": 0.0,
+  "coarse_min_gap": 0.0079753555943185,
+  "coarse_max_gap": 14.051724029806259,
+  "radius": 0.12,
+  "min_gap": 0.024549745685119972,
+  "reorg": 1.982183167943018,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    0,
+    3,
+    4
+   ],
+   "image": [
+    2,
+    3,
+    4
+   ],
+   "n_diagonal": 2
+  }
+ },
+ {
+  "seed": 8,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.2399744076008343,
+  "v": -2.0763583812164783,
+  "gap": 0.0,
+  "coarse_min_gap": 0.04592646202072026,
+  "coarse_max_gap": 9.743957935706876,
+  "radius": 0.01,
+  "min_gap": 0.00023571909210673425,
+  "reorg": 1.9999980018507604,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 6,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "survivors": [
+    6
+   ]
+  }
+ },
+ {
+  "seed": 8,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.2399744076008343,
+  "v": -2.0763583812164783,
+  "gap": 0.0,
+  "coarse_min_gap": 0.04592646202072026,
+  "coarse_max_gap": 9.743957935706876,
+  "radius": 0.04,
+  "min_gap": 0.00035946556380306305,
+  "reorg": 1.999998177046463,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 6,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "survivors": [
+    6
+   ]
+  }
+ },
+ {
+  "seed": 8,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.2399744076008343,
+  "v": -2.0763583812164783,
+  "gap": 0.0,
+  "coarse_min_gap": 0.04592646202072026,
+  "coarse_max_gap": 9.743957935706876,
+  "radius": 0.12,
+  "min_gap": 0.005379736394939716,
+  "reorg": 1.9999985390150516,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 6,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "survivors": [
+    6
+   ]
+  }
+ },
+ {
+  "seed": 8,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.2399744076008343,
+  "v": -2.0763583812164783,
+  "gap": 0.0,
+  "coarse_min_gap": 0.04592646202072026,
+  "coarse_max_gap": 9.743957935706876,
+  "radius": 0.3,
+  "min_gap": 0.007618402307165262,
+  "reorg": 1.9999989667410074,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 6,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "survivors": [
+    6
+   ]
+  }
+ },
+ {
+  "seed": 8,
+  "n": 5,
+  "enclosing": false,
+  "u": -1.2399744076008343,
+  "v": -2.0763583812164783,
+  "gap": 0.0,
+  "coarse_min_gap": 0.04592646202072026,
+  "coarse_max_gap": 9.743957935706876,
+  "radius": 0.12,
+  "min_gap": 0.7073498957433202,
+  "reorg": 0.09424647739548944,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "n_survivors": 6,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 9,
+  "n": 1,
+  "enclosing": true,
+  "u": -1.3090777190852352,
+  "v": -1.9722319275770532,
+  "gap": 0.0,
+  "coarse_min_gap": 0.021959303159960086,
+  "coarse_max_gap": 11.740995501211906,
+  "radius": 0.01,
+  "min_gap": 0.000260252727606769,
+  "reorg": 1.999974524116195,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 9,
+  "n": 1,
+  "enclosing": true,
+  "u": -1.3090777190852352,
+  "v": -1.9722319275770532,
+  "gap": 0.0,
+  "coarse_min_gap": 0.021959303159960086,
+  "coarse_max_gap": 11.740995501211906,
+  "radius": 0.04,
+  "min_gap": 2.5672810275878533e-05,
+  "reorg": 1.9999742339686215,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 9,
+  "n": 1,
+  "enclosing": true,
+  "u": -1.3090777190852352,
+  "v": -1.9722319275770532,
+  "gap": 0.0,
+  "coarse_min_gap": 0.021959303159960086,
+  "coarse_max_gap": 11.740995501211906,
+  "radius": 0.12,
+  "min_gap": 0.0030066327324256292,
+  "reorg": 1.9999732450214742,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 9,
+  "n": 1,
+  "enclosing": true,
+  "u": -1.3090777190852352,
+  "v": -1.9722319275770532,
+  "gap": 0.0,
+  "coarse_min_gap": 0.021959303159960086,
+  "coarse_max_gap": 11.740995501211906,
+  "radius": 0.3,
+  "min_gap": 0.01120026033981425,
+  "reorg": 1.9999742864126053,
+  "dgm_sizes": [
+   2,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 9,
+  "n": 1,
+  "enclosing": false,
+  "u": -1.3090777190852352,
+  "v": -1.9722319275770532,
+  "gap": 0.0,
+  "coarse_min_gap": 0.021959303159960086,
+  "coarse_max_gap": 11.740995501211906,
+  "radius": 0.12,
+  "min_gap": 4.635462000277917,
+  "reorg": 0.18994057814544443,
+  "dgm_sizes": [
+   2,
+   2
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1
+   ]
+  }
+ },
+ {
+  "seed": 9,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.8068253591832578,
+  "v": 0.10642817958302077,
+  "gap": 0.0,
+  "coarse_min_gap": 0.06528895151582835,
+  "coarse_max_gap": 13.095666038004744,
+  "radius": 0.01,
+  "min_gap": 0.0005340993915123327,
+  "reorg": 1.9992966116531967,
+  "dgm_sizes": [
+   4,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4
+   ]
+  }
+ },
+ {
+  "seed": 9,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.8068253591832578,
+  "v": 0.10642817958302077,
+  "gap": 0.0,
+  "coarse_min_gap": 0.06528895151582835,
+  "coarse_max_gap": 13.095666038004744,
+  "radius": 0.04,
+  "min_gap": 0.0013725883221476776,
+  "reorg": 1.999375083703143,
+  "dgm_sizes": [
+   4,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 9,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.8068253591832578,
+  "v": 0.10642817958302077,
+  "gap": 0.0,
+  "coarse_min_gap": 0.06528895151582835,
+  "coarse_max_gap": 13.095666038004744,
+  "radius": 0.12,
+  "min_gap": 0.002330677470337078,
+  "reorg": 1.9995067661936168,
+  "dgm_sizes": [
+   4,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 9,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.8068253591832578,
+  "v": 0.10642817958302077,
+  "gap": 0.0,
+  "coarse_min_gap": 0.06528895151582835,
+  "coarse_max_gap": 13.095666038004744,
+  "radius": 0.3,
+  "min_gap": 0.013318281652899278,
+  "reorg": 1.9996683312109318,
+  "dgm_sizes": [
+   4,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 9,
+  "n": 3,
+  "enclosing": false,
+  "u": -0.8068253591832578,
+  "v": 0.10642817958302077,
+  "gap": 0.0,
+  "coarse_min_gap": 0.06528895151582835,
+  "coarse_max_gap": 13.095666038004744,
+  "radius": 0.12,
+  "min_gap": 2.8078684128336815,
+  "reorg": 0.38071718156105533,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    1,
+    0,
+    2,
+    3
+   ],
+   "order": 2,
+   "cycles": [
+    [
+     0,
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ]
+   ],
+   "n_survivors": 4,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 9,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.7182182419381513,
+  "v": -1.4020377662607153,
+  "gap": 0.0,
+  "coarse_min_gap": 0.02348708848280623,
+  "coarse_max_gap": 7.348685866225475,
+  "radius": 0.01,
+  "min_gap": 0.000740187992169794,
+  "reorg": 1.9973546544633922,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 9,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.7182182419381513,
+  "v": -1.4020377662607153,
+  "gap": 0.0,
+  "coarse_min_gap": 0.02348708848280623,
+  "coarse_max_gap": 7.348685866225475,
+  "radius": 0.04,
+  "min_gap": 0.002877764195754473,
+  "reorg": 1.9973057016724713,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 9,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.7182182419381513,
+  "v": -1.4020377662607153,
+  "gap": 0.0,
+  "coarse_min_gap": 0.02348708848280623,
+  "coarse_max_gap": 7.348685866225475,
+  "radius": 0.12,
+  "min_gap": 0.00788779123096317,
+  "reorg": 1.9971219105857585,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 9,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.7182182419381513,
+  "v": -1.4020377662607153,
+  "gap": 0.0,
+  "coarse_min_gap": 0.02348708848280623,
+  "coarse_max_gap": 7.348685866225475,
+  "radius": 0.3,
+  "min_gap": 0.013819532881535146,
+  "reorg": 1.9960764096096129,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    1,
+    0
+   ],
+   "order": 2,
+   "cycles": [
+    [
+     0,
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 9,
+  "n": 5,
+  "enclosing": false,
+  "u": -1.7182182419381513,
+  "v": -1.4020377662607153,
+  "gap": 0.0,
+  "coarse_min_gap": 0.02348708848280623,
+  "coarse_max_gap": 7.348685866225475,
+  "radius": 0.12,
+  "min_gap": 4.896594759054514,
+  "reorg": 0.3309505370284552,
+  "dgm_sizes": [
+   6,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "n_survivors": 6,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 10,
+  "n": 1,
+  "enclosing": true,
+  "u": 1.232114476791918,
+  "v": 1.7185969349669277,
+  "gap": 0.0,
+  "coarse_min_gap": 0.014644765672253257,
+  "coarse_max_gap": 16.699578022339388,
+  "radius": 0.01,
+  "min_gap": 0.00029136942316654313,
+  "reorg": 1.9999998336482545,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 10,
+  "n": 1,
+  "enclosing": true,
+  "u": 1.232114476791918,
+  "v": 1.7185969349669277,
+  "gap": 0.0,
+  "coarse_min_gap": 0.014644765672253257,
+  "coarse_max_gap": 16.699578022339388,
+  "radius": 0.04,
+  "min_gap": 0.000820900130657165,
+  "reorg": 1.9999998441674847,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 10,
+  "n": 1,
+  "enclosing": true,
+  "u": 1.232114476791918,
+  "v": 1.7185969349669277,
+  "gap": 0.0,
+  "coarse_min_gap": 0.014644765672253257,
+  "coarse_max_gap": 16.699578022339388,
+  "radius": 0.12,
+  "min_gap": 0.000917249416751531,
+  "reorg": 1.999999858870086,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 10,
+  "n": 1,
+  "enclosing": true,
+  "u": 1.232114476791918,
+  "v": 1.7185969349669277,
+  "gap": 0.0,
+  "coarse_min_gap": 0.014644765672253257,
+  "coarse_max_gap": 16.699578022339388,
+  "radius": 0.3,
+  "min_gap": 0.017090858368627337,
+  "reorg": 1.9999998699268087,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 10,
+  "n": 1,
+  "enclosing": false,
+  "u": 1.232114476791918,
+  "v": 1.7185969349669277,
+  "gap": 0.0,
+  "coarse_min_gap": 0.014644765672253257,
+  "coarse_max_gap": 16.699578022339388,
+  "radius": 0.12,
+  "min_gap": 4.26828914843796,
+  "reorg": 0.2766185968018291,
+  "dgm_sizes": [
+   2,
+   2
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1
+   ]
+  }
+ },
+ {
+  "seed": 10,
+  "n": 3,
+  "enclosing": true,
+  "u": 0.821363497165434,
+  "v": 2.154059501139807,
+  "gap": 0.0,
+  "coarse_min_gap": 0.003110486975659299,
+  "coarse_max_gap": 14.429548710889481,
+  "radius": 0.01,
+  "min_gap": 7.216082691208214e-05,
+  "reorg": 1.9999979832071868,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 10,
+  "n": 3,
+  "enclosing": true,
+  "u": 0.821363497165434,
+  "v": 2.154059501139807,
+  "gap": 0.0,
+  "coarse_min_gap": 0.003110486975659299,
+  "coarse_max_gap": 14.429548710889481,
+  "radius": 0.04,
+  "min_gap": 0.00012444492316454614,
+  "reorg": 1.9999981540577823,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 10,
+  "n": 3,
+  "enclosing": true,
+  "u": 0.821363497165434,
+  "v": 2.154059501139807,
+  "gap": 0.0,
+  "coarse_min_gap": 0.003110486975659299,
+  "coarse_max_gap": 14.429548710889481,
+  "radius": 0.12,
+  "min_gap": 0.0010781360673606244,
+  "reorg": 1.9999985074692959,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 10,
+  "n": 3,
+  "enclosing": true,
+  "u": 0.821363497165434,
+  "v": 2.154059501139807,
+  "gap": 0.0,
+  "coarse_min_gap": 0.003110486975659299,
+  "coarse_max_gap": 14.429548710889481,
+  "radius": 0.3,
+  "min_gap": 0.011028713793315603,
+  "reorg": 1.9999991704773414,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    1,
+    0
+   ],
+   "order": 2,
+   "cycles": [
+    [
+     0,
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 10,
+  "n": 3,
+  "enclosing": false,
+  "u": 0.821363497165434,
+  "v": 2.154059501139807,
+  "gap": 0.0,
+  "coarse_min_gap": 0.003110486975659299,
+  "coarse_max_gap": 14.429548710889481,
+  "radius": 0.12,
+  "min_gap": 4.678815190666977,
+  "reorg": 1.9999991134352506,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 10,
+  "n": 5,
+  "enclosing": true,
+  "u": 1.0506763218541941,
+  "v": 1.422312425366835,
+  "gap": 0.0,
+  "coarse_min_gap": 0.03794886702792204,
+  "coarse_max_gap": 10.278793611656258,
+  "radius": 0.01,
+  "min_gap": 0.00046660588248759183,
+  "reorg": 1.9996830163835286,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    2,
+    3,
+    5
+   ],
+   "image": [
+    3,
+    4,
+    5
+   ],
+   "n_diagonal": 3
+  }
+ },
+ {
+  "seed": 10,
+  "n": 5,
+  "enclosing": true,
+  "u": 1.0506763218541941,
+  "v": 1.422312425366835,
+  "gap": 0.0,
+  "coarse_min_gap": 0.03794886702792204,
+  "coarse_max_gap": 10.278793611656258,
+  "radius": 0.04,
+  "min_gap": 0.0015946792156933398,
+  "reorg": 1.9997186255589234,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    2,
+    3,
+    5
+   ],
+   "image": [
+    3,
+    4,
+    5
+   ],
+   "n_diagonal": 3
+  }
+ },
+ {
+  "seed": 10,
+  "n": 5,
+  "enclosing": true,
+  "u": 1.0506763218541941,
+  "v": 1.422312425366835,
+  "gap": 0.0,
+  "coarse_min_gap": 0.03794886702792204,
+  "coarse_max_gap": 10.278793611656258,
+  "radius": 0.12,
+  "min_gap": 0.007105276962120044,
+  "reorg": 1.999780089772964,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    2,
+    3,
+    5
+   ],
+   "image": [
+    3,
+    4,
+    5
+   ],
+   "n_diagonal": 3
+  }
+ },
+ {
+  "seed": 10,
+  "n": 5,
+  "enclosing": true,
+  "u": 1.0506763218541941,
+  "v": 1.422312425366835,
+  "gap": 0.0,
+  "coarse_min_gap": 0.03794886702792204,
+  "coarse_max_gap": 10.278793611656258,
+  "radius": 0.3,
+  "min_gap": 0.03805049794860693,
+  "reorg": 1.9998874486177087,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    3,
+    4
+   ],
+   "survivors": [
+    2,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 10,
+  "n": 5,
+  "enclosing": false,
+  "u": 1.0506763218541941,
+  "v": 1.422312425366835,
+  "gap": 0.0,
+  "coarse_min_gap": 0.03794886702792204,
+  "coarse_max_gap": 10.278793611656258,
+  "radius": 0.12,
+  "min_gap": 2.4254012111008922,
+  "reorg": 1.9998765154438547,
+  "dgm_sizes": [
+   6,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 11,
+  "n": 1,
+  "enclosing": true,
+  "u": -1.86643553239506,
+  "v": 1.8142299348707598,
+  "gap": 0.0,
+  "coarse_min_gap": 0.10757702634910782,
+  "coarse_max_gap": 16.095820883282073,
+  "radius": 0.01,
+  "min_gap": 0.000818319580123017,
+  "reorg": 1.999983502535733,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 11,
+  "n": 1,
+  "enclosing": true,
+  "u": -1.86643553239506,
+  "v": 1.8142299348707598,
+  "gap": 0.0,
+  "coarse_min_gap": 0.10757702634910782,
+  "coarse_max_gap": 16.095820883282073,
+  "radius": 0.04,
+  "min_gap": 0.0032339489072548133,
+  "reorg": 1.999987209686777,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 11,
+  "n": 1,
+  "enclosing": true,
+  "u": -1.86643553239506,
+  "v": 1.8142299348707598,
+  "gap": 0.0,
+  "coarse_min_gap": 0.10757702634910782,
+  "coarse_max_gap": 16.095820883282073,
+  "radius": 0.12,
+  "min_gap": 0.009266189479848919,
+  "reorg": 1.999990226167465,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 1,
+   "diagonal": [
+    0
+   ],
+   "survivors": [
+    1
+   ]
+  }
+ },
+ {
+  "seed": 11,
+  "n": 1,
+  "enclosing": true,
+  "u": -1.86643553239506,
+  "v": 1.8142299348707598,
+  "gap": 0.0,
+  "coarse_min_gap": 0.10757702634910782,
+  "coarse_max_gap": 16.095820883282073,
+  "radius": 0.3,
+  "min_gap": 0.018070718452809942,
+  "reorg": 1.9999841830462417,
+  "dgm_sizes": [
+   2,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 11,
+  "n": 1,
+  "enclosing": false,
+  "u": -1.86643553239506,
+  "v": 1.8142299348707598,
+  "gap": 0.0,
+  "coarse_min_gap": 0.10757702634910782,
+  "coarse_max_gap": 16.095820883282073,
+  "radius": 0.12,
+  "min_gap": 1.9010793603216154,
+  "reorg": 0.1738069412100707,
+  "dgm_sizes": [
+   2,
+   2
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1
+   ]
+  }
+ },
+ {
+  "seed": 11,
+  "n": 2,
+  "enclosing": true,
+  "u": 2.5475075155279976,
+  "v": -1.3804321483443527,
+  "gap": 3.532376638304413e-06,
+  "coarse_min_gap": 0.09978384200373824,
+  "coarse_max_gap": 14.50036215433532,
+  "radius": 0.01,
+  "min_gap": 0.00041300109371888993,
+  "reorg": 1.999999953507001,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 11,
+  "n": 2,
+  "enclosing": true,
+  "u": 2.5475075155279976,
+  "v": -1.3804321483443527,
+  "gap": 3.532376638304413e-06,
+  "coarse_min_gap": 0.09978384200373824,
+  "coarse_max_gap": 14.50036215433532,
+  "radius": 0.04,
+  "min_gap": 0.0014724362657290158,
+  "reorg": 1.9999999579180143,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 11,
+  "n": 2,
+  "enclosing": true,
+  "u": 2.5475075155279976,
+  "v": -1.3804321483443527,
+  "gap": 3.532376638304413e-06,
+  "coarse_min_gap": 0.09978384200373824,
+  "coarse_max_gap": 14.50036215433532,
+  "radius": 0.12,
+  "min_gap": 0.0029661981479165433,
+  "reorg": 1.9999999647661229,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 11,
+  "n": 2,
+  "enclosing": true,
+  "u": 2.5475075155279976,
+  "v": -1.3804321483443527,
+  "gap": 3.532376638304413e-06,
+  "coarse_min_gap": 0.09978384200373824,
+  "coarse_max_gap": 14.50036215433532,
+  "radius": 0.3,
+  "min_gap": 0.0009387411161156933,
+  "reorg": 1.9999999771611592,
+  "dgm_sizes": [
+   3,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3
+   ]
+  }
+ },
+ {
+  "seed": 11,
+  "n": 2,
+  "enclosing": false,
+  "u": 2.5475075155279976,
+  "v": -1.3804321483443527,
+  "gap": 3.532376638304413e-06,
+  "coarse_min_gap": 0.09978384200373824,
+  "coarse_max_gap": 14.50036215433532,
+  "radius": 0.12,
+  "min_gap": 5.382370855764428,
+  "reorg": 0.03957258103163761,
+  "dgm_sizes": [
+   3,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2
+   ]
+  }
+ },
+ {
+  "seed": 11,
+  "n": 3,
+  "enclosing": true,
+  "u": -2.5491153103227733,
+  "v": 2.5800261533832236,
+  "gap": 0.0,
+  "coarse_min_gap": 0.05594778318177873,
+  "coarse_max_gap": 13.350808952925744,
+  "radius": 0.01,
+  "min_gap": 0.00041907094295745573,
+  "reorg": 1.999933368470838,
+  "dgm_sizes": [
+   5,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 11,
+  "n": 3,
+  "enclosing": true,
+  "u": -2.5491153103227733,
+  "v": 2.5800261533832236,
+  "gap": 0.0,
+  "coarse_min_gap": 0.05594778318177873,
+  "coarse_max_gap": 13.350808952925744,
+  "radius": 0.04,
+  "min_gap": 0.0009100390294907168,
+  "reorg": 1.9999410233045847,
+  "dgm_sizes": [
+   4,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 11,
+  "n": 3,
+  "enclosing": true,
+  "u": -2.5491153103227733,
+  "v": 2.5800261533832236,
+  "gap": 0.0,
+  "coarse_min_gap": 0.05594778318177873,
+  "coarse_max_gap": 13.350808952925744,
+  "radius": 0.12,
+  "min_gap": 0.005048260832841711,
+  "reorg": 1.9999416508496546,
+  "dgm_sizes": [
+   4,
+   6
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 11,
+  "n": 3,
+  "enclosing": true,
+  "u": -2.5491153103227733,
+  "v": 2.5800261533832236,
+  "gap": 0.0,
+  "coarse_min_gap": 0.05594778318177873,
+  "coarse_max_gap": 13.350808952925744,
+  "radius": 0.3,
+  "min_gap": 0.025800860624172667,
+  "reorg": 1.9998774742394372,
+  "dgm_sizes": [
+   4,
+   6
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    3,
+    4
+   ],
+   "image": [
+    2,
+    4
+   ],
+   "n_diagonal": 3
+  }
+ },
+ {
+  "seed": 11,
+  "n": 3,
+  "enclosing": false,
+  "u": -2.5491153103227733,
+  "v": 2.5800261533832236,
+  "gap": 0.0,
+  "coarse_min_gap": 0.05594778318177873,
+  "coarse_max_gap": 13.350808952925744,
+  "radius": 0.12,
+  "min_gap": 2.2559507072171963,
+  "reorg": 0.1818451350853816,
+  "dgm_sizes": [
+   4,
+   4
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ]
+   ],
+   "n_survivors": 4,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 11,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.9579673017602608,
+  "v": 0.9012140579606437,
+  "gap": 0.0,
+  "coarse_min_gap": 0.07828731833619607,
+  "coarse_max_gap": 9.702223003268246,
+  "radius": 0.01,
+  "min_gap": 0.013240512288682282,
+  "reorg": 1.8616866531574199,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    1,
+    3,
+    4,
+    6
+   ],
+   "image": [
+    1,
+    2,
+    4,
+    6
+   ],
+   "n_diagonal": 3
+  }
+ },
+ {
+  "seed": 11,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.9579673017602608,
+  "v": 0.9012140579606437,
+  "gap": 0.0,
+  "coarse_min_gap": 0.07828731833619607,
+  "coarse_max_gap": 9.702223003268246,
+  "radius": 0.04,
+  "min_gap": 0.035525993311154025,
+  "reorg": 1.8816696361320757,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    1,
+    2,
+    3,
+    6
+   ],
+   "image": [
+    0,
+    1,
+    2,
+    6
+   ],
+   "n_diagonal": 3
+  }
+ },
+ {
+  "seed": 11,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.9579673017602608,
+  "v": 0.9012140579606437,
+  "gap": 0.0,
+  "coarse_min_gap": 0.07828731833619607,
+  "coarse_max_gap": 9.702223003268246,
+  "radius": 0.12,
+  "min_gap": 0.04448473655288243,
+  "reorg": 1.9865837197418534,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    0,
+    1,
+    2,
+    4,
+    5
+   ],
+   "image": [
+    0,
+    1,
+    2,
+    3,
+    4
+   ],
+   "n_diagonal": 1
+  }
+ },
+ {
+  "seed": 11,
+  "n": 5,
+  "enclosing": true,
+  "u": -1.9579673017602608,
+  "v": 0.9012140579606437,
+  "gap": 0.0,
+  "coarse_min_gap": 0.07828731833619607,
+  "coarse_max_gap": 9.702223003268246,
+  "radius": 0.3,
+  "min_gap": 0.02061351264584843,
+  "reorg": 1.9951852423254453,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    5
+   ],
+   "image": [
+    3
+   ],
+   "n_diagonal": 5
+  }
+ },
+ {
+  "seed": 11,
+  "n": 5,
+  "enclosing": false,
+  "u": -1.9579673017602608,
+  "v": 0.9012140579606437,
+  "gap": 0.0,
+  "coarse_min_gap": 0.07828731833619607,
+  "coarse_max_gap": 9.702223003268246,
+  "radius": 0.12,
+  "min_gap": 1.3333421964314702,
+  "reorg": 1.6911217130499254,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "n_survivors": 6,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 12,
+  "n": 1,
+  "enclosing": true,
+  "u": -0.6556536317352517,
+  "v": 1.5011179072404817,
+  "gap": 1.4483055466030237e-07,
+  "coarse_min_gap": 0.0669452474726775,
+  "coarse_max_gap": 18.177970149595662,
+  "radius": 0.01,
+  "min_gap": 0.00026572815820102846,
+  "reorg": 1.9999998923389828,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 12,
+  "n": 1,
+  "enclosing": true,
+  "u": -0.6556536317352517,
+  "v": 1.5011179072404817,
+  "gap": 1.4483055466030237e-07,
+  "coarse_min_gap": 0.0669452474726775,
+  "coarse_max_gap": 18.177970149595662,
+  "radius": 0.04,
+  "min_gap": 0.0006766835709246521,
+  "reorg": 1.999999894520967,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 12,
+  "n": 1,
+  "enclosing": true,
+  "u": -0.6556536317352517,
+  "v": 1.5011179072404817,
+  "gap": 1.4483055466030237e-07,
+  "coarse_min_gap": 0.0669452474726775,
+  "coarse_max_gap": 18.177970149595662,
+  "radius": 0.12,
+  "min_gap": 0.004820413984269578,
+  "reorg": 1.9999999040095116,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 12,
+  "n": 1,
+  "enclosing": true,
+  "u": -0.6556536317352517,
+  "v": 1.5011179072404817,
+  "gap": 1.4483055466030237e-07,
+  "coarse_min_gap": 0.0669452474726775,
+  "coarse_max_gap": 18.177970149595662,
+  "radius": 0.3,
+  "min_gap": 0.003761461905369856,
+  "reorg": 1.9999999085301947,
+  "dgm_sizes": [
+   2,
+   3
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ]
+   ],
+   "n_survivors": 1,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2
+   ]
+  }
+ },
+ {
+  "seed": 12,
+  "n": 1,
+  "enclosing": false,
+  "u": -0.6556536317352517,
+  "v": 1.5011179072404817,
+  "gap": 1.4483055466030237e-07,
+  "coarse_min_gap": 0.0669452474726775,
+  "coarse_max_gap": 18.177970149595662,
+  "radius": 0.12,
+  "min_gap": 3.397389819720381,
+  "reorg": 0.6577202241619405,
+  "dgm_sizes": [
+   2,
+   2
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 0,
+   "diagonal": [],
+   "survivors": [
+    0,
+    1
+   ]
+  }
+ },
+ {
+  "seed": 12,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.018100430329491386,
+  "v": 0.37888122492785375,
+  "gap": 0.0,
+  "coarse_min_gap": 0.018574260823751132,
+  "coarse_max_gap": 13.72217194382356,
+  "radius": 0.01,
+  "min_gap": 0.00021908396870173874,
+  "reorg": 1.999988187258209,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 12,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.018100430329491386,
+  "v": 0.37888122492785375,
+  "gap": 0.0,
+  "coarse_min_gap": 0.018574260823751132,
+  "coarse_max_gap": 13.72217194382356,
+  "radius": 0.04,
+  "min_gap": 0.0005667542951499627,
+  "reorg": 1.999989269248661,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 12,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.018100430329491386,
+  "v": 0.37888122492785375,
+  "gap": 0.0,
+  "coarse_min_gap": 0.018574260823751132,
+  "coarse_max_gap": 13.72217194382356,
+  "radius": 0.12,
+  "min_gap": 0.0005020002059534789,
+  "reorg": 1.999990475000168,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    1,
+    0
+   ],
+   "order": 2,
+   "cycles": [
+    [
+     0,
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 12,
+  "n": 3,
+  "enclosing": true,
+  "u": -0.018100430329491386,
+  "v": 0.37888122492785375,
+  "gap": 0.0,
+  "coarse_min_gap": 0.018574260823751132,
+  "coarse_max_gap": 13.72217194382356,
+  "radius": 0.3,
+  "min_gap": 0.002435012466463604,
+  "reorg": 1.9999895376136263,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    2
+   ],
+   "survivors": [
+    3,
+    4
+   ]
+  }
+ },
+ {
+  "seed": 12,
+  "n": 3,
+  "enclosing": false,
+  "u": -0.018100430329491386,
+  "v": 0.37888122492785375,
+  "gap": 0.0,
+  "coarse_min_gap": 0.018574260823751132,
+  "coarse_max_gap": 13.72217194382356,
+  "radius": 0.12,
+  "min_gap": 0.005200686221284556,
+  "reorg": 1.9993412041604528,
+  "dgm_sizes": [
+   4,
+   5
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 2,
+   "diagonal": [
+    0,
+    1
+   ],
+   "survivors": [
+    2,
+    3
+   ]
+  }
+ },
+ {
+  "seed": 12,
+  "n": 5,
+  "enclosing": true,
+  "u": 0.5425384812163416,
+  "v": -0.5174416662681947,
+  "gap": 0.0,
+  "coarse_min_gap": 0.05032007389641402,
+  "coarse_max_gap": 7.830346902445294,
+  "radius": 0.01,
+  "min_gap": 0.0008779570470780484,
+  "reorg": 1.9994086061007763,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 12,
+  "n": 5,
+  "enclosing": true,
+  "u": 0.5425384812163416,
+  "v": -0.5174416662681947,
+  "gap": 0.0,
+  "coarse_min_gap": 0.05032007389641402,
+  "coarse_max_gap": 7.830346902445294,
+  "radius": 0.04,
+  "min_gap": 0.0033344827509722563,
+  "reorg": 1.9993956513839188,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    1,
+    0
+   ],
+   "order": 2,
+   "cycles": [
+    [
+     0,
+     1
+    ]
+   ],
+   "n_survivors": 2,
+   "n_diagonal": 4,
+   "diagonal": [
+    0,
+    1,
+    2,
+    3
+   ],
+   "survivors": [
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 12,
+  "n": 5,
+  "enclosing": true,
+  "u": 0.5425384812163416,
+  "v": -0.5174416662681947,
+  "gap": 0.0,
+  "coarse_min_gap": 0.05032007389641402,
+  "coarse_max_gap": 7.830346902445294,
+  "radius": 0.12,
+  "min_gap": 0.009595499192156964,
+  "reorg": 1.9993006216961593,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    0,
+    1,
+    2
+   ],
+   "order": 1,
+   "cycles": [
+    [
+     0
+    ],
+    [
+     1
+    ],
+    [
+     2
+    ]
+   ],
+   "n_survivors": 3,
+   "n_diagonal": 3,
+   "diagonal": [
+    0,
+    1,
+    3
+   ],
+   "survivors": [
+    2,
+    4,
+    5
+   ]
+  }
+ },
+ {
+  "seed": 12,
+  "n": 5,
+  "enclosing": true,
+  "u": 0.5425384812163416,
+  "v": -0.5174416662681947,
+  "gap": 0.0,
+  "coarse_min_gap": 0.05032007389641402,
+  "coarse_max_gap": 7.830346902445294,
+  "radius": 0.3,
+  "min_gap": 0.03354372370507441,
+  "reorg": 1.9978944979098314,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": false,
+   "reason": "one-period map is not a bijection of the surviving vines",
+   "survivors": [
+    0,
+    4,
+    5
+   ],
+   "image": [
+    2,
+    4,
+    5
+   ],
+   "n_diagonal": 3
+  }
+ },
+ {
+  "seed": 12,
+  "n": 5,
+  "enclosing": false,
+  "u": 0.5425384812163416,
+  "v": -0.5174416662681947,
+  "gap": 0.0,
+  "coarse_min_gap": 0.05032007389641402,
+  "coarse_max_gap": 7.830346902445294,
+  "radius": 0.12,
+  "min_gap": 0.5415377100232321,
+  "reorg": 0.7182815749239785,
+  "dgm_sizes": [
+   6,
+   7
+  ],
+  "report": {
+   "ok": true,
+   "perm": [
+    2,
+    0,
+    1,
+    3,
+    4,
+    5
+   ],
+   "order": 3,
+   "cycles": [
+    [
+     0,
+     2,
+     1
+    ],
+    [
+     3
+    ],
+    [
+     4
+    ],
+    [
+     5
+    ]
+   ],
+   "n_survivors": 6,
+   "n_diagonal": 1,
+   "diagonal": [
+    2
+   ],
+   "survivors": [
+    0,
+    1,
+    3,
+    4,
+    5,
+    6
+   ]
+  }
+ }
+]

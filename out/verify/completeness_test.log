@@ -1,0 +1,73 @@
+
+Does the persistence diagram actually determine the configuration?
+
+complete_invariant.py showed that the IDEALIZED heights h_i = sum_j K(r_ij),
+which is the density read at the bodies, invert to give the three mutual
+distances, exactly. It also showed, in its second table, that feeding the TRUE
+birth values through the same inversion leaves a 33 per cent relative error at
+every bandwidth in the working window, because the maxima are displaced from the
+bodies. So the exact statement is about a model of the diagram, not the diagram.
+
+That leaves the real question open, and it is the interesting one: never mind my
+particular formula, is the map
+
+    configuration modulo congruence  ->  the three birth values
+
+injective on the orbit, and if so how well conditioned? Two tests that do not
+depend on any inversion formula.
+
+  A  convergence. Does the model inversion error fall to zero as the bandwidth
+     falls, and does it do so anywhere near the window the note actually uses,
+     sigma in [0.24, 0.30]?
+
+  B  injectivity, measured directly. Take every pair of instants around the
+     orbit. Compare the distance between their birth triples with the distance
+     between their triangles, taken up to congruence as sorted side lengths. If
+     the map is injective and well conditioned there is a positive lower bound
+     on the ratio, a bi-Lipschitz constant. If some pair has nearly equal births
+     and clearly different shapes, it is not injective and the completeness
+     claim is dead on the real diagram.
+
+==============================================================================
+A. Does the model inversion converge as the bandwidth falls?
+==============================================================================
+    sigma   worst rel. error    in the note window?    instants used
+     0.40          3.792e-01                     no   n= 16
+     0.30          3.511e-01                    yes   n= 40
+     0.24          3.384e-01                    yes   n= 40
+     0.18          3.249e-01                     no   n= 27
+     0.12          0.000e+00                     no   n=  0   <- NO VALID INSTANTS, the zero is empty
+     0.08          0.000e+00                     no   n=  0   <- NO VALID INSTANTS, the zero is empty
+     0.05          0.000e+00                     no   n=  0   <- NO VALID INSTANTS, the zero is empty
+     0.03          0.000e+00                     no   n=  0   <- NO VALID INSTANTS, the zero is empty
+
+  The note's window is [0.24, 0.30]. Read off whether the error is
+  small anywhere inside it.
+
+==============================================================================
+B. Injectivity of the real diagram, with no inversion formula
+==============================================================================
+
+  sigma = 0.24, 1000 instants, 499500 distinct pairs
+    range of shape separations   3.132e-08 to 8.035e-01
+    range of diagram separations 5.617e-12 to 2.387e-02
+    lower Lipschitz ratio |dB|/|dS|: min 1.294e-04, median 3.528e-02
+    among pairs with shape separation above 10 per cent of the
+    maximum, the SMALLEST diagram separation is 3.220e-04
+    -> no collision, injective on this sample
+
+  sigma = 0.3, 1000 instants, 499500 distinct pairs
+    range of shape separations   3.132e-08 to 8.035e-01
+    range of diagram separations 2.403e-11 to 1.207e-01
+    lower Lipschitz ratio |dB|/|dS|: min 5.515e-04, median 1.766e-01
+    among pairs with shape separation above 10 per cent of the
+    maximum, the SMALLEST diagram separation is 3.667e-03
+    -> no collision, injective on this sample
+
+==============================================================================
+C. What survives exactly, regardless of the above
+==============================================================================
+  ORDER of the births equals ORDER of the opposite sides: 858 of 858
+  This is the fact the braid rests on, and it is exact. The braid
+  needs only the ordering, never the values, so it is untouched by
+  whatever A and B say about recovering the actual side lengths.

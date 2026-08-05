@@ -1,0 +1,257 @@
+[
+ {
+  "k": 46.5,
+  "j": 10.5,
+  "theta_deg": 23.25,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0015172018246586091,
+  "G1_refine_steps": [
+   40,
+   80,
+   160,
+   320
+  ],
+  "G1_refine_orders": [
+   2,
+   1,
+   1,
+   1
+  ],
+  "fail": "G1 refine [2, 1, 1, 1]"
+ },
+ {
+  "k": 46.5,
+  "j": 14.5,
+  "theta_deg": 23.25,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0007414531017634756,
+  "G1_refine_steps": [
+   40,
+   80,
+   160,
+   320
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 8,
+  "order_at_rad": 2,
+  "fail": "G2 changes = 8"
+ },
+ {
+  "k": 30.5,
+  "j": 34.5,
+  "theta_deg": 15.25,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.001784662607453072,
+  "G1_refine_steps": [
+   40,
+   80,
+   160,
+   320
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 2,
+  "order_at_rad": 2,
+  "G3_radii": [
+   1.2000000000000002,
+   0.8999999999999999,
+   0.675,
+   0.44999999999999996,
+   0.30000000000000004,
+   0.18
+  ],
+  "G3_orders": [
+   2,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "fail": "G3 shrink [2, 1, 1, 1, 1, 1]"
+ },
+ {
+  "k": 46.5,
+  "j": 38.5,
+  "theta_deg": 23.25,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0010698519585448775,
+  "G1_refine_steps": [
+   40,
+   80,
+   160,
+   320
+  ],
+  "G1_refine_orders": [
+   2,
+   1,
+   1,
+   1
+  ],
+  "fail": "G1 refine [2, 1, 1, 1]"
+ },
+ {
+  "k": 46.5,
+  "j": 50.5,
+  "theta_deg": 23.25,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0001846046899246366,
+  "G1_refine_steps": [
+   40,
+   80,
+   160,
+   320
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   1,
+   1
+  ],
+  "fail": "G1 refine [2, 2, 1, 1]"
+ },
+ {
+  "k": 50.5,
+  "j": 82.5,
+  "theta_deg": 25.25,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0019678612909783152,
+  "G1_refine_steps": [
+   40,
+   80,
+   160,
+   320
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 4,
+  "order_at_rad": 2,
+  "fail": "G2 changes = 4"
+ },
+ {
+  "k": 34.5,
+  "j": 114.5,
+  "theta_deg": 17.25,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0007987122740632056,
+  "G1_refine_steps": [
+   40,
+   80,
+   160,
+   320
+  ],
+  "G1_refine_orders": [
+   2,
+   1,
+   1,
+   1
+  ],
+  "fail": "G1 refine [2, 1, 1, 1]"
+ },
+ {
+  "k": 34.5,
+  "j": 118.5,
+  "theta_deg": 17.25,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.001974350663087571,
+  "G1_refine_steps": [
+   40,
+   80,
+   160,
+   320
+  ],
+  "G1_refine_orders": [
+   2,
+   1,
+   1,
+   1
+  ],
+  "fail": "G1 refine [2, 1, 1, 1]"
+ },
+ {
+  "k": 106.5,
+  "j": 182.5,
+  "theta_deg": 53.25,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0005262185962013908,
+  "G1_refine_steps": [
+   40,
+   80,
+   160,
+   320
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 8,
+  "order_at_rad": 2,
+  "fail": "G2 changes = 8"
+ },
+ {
+  "k": 46.5,
+  "j": 186.5,
+  "theta_deg": 23.25,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0015288705819656986,
+  "G1_refine_steps": [
+   40,
+   80,
+   160,
+   320
+  ],
+  "G1_refine_orders": [
+   2,
+   1,
+   1,
+   1
+  ],
+  "fail": "G1 refine [2, 1, 1, 1]"
+ },
+ {
+  "k": 110.5,
+  "j": 190.5,
+  "theta_deg": 55.25,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0006738531096227387,
+  "G1_refine_steps": [
+   40,
+   80,
+   160,
+   320
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   1,
+   1
+  ],
+  "fail": "G1 refine [2, 2, 1, 1]"
+ }
+]

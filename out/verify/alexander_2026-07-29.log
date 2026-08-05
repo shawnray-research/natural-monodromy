@@ -1,0 +1,13 @@
+measured vineyard braid : s2^-1 s1 s2^-1 s1  =  (s2^-1 s1)^2   [4 crossings]
+det(Burau - I)          = -t**2 + 2*t + 1 + 2/t - 1/t**2
+/(1+t+t^2)              = -1 + 3/t - 1/t**2
+normalised (times -t)   = t - 3 + 1/t
+coefficients [t, 1, 1/t]= [1, -3, 1]
+
+The figure-eight knot 4_1 has Alexander polynomial t - 3 + t^-1,
+coefficients [1, -3, 1].  MATCH.
+
+Independent confirmation by conjugacy (Markov move I):
+  cyclically rotating  s2^-1 s1 s2^-1 s1  gives  s1 s2^-1 s1 s2^-1 = (s1 s2^-1)^2,
+  the standard 3-braid whose closure is 4_1. Conjugate braids have isotopic
+  closures, so the closure of the measured braid is the figure-eight knot.

@@ -1,0 +1,482 @@
+[
+ {
+  "k": 45.8,
+  "j": 11.799999999999999,
+  "theta_deg": 22.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0009724855173745124,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 4,
+  "order_at_rad": 2,
+  "fail": "G2 changes = 4"
+ },
+ {
+  "k": 43.8,
+  "j": 21.799999999999997,
+  "theta_deg": 21.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0008504309220664349,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 4,
+  "order_at_rad": 2,
+  "fail": "G2 changes = 4"
+ },
+ {
+  "k": 47.8,
+  "j": 51.8,
+  "theta_deg": 23.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0003010004376260848,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 8,
+  "order_at_rad": 2,
+  "fail": "G2 changes = 8"
+ },
+ {
+  "k": 53.8,
+  "j": 57.8,
+  "theta_deg": 26.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.002739541581150171,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 6,
+  "order_at_rad": 2,
+  "fail": "G2 changes = 6"
+ },
+ {
+  "k": 49.8,
+  "j": 63.79999999999999,
+  "theta_deg": 24.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0013627220866511904,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 7,
+  "order_at_rad": 2,
+  "fail": "G2 changes = 7"
+ },
+ {
+  "k": 67.8,
+  "j": 107.79999999999998,
+  "theta_deg": 33.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.001833081700672985,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 4,
+  "order_at_rad": 2,
+  "fail": "G2 changes = 4"
+ },
+ {
+  "k": 35.8,
+  "j": 115.79999999999998,
+  "theta_deg": 17.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.00024934175071888743,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   1,
+   1
+  ],
+  "fail": "G1 refine [2, 1, 1]"
+ },
+ {
+  "k": 79.8,
+  "j": 153.79999999999998,
+  "theta_deg": 39.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.00038252272055364783,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 2,
+  "order_at_rad": 2,
+  "G3_radii": [
+   0.6400000000000001,
+   0.48,
+   0.36000000000000004,
+   0.24,
+   0.16000000000000003,
+   0.096
+  ],
+  "G3_orders": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "fail": "G3 shrink [1, 1, 1, 1, 1, 1]"
+ },
+ {
+  "k": 57.8,
+  "j": 161.79999999999998,
+  "theta_deg": 28.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.00018461732845309874,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 6,
+  "order_at_rad": 2,
+  "fail": "G2 changes = 6"
+ },
+ {
+  "k": 33.8,
+  "j": 163.79999999999998,
+  "theta_deg": 16.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.00035394005210820183,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 2,
+  "order_at_rad": 2,
+  "G3_radii": [
+   0.6400000000000001,
+   0.48,
+   0.36000000000000004,
+   0.24,
+   0.16000000000000003,
+   0.096
+  ],
+  "G3_orders": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "fail": "G3 shrink [1, 1, 1, 1, 1, 1]"
+ },
+ {
+  "k": 55.8,
+  "j": 163.79999999999998,
+  "theta_deg": 27.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0011394111834420596,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 14,
+  "order_at_rad": 2,
+  "fail": "G2 changes = 14"
+ },
+ {
+  "k": 57.8,
+  "j": 165.79999999999998,
+  "theta_deg": 28.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0002046555436863617,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   1,
+   1
+  ],
+  "fail": "G1 refine [2, 1, 1]"
+ },
+ {
+  "k": 75.8,
+  "j": 193.79999999999998,
+  "theta_deg": 37.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.00022470977703131664,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   1,
+   1
+  ],
+  "fail": "G1 refine [2, 1, 1]"
+ },
+ {
+  "k": 71.8,
+  "j": 197.79999999999998,
+  "theta_deg": 35.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 9.137610535893471e-05,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   1
+  ],
+  "fail": "G1 refine [2, 2, 1]"
+ },
+ {
+  "k": 115.79999999999998,
+  "j": 201.79999999999998,
+  "theta_deg": 57.89999999999999,
+  "order": 2,
+  "G0_boundary": false,
+  "fail": "G0 boundary"
+ },
+ {
+  "k": 83.8,
+  "j": 205.79999999999998,
+  "theta_deg": 41.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0004105178989480868,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 2,
+  "order_at_rad": 2,
+  "G3_radii": [
+   0.6400000000000001,
+   0.48,
+   0.36000000000000004,
+   0.24,
+   0.16000000000000003,
+   0.096
+  ],
+  "G3_orders": [
+   2,
+   2,
+   1,
+   1,
+   1,
+   1
+  ],
+  "fail": "G3 shrink [2, 2, 1, 1, 1, 1]"
+ },
+ {
+  "k": 9.799999999999999,
+  "j": 213.79999999999998,
+  "theta_deg": 4.8999999999999995,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.00017269304373079226,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   1
+  ],
+  "fail": "G1 refine [2, 2, 1]"
+ },
+ {
+  "k": 43.8,
+  "j": 215.79999999999998,
+  "theta_deg": 21.9,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0013261951108203057,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 4,
+  "order_at_rad": 2,
+  "fail": "G2 changes = 4"
+ },
+ {
+  "k": 17.799999999999997,
+  "j": 227.79999999999998,
+  "theta_deg": 8.899999999999999,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.00014235148476096816,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 6,
+  "order_at_rad": 2,
+  "fail": "G2 changes = 6"
+ },
+ {
+  "k": 19.799999999999997,
+  "j": 237.79999999999998,
+  "theta_deg": 9.899999999999999,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0008596254701078121,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   2,
+   2
+  ],
+  "G2_changes": 2,
+  "order_at_rad": 2,
+  "G3_radii": [
+   0.6400000000000001,
+   0.48,
+   0.36000000000000004,
+   0.24,
+   0.16000000000000003,
+   0.096
+  ],
+  "G3_orders": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "fail": "G3 shrink [1, 1, 1, 1, 1, 1]"
+ },
+ {
+  "k": 13.799999999999999,
+  "j": 243.79999999999998,
+  "theta_deg": 6.8999999999999995,
+  "order": 2,
+  "G0_boundary": true,
+  "gap_diag": 0.0006323831883125062,
+  "G1_refine_steps": [
+   120,
+   240,
+   480
+  ],
+  "G1_refine_orders": [
+   2,
+   1,
+   1
+  ],
+  "fail": "G1 refine [2, 1, 1]"
+ }
+]

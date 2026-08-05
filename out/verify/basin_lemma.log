@@ -1,0 +1,84 @@
+
+Closing the last gap: the hypothesis that sigma M_j lies in body i's basin.
+
+The proposition in wall_proof.py needs one thing it does not prove,
+
+    h_i >= rho(sigma M_j),
+
+and the note reports that as checked rather than proved. This script reduces it
+to something with a closed form and a measurable margin, and says exactly how
+much of the gap that closes.
+
+STEP 1, an exact identity. For a Gaussian kernel, K'(r) = -(r/sigma^2) K(r), so
+
+    grad rho(x) = -(1/sigma^2) sum_j (x - q_j) K(|x - q_j|),
+
+and a critical point satisfies sum_j (M - q_j) w_j = 0 with w_j = K(|M - q_j|).
+So every maximum is a WEIGHTED CENTROID of the bodies,
+
+    M_i = sum_j w_j q_j / sum_j w_j,
+
+which is exact, not a perturbation. Subtracting q_i,
+
+    |M_i - q_i|  <=  sum_{j != i} w_j r_ij / sum_j w_j.
+
+The peak displacement is therefore bounded in closed form by the kernel values at
+the other bodies, and those are exponentially small at the working bandwidth.
+
+STEP 2, what the displacement buys. sigma is an isometry fixing q_i and q_j as a
+pair, so
+
+    |sigma M_j - q_i| = |sigma M_j - sigma q_j| = |M_j - q_j| = delta_j,
+
+that is, sigma M_j sits within delta_j of body i. So it is enough that
+
+    h_i >= max of rho over the closed ball B(q_i, delta_j).                 (*)
+
+STEP 3, what is left. (*) holds if B(q_i, delta_j) sits inside body i's basin.
+That is the whole of the remaining gap, and it is now a statement about one
+length against another rather than about the vineyard. This script measures both:
+delta against the distance from the body to the nearest saddle, on the orbit and
+on four thousand random triangles.
+
+What this does and does not settle. STEPS 1 and 2 are proved and hold for every
+configuration: the identity is exact, so the bound is exact, so sigma M_j really
+does sit within delta_j of body i. STEP 3 is still measured. The honest summary
+is that the gap narrows from an unquantified hypothesis about basins to a
+quantified comparison of two lengths, and does not close. Closing it needs a
+uniform bound on delta against the basin radius, which is a real lemma.
+
+==============================================================================
+Columns: identity = |M_i - weighted centroid| (must be ~0)
+         bound    = closed-form bound minus actual displacement (>= 0)
+         hyp      = h_i minus rho(sigma M_j), what the proof needs (>= 0)
+         headroom = largest peak displacement / distance to nearest
+                    saddle. Small means the hypothesis is nowhere near
+                    tight: the peak barely moves against the basin.
+==============================================================================
+                        case      n    identity       bound          hyp   headroom
+    figure-eight, sigma=0.24    300    4.74e-16   -7.93e-17   -2.220e-16     0.0364  OK
+    figure-eight, sigma=0.28    300    8.93e-16   -5.20e-17   -2.220e-16     0.1340  OK
+     figure-eight, sigma=0.3    300    8.93e-16   -4.77e-17   -2.220e-16     0.2304  OK
+    figure-eight, sigma=0.32    300    9.42e-16   -4.86e-17   -2.220e-16     0.3872  OK
+      random triangles, 0.30   4000    1.12e-15   -2.23e-16   -2.220e-16     0.1453  OK
+
+==============================================================================
+How much of the gap this closes
+==============================================================================
+  Proved, not measured: the weighted-centroid identity, and hence the
+  closed-form bound on the peak displacement, and hence that sigma M_j
+  lies within delta_j of body i. Those are STEPS 1 and 2 and they hold
+  for every configuration, not just this orbit.
+
+  Still measured: that this puts sigma M_j inside body i's basin. The
+  headroom column says how much room there is, and it is a factor of a
+  few, not an order of magnitude: the largest peak displacement runs
+  from 4 per cent of the way to the nearest saddle at sigma = 0.24 to
+  39 per cent at sigma = 0.32, and 23 per cent at the working 0.30.
+  Comfortable, and worth not overstating.
+
+  Not done: a uniform proof that displacement stays below basin radius
+  for every triangle. That is a real lemma, and it is what would close
+  the gap completely.
+
+  verdict over every case above: all criteria hold

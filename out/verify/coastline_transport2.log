@@ -1,0 +1,22 @@
+curve: 1400 samples, simple=True
+certified generators found by the original pipeline: 2
+
+  p* = (-0.256818998, 0.623764182)
+     assignment pipeline: C1 order 2, C2 changes 2, n 4
+     C3 min_gap_rel 4.91e-12, max_gap_rel 2.11e-12
+     TRANSPORT tracking at the same point:
+       r= 1.0e-03: transport order 1     n=8 jump=1.0  | assignment order 2     changes 2
+       r= 1.0e-04: transport order 1     n=8 jump=0.0  | assignment order 2     changes 2
+       r= 1.0e-05: transport order 1     n=8 jump=0.0  | assignment order 2     changes 2
+       r= 1.0e-06: transport order 1     n=8 jump=0.0  | assignment order 2     changes 2
+       r= 1.0e-07: transport order 1     n=8 jump=0.0  | assignment order 2     changes 2
+
+  p* = (-0.575383576, 1.002680316)
+     assignment pipeline: C1 order 2, C2 changes 2, n 4
+     C3 min_gap_rel 3.86e-13, max_gap_rel 4.14e-12
+     TRANSPORT tracking at the same point:
+       r= 1.0e-03: transport order 1     n=8 jump=0.0  | assignment order 2     changes 2
+       r= 1.0e-04: transport order 1     n=8 jump=0.0  | assignment order 2     changes 2
+       r= 1.0e-05: transport order 1     n=8 jump=0.0  | assignment order 2     changes 2
+       r= 1.0e-06: transport order 1     n=8 jump=0.0  | assignment order 2     changes 2
+       r= 1.0e-07: transport order 1     n=8 jump=0.0  | assignment order 2     changes 2

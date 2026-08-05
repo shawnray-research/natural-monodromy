@@ -1,0 +1,22 @@
+==========================================================================
+A. figure-eight choreography
+==========================================================================
+  sorted death values over the period:
+    smallest gap between adjacent sorted deaths: 0.0000e+00
+    smallest distance between any two diagram POINTS: 0.0000e+00
+    smallest distance between two BIRTH values:       0.0000e+00
+
+  The births do coincide, twelve times per period, which is what the
+  isosceles walls are. The DEATHS never come close, so the three diagram
+  points stay separated and ordered by death for the whole period, and
+  cannot permute. The vineyard monodromy is the identity.
+
+==========================================================================
+B. rotating wave through a fixed envelope
+==========================================================================
+  n=4 crests, 600 steps round the loop
+    smallest gap between adjacent sorted DEATHS: 8.2265e-06
+    smallest distance between two diagram POINTS: 6.2694e-02
+
+  Same conclusion: the points stay separated, so they cannot permute.
+  The transport tracker was following CREST LABELS, not diagram points.

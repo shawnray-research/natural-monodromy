@@ -1,0 +1,15 @@
+integration: DOP853, rtol=atol=1e-13, NS=36000 over one full period T
+orbit closure |x(T)-x(0)| = 7.389e-08
+
+loop = T/3
+   K=  3000: s2^-1 s1 s2^-1                       3 crossings, perm [2, 1, 0], order 2, exp sum -1
+   K=  9000: s2^-1 s1 s2^-1                       3 crossings, perm [2, 1, 0], order 2, exp sum -1
+   K= 18000: s2^-1 s1 s2^-1                       3 crossings, perm [2, 1, 0], order 2, exp sum -1
+   configuration relabelling after T/3: [1, 2, 0], mismatch 2.98e-08
+
+loop = T
+   K=  3000: s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1  11 crossings, perm [1, 0, 2], order 2, exp sum -1
+   K=  9000: s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1  11 crossings, perm [1, 0, 2], order 2, exp sum -1
+   K= 18000: s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1  11 crossings, perm [1, 0, 2], order 2, exp sum -1
+   configuration relabelling after T: [0, 1, 2], mismatch 2.24e-04
+

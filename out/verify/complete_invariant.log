@@ -1,0 +1,29 @@
+1. Recovering the triangle from the diagram, along the orbit.
+==========================================================================
+  Using the density AT the bodies, where the algebra is exact:
+
+      t/T               true (r23, r13, r12)                          recovered      error
+     0.05          [0.74682 1.38307 1.87418]          [0.74682 1.38307 1.87418]   6.00e-10
+     0.20          [1.24557 1.94417 0.81239]          [1.24557 1.94417 0.81239]   4.95e-09
+     0.37          [1.93241 0.79757 1.27253]          [1.93241 0.79757 1.27253]   4.79e-09
+     0.55          [0.74682 1.38307 1.87418]          [0.74682 1.38307 1.87418]   6.11e-10
+     0.80          [1.94417 1.24557 0.81239]          [1.94417 1.24557 0.81239]   6.44e-11
+
+  worst error over these instants: 4.95e-09
+
+  Using the true BIRTH values from the merge tree, where the maxima
+  are displaced from the bodies, so the recovery is approximate:
+
+    sigma    worst relative error in the recovered sides
+     0.22                                      3.340e-01
+     0.26                                      3.426e-01
+     0.30                                      3.511e-01
+
+==========================================================================
+2. Is the strand order the ordering of the side lengths?
+==========================================================================
+  order of the peak heights equals order of the opposite sides
+  at 858 of 858 instants (100.0 per cent)
+
+==========================================================================
+3. Why this is special to three bodies.

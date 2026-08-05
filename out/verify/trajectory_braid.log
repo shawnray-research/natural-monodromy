@@ -1,0 +1,146 @@
+
+Audit the last paragraph of the note: the trajectory braid, the squaring claim,
+and the entropy comparison.
+
+The note asserts four things about the trajectory braid, and each was taken from
+the literature rather than measured here. This script measures all of them.
+
+  1  The trajectory braid of the figure-eight over T/3 is sigma_1 sigma_2^-1.
+     Measured directly from the integrated orbit, in the same style of convention
+     used for the vineyard: order the strands by their projected coordinate at
+     the first slice, run time forwards, sign each crossing by which body passes
+     in front. A braid WORD depends on the projection direction, so the word is
+     computed over many directions and it is the conjugacy class that has to be
+     stable, not the letters.
+
+  2  The vineyard braid is the square of the trajectory braid. This should be an
+     identity in the braid group, not a numerical coincidence, and not something
+     that has to be pushed through SL(2,Z) first: conjugating (s1 s2^-1)^2 by s1
+     gives s2^-1 s1 s2^-1 s1 on the nose. Checked here in reduced Burau, which is
+     faithful for three strands, so word equality is decided and not sampled.
+
+  3  The SL(2,Z) matrix. sigma_1 -> [[1,1],[0,1]], sigma_2 -> [[1,0],[-1,1]] is
+     the standard surjection. Under it s1 s2^-1 -> [[2,1],[1,1]]. Since B_3 does
+     not act faithfully, the check that matters is that the trace, which is a
+     conjugacy invariant, matches what the measured braid gives.
+
+  4  The entropies. Both braids must be read over the SAME time span or the
+     factor of two is an artifact of normalization. The vineyard braid is
+     measured over T/3, so the trajectory braid must be too.
+
+Also settles a claim in the closing sentence: that the vineyard sees twelve
+isosceles configurations and the trajectories six. The second half is projection
+dependent, and this checks whether it is stable enough to state.
+
+==============================================================================
+1. The trajectory braid over T/3, measured, over many projections
+==============================================================================
+   theta/pi      word over T/3       perm  exp sum  SL2 trace   conj to s1 s2^-1
+      0.000           s1 s2^-1  [1, 2, 0]        0          3    yes, by (empty)
+      0.056           s1 s2^-1  [1, 2, 0]        0          3    yes, by (empty)
+      0.111           s1 s2^-1  [1, 2, 0]        0          3    yes, by (empty)
+      0.167           s1 s2^-1  [1, 2, 0]        0          3    yes, by (empty)
+      0.222           s1 s2^-1  [1, 2, 0]        0          3    yes, by (empty)
+      0.278           s1 s2^-1  [1, 2, 0]        0          3    yes, by (empty)
+      0.333           s1 s2^-1  [1, 2, 0]        0          3    yes, by (empty)
+      0.389           s1 s2^-1  [1, 2, 0]        0          3    yes, by (empty)
+      0.444  s1^-1 s2^-1 s1 s2  [2, 0, 1]        0          3   yes, by s1 s1 s2
+      0.500  s1^-1 s2^-1 s1 s2  [2, 0, 1]        0          3   yes, by s1 s1 s2
+      0.556  s1^-1 s2^-1 s1 s2  [2, 0, 1]        0          3   yes, by s1 s1 s2
+      0.611           s2 s1^-1  [2, 0, 1]        0          3   yes, by s1 s1 s2
+      0.667           s2 s1^-1  [2, 0, 1]        0          3   yes, by s1 s1 s2
+      0.722           s2 s1^-1  [2, 0, 1]        0          3   yes, by s1 s1 s2
+      0.778           s2 s1^-1  [2, 0, 1]        0          3   yes, by s1 s1 s2
+      0.833           s2 s1^-1  [2, 0, 1]        0          3   yes, by s1 s1 s2
+      0.889           s2 s1^-1  [2, 0, 1]        0          3   yes, by s1 s1 s2
+      0.944           s2 s1^-1  [2, 0, 1]        0          3   yes, by s1 s1 s2
+
+  conjugate to s1 s2^-1 in 18 of 18 projections
+  distinct words seen: {'s1 s2^-1': 8, 's1^-1 s2^-1 s1 s2': 3, 's2 s1^-1': 7}
+  reference: s1 s2^-1 has exponent sum 0 and SL(2,Z) trace 3
+
+==============================================================================
+2. Is the vineyard braid the square of the trajectory braid?
+==============================================================================
+  trajectory braid          s1 s2^-1
+  its square                s1 s2^-1 s1 s2^-1
+  measured vineyard braid   s2^-1 s1 s2^-1 s1
+
+  equal as braids?          False
+  conjugate as braids?      yes, by s1
+  check the conjugation by hand: s1^-1 (s1 s2^-1 s1 s2^-1) s1
+    = s2^-1 s1 s2^-1 s1
+  closure is a conjugacy invariant, so the knot follows from this
+  alone, with no appeal to SL(2,Z).
+
+==============================================================================
+3. The SL(2,Z) matrix and the dilatations
+==============================================================================
+  s1 s2^-1 -> 
+[[2 1]
+ [1 1]]   trace 3
+  its square -> 
+[[5 3]
+ [3 2]]   trace 7
+
+  dilatation, trajectory 2.618034   golden ratio squared 2.618034   diff 0.00e+00
+  dilatation, vineyard   6.854102   golden ratio ^4      6.854102   diff 8.88e-16
+  vineyard dilatation is the square of the trajectory one to 0.00e+00
+
+==============================================================================
+4. Entropy, and whether the two are normalized over the same time
+==============================================================================
+  both braids are read over the same loop, T/3.
+    trajectory braid over T/3: s1 s2^-1, 2 crossings
+    vineyard braid over T/3:   s2^-1 s1 s2^-1 s1, 4 crossings
+  entropy of the mapping class, trajectory 0.962424
+  entropy of the mapping class, vineyard   1.924847
+  ratio 2.000000
+  per unit time the ratio is the same, since the span is shared:
+    trajectory 0.456420 per unit time, vineyard 0.912839
+
+==============================================================================
+5. Crossing counts per period: is 'the trajectories see six' stable?
+==============================================================================
+   theta/pi   traj crossings per T  word length
+      0.000                      6            6
+      0.056                      6            6
+      0.111                      6            6
+      0.167                      6            6
+      0.222                      6            6
+      0.278                      6            6
+      0.333                      6            6
+      0.389                      6            6
+      0.444                     12           12
+      0.500                     12           12
+      0.556                     12           12
+      0.611                      6            6
+      0.667                      6            6
+      0.722                      6            6
+      0.778                      6            6
+      0.833                      6            6
+      0.889                      6            6
+      0.944                      6            6
+
+  crossing count over a period ranges 6 to 12 across projections
+  the vineyard braid over a period has 12 crossings, and is projection independent
+
+==============================================================================
+6. Where the trajectory crossings sit relative to the walls
+==============================================================================
+
+  theta/pi = 0.00: 6 crossings at t/T
+    [0.0833 0.25   0.4167 0.5833 0.75   0.9167]
+    distance to the nearest twelfth: max 0.0000
+    ON the wall locus
+
+  theta/pi = 0.25: 6 crossings at t/T
+    [0.0413 0.2921 0.3746 0.6254 0.7079 0.9587]
+    distance to the nearest twelfth: max 0.0413
+    NOT on the wall locus
+
+  theta/pi = 0.50: 12 crossings at t/T
+    [0.0298 0.1369 0.1964 0.3036 0.3631 0.4702 0.5298 0.6369 0.6964 0.8036
+ 0.8631 0.9702]
+    distance to the nearest twelfth: max 0.0298
+    NOT on the wall locus

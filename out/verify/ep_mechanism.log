@@ -1,0 +1,24 @@
+
+Encircling: eps = r e^{i theta}, so lambda = sqrt(r) e^{i theta / 2} runs from
++sqrt(r) to -sqrt(r) over one loop. That IS the celebrated mode interchange. The
+question is what it does to the persistence diagram of the intensity.
+
+==========================================================================
+Q1. After ONE encirclement, does the measured field return?
+==========================================================================
+  lambda: 0.6000+0.0000j  ->  -0.6000+0.0000j
+  max |f_end - f_start| / max|f| = 0.9083
+  -> the field does NOT return: it is the OTHER mode's intensity.
+     A vineyard over one encirclement is therefore not CLOSED,
+     and vineyard monodromy is not even defined on it.
+
+  diagram at start: 2 points, at end: 2 points
+  ||D_end - D_start|| as sorted multisets = 6.6640e-16
+
+==========================================================================
+Q2. Over TWO encirclements the field does return. Is there monodromy?
+==========================================================================
+  lambda: 0.6000+0.0000j -> 0.6000-0.0000j
+  closure: max|f_end - f_start|/max|f| = 0.000e+00  (closed)
+  diagram cardinality around the double loop: [2]
+  monodromy over the DOUBLE loop: order 1, cycles [(0,), (1,)], n=2

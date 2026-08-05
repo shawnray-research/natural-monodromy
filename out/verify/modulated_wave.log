@@ -1,0 +1,24 @@
+  - no crest is created or destroyed, so D7 holds by construction
+
+That is transport rather than symmetry, and it is the same mechanism as the
+choreography: the exchanged objects are at different phases of one process.
+A(theta) constant recovers the degenerate case as a control.
+
+ crests  modulation     closure  pts    min sep  order   cycles
+------------------------------------------------------------------------------
+      3        0.00   D7 fails, counts -
+      3        0.05    2.11e-15    3   6.11e-02      1   [(0,), (1,), (2,)]
+      3        0.20    2.44e-15    3   2.42e-01      1   [(0,), (1,), (2,)]
+      3        0.45    2.89e-15    3   5.38e-01      1   [(0,), (1,), (2,)]
+      4        0.00   D7 fails, counts -
+      4        0.05    7.77e-16    4   3.82e-02      1   [(0,), (1,), (2,), (3,)]
+      4        0.20    8.33e-16    4   1.52e-01      1   [(0,), (1,), (2,), (3,)]
+      4        0.45    9.99e-16    4   3.39e-01      1   [(0,), (1,), (2,), (3,)]
+      5        0.00   D7 fails, counts -
+      5        0.05    1.96e-15    5   2.56e-02      1   [(0,), (1,), (2,), (3,), (4,)]
+      5        0.20    1.78e-15    5   1.02e-01      1   [(0,), (1,), (2,), (3,), (4,)]
+      5        0.45    1.55e-15    5   2.29e-01      1   [(0,), (1,), (2,), (3,), (4,)]
+      6        0.00   D7 fails, counts -
+      6        0.05    7.70e-15    6   1.83e-02      1   [(0,), (1,), (2,), (3,), (4,), (5,)]
+      6        0.20    8.77e-15    6   7.29e-02      1   [(0,), (1,), (2,), (3,), (4,), (5,)]
+      6        0.45    1.05e-14    6   1.63e-01      1   [(0,), (1,), (2,), (3,), (4,), (5,)]

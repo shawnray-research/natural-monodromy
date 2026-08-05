@@ -1,0 +1,14 @@
+  t/T   midpoint-seeded saddles   exhaustive (max/sad/min)   agree?
+  0.02          3                  3/2/0              NO
+  0.05          3                  3/2/0              NO
+  0.10          3                  3/2/0              NO
+  0.20          2                  3/2/0              yes
+  0.37          2                  3/2/0              yes
+  0.55          3                  3/2/0              NO
+  0.80          2                  3/2/0              yes
+
+The exhaustive search finds every critical point without seeding, and was
+validated against Duistermaat's four-mode window. Where the two disagree,
+the midpoint-seeded count is the one at fault: seeding at the midpoint of a
+far-apart pair converges to a saddle that belongs to a different pair, and
+a 1e-5 dedup tolerance then counts it twice.

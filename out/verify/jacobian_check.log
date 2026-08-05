@@ -1,0 +1,20 @@
+  How much does each side contribute to a peak height?
+
+   sigma  shortest side   longest side    K(short)     K(long)  ratio to K(0)=1
+    0.22         0.7976         1.9324    1.40e-03    1.76e-17          1.8e-17
+    0.26         0.7976         1.9324    9.05e-03    1.01e-12          1.0e-12
+    0.30         0.7976         1.9324    2.92e-02    9.78e-10          9.8e-10
+    0.34         0.7976         1.9324    6.38e-02    9.67e-08          9.7e-08
+
+  So the longest side changes the peak heights in the 12th to 30th decimal
+  place, while the heights themselves are of order 1. Recovering it needs
+  more precision than double arithmetic carries. The map is invertible in
+  principle and useless as an inversion in practice.
+
+  What survives is the ORDERING. Which of h_1, h_2, h_3 is largest is
+  decided by differences of order 1e-2, comfortably above the noise, and
+  it matched the ordering of the opposite sides at 858 of 858 instants.
+
+  That is the point worth keeping: the braid is built from the ordering and
+  not from the values, so it uses exactly the well conditioned part of the
+  diagram and discards the part that is not recoverable.

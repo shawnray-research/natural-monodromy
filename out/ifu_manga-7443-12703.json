@@ -1,0 +1,9 @@
+{
+ "cube": "data/phys/manga-7443-12703-LOGCUBE.fits.gz",
+ "window": [
+  2645,
+  2865
+ ],
+ "lsf_sigma_px": 1.0162231121149883,
+ "points": []
+}

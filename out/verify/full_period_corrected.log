@@ -1,0 +1,10 @@
+basepoint t/T = 0.37 (away from the six symmetric instants)
+
+  loop T/3  K=  4000: s2^-1 s1 s2^-1 s1                         4 crossings, perm [1, 2, 0], order 3
+  loop T/3  K= 12000: s2^-1 s1 s2^-1 s1                         4 crossings, perm [1, 2, 0], order 3
+       relabelling after T/3: [1, 2, 0], mismatch 3.83e-08
+
+  loop T    K=  4000: s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 12 crossings, perm [0, 1, 2], order 1
+  loop T    K= 12000: s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 12 crossings, perm [0, 1, 2], order 1
+       relabelling after T: [0, 1, 2], mismatch 0.00e+00
+

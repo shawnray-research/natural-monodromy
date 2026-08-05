@@ -1,0 +1,19 @@
+FIGURE-EIGHT THREE-BODY CHOREOGRAPHY
+======================================================================
+  integrator DOP853, rtol=atol=1e-13, 12000 steps
+  orbit closure |x(T)-x(0)|            = 7.389e-08
+  cloud identical after T/3, max mismatch = 2.981e-08,  relabelling [np.int64(1), np.int64(2), np.int64(0)]
+
+  sigma = 0.2
+    vineyard braid   : s2^-1 s1 s2^-1 s1   (4 crossings)  perm [1, 2, 0] order 3
+    trajectory braid : s1 s2^-1   (2 crossings)  perm [1, 2, 0] order 3
+
+  sigma = 0.25
+    vineyard braid   : s2^-1 s1 s2^-1 s1   (4 crossings)  perm [1, 2, 0] order 3
+    trajectory braid : s1 s2^-1   (2 crossings)  perm [1, 2, 0] order 3
+
+  sigma = 0.3
+    vineyard braid   : s2^-1 s1 s2^-1 s1   (4 crossings)  perm [1, 2, 0] order 3
+    trajectory braid : s1 s2^-1   (2 crossings)  perm [1, 2, 0] order 3
+
+  (Alexander via Burau unavailable: cannot unpack non-iterable int object)

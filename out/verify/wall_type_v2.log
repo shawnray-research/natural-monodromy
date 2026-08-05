@@ -1,0 +1,11 @@
+Walnut candidate p* = (49.617361, 63.760125)
+  walnut r=2e-02: 2 pairing changes
+     at  125.0 deg: min birth gap 2.51e-04, min death gap 6.10e-07  ->  death-death
+     at  244.0 deg: min birth gap 8.55e-07, min death gap 1.35e-04  ->  BIRTH-BIRTH
+  walnut r=2e-03: 2 pairing changes
+     at  125.5 deg: min birth gap 2.53e-05, min death gap 9.44e-09  ->  death-death
+     at  244.0 deg: min birth gap 1.23e-07, min death gap 1.36e-05  ->  BIRTH-BIRTH
+
+Coastline of Japan, previously certified p*
+  Japan r=1e-03: 0 pairing changes
+  Japan r=1e-05: 0 pairing changes

@@ -1,0 +1,5 @@
+orbit closure |x(T)-x(0)| = 7.39e-08
+cloud identical after T/3: max mismatch 3.85e-08, relabelling [1, 2, 0]
+
+  ok                                 False
+  reason                             diagram cardinality 5 mid-loop

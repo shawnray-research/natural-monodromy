@@ -1,0 +1,18 @@
+   sigma  min persistence   typ |h_i-h_j|     ratio  verdict
+  ------------------------------------------------------------------
+    0.16           0.8052        7.48e-06  107622.2  walls hard to resolve
+    0.20           0.5519        5.26e-04    1049.1  walls hard to resolve
+    0.22           0.4238        1.97e-03     215.3  walls hard to resolve
+    0.24           0.3065        5.42e-03      56.5  ok
+    0.26           0.2050        1.21e-02      17.0  ok
+    0.28           0.1222        2.32e-02       5.3  ok
+    0.30           0.0598        4.00e-02       1.5  ok
+    0.32           0.0190        6.35e-02       0.3  feature near diagonal
+    0.34           0.0008        9.49e-02       0.0  feature near diagonal
+    0.36       degenerate
+
+  The honest window is roughly sigma 0.24 to 0.30. Below it the wall
+  crossings stop being numerically resolvable; above it a feature reaches
+  the diagonal. The window is set by numerical resolution and by peak
+  merging, not by anything topological, and the WALL LOCATIONS themselves
+  are unaffected throughout, since r_ik = r_jk contains no sigma.

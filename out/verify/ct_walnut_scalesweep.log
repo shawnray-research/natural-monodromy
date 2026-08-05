@@ -1,0 +1,17 @@
+cone-beam magnification 2.629; 1 detector px = 19.0 um at the object
+
+sigma=  3.0 px (    57 um at object)  noise=0.00490
+   top persistences: [1.125 0.313 0.289 0.223 0.117 0.091 0.059 0.038 0.032 0.026 0.024 0.018]
+   largest gap after feature 1: ratio 3.60  (floor between 0.3130 and 1.1254 = 230 sigma)
+sigma=  8.0 px (   152 um at object)  noise=0.00383
+   top persistences: [1.108 0.281 0.24  0.206 0.097 0.049 0.021 0.014 0.008 0.007 0.005 0.004]
+   largest gap after feature 1: ratio 3.94  (floor between 0.2812 and 1.1077 = 289 sigma)
+sigma= 15.0 px (   285 um at object)  noise=0.00390
+   top persistences: [1.091 0.245 0.215 0.155 0.057 0.027 0.004]
+   largest gap after feature 6: ratio 7.51  (floor between 0.0036 and 0.0271 = 7 sigma)
+sigma= 25.0 px (   476 um at object)  noise=0.00522
+   top persistences: [1.078 0.189 0.152 0.088 0.025]
+   largest gap after feature 1: ratio 5.70  (floor between 0.1892 and 1.0783 = 207 sigma)
+sigma= 40.0 px (   761 um at object)  noise=0.00893
+   top persistences: [1.059 0.129 0.08 ]
+   largest gap after feature 1: ratio 8.19  (floor between 0.1293 and 1.0594 = 119 sigma)

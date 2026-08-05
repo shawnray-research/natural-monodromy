@@ -1,0 +1,27 @@
+  symmetries (spatial g, time direction, shift m/12):
+    identity    t -> +t +  0/12    mismatch 0.0e+00
+    identity    t -> +t +  4/12    mismatch 7.0e-08
+    identity    t -> +t +  8/12    mismatch 7.0e-08
+    reflect x   t -> -t +  2/12    mismatch 1.1e-07
+    reflect x   t -> -t +  6/12    mismatch 1.3e-07
+    reflect x   t -> -t + 10/12    mismatch 1.4e-07
+    reflect y   t -> +t +  2/12    mismatch 8.8e-08
+    reflect y   t -> +t +  6/12    mismatch 7.0e-08
+    reflect y   t -> +t + 10/12    mismatch 8.8e-08
+    rotate pi   t -> -t +  0/12    mismatch 1.0e-07
+    rotate pi   t -> -t +  4/12    mismatch 1.4e-07
+    rotate pi   t -> -t +  8/12    mismatch 1.6e-07
+
+  group order: 12
+  forward shifts present: [0, 2, 4, 6, 8, 10]   (multiples of T/6)
+
+  isosceles instants: 13  at k/12 = [ 0.  1.  2.  3.  4.  5.  6.  7.  8.  9. 10. 11. 12.]
+  collinear instants: 6  at k/12 = [ 0.  2.  4.  6.  8. 10.]
+
+  collinear instants that are ALSO isosceles: 6 of 6
+  so six of the twelve walls are Euler configurations, collinear with one
+  body equidistant from the other two, and the other six are proper
+  isosceles triangles. The forward shifts are multiples of 2/12, so the
+  group moves each class within itself and does NOT mix them: it forces
+  each set of six to be evenly spaced at T/6, and the interleaving at T/12
+  is a separate fact, not a consequence of these symmetries.

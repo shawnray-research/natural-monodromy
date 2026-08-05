@@ -1,0 +1,32 @@
+SYMMETRY: k identical bumps exchanged by a rotation of the instantaneous field
+==============================================================================
+  k=2: closest pair of diagram points over the loop = inf
+        spread of birth values among the k bumps      = 0.000e+00
+        -> the rotation is an isometry of the instantaneous field, so the
+           k bumps carry EQUAL values. The permutation is real on labels
+           and invisible in the diagram.
+  k=3: closest pair of diagram points over the loop = 0.000e+00
+        spread of birth values among the k bumps      = 0.000e+00
+        -> the rotation is an isometry of the instantaneous field, so the
+           k bumps carry EQUAL values. The permutation is real on labels
+           and invisible in the diagram.
+  k=4: closest pair of diagram points over the loop = 0.000e+00
+        spread of birth values among the k bumps      = 2.220e-16
+        -> the rotation is an isometry of the instantaneous field, so the
+           k bumps carry EQUAL values. The permutation is real on labels
+           and invisible in the diagram.
+  k=5: closest pair of diagram points over the loop = 0.000e+00
+        spread of birth values among the k bumps      = 4.441e-16
+        -> the rotation is an isometry of the instantaneous field, so the
+           k bumps carry EQUAL values. The permutation is real on labels
+           and invisible in the diagram.
+
+==============================================================================
+TRANSPORT: figure-eight choreography, bodies exchanged by a TIME SHIFT
+==============================================================================
+  closest pair of diagram points over T/3 = 0.000e+00
+  spread of birth values among the 3 bodies at t=0 = 3.779e-03
+  body i's diagram point at t=0   : [1.00395 1.00395 1.00773]
+  body i's diagram point at t=T/3 : [1.00773 1.00395 1.00395]
+  -> body i lands on body i+1's starting values, and those values DIFFER,
+     so the permutation is a permutation of distinct diagram points.

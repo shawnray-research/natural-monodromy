@@ -1,0 +1,10 @@
+VALIDATION 1: rotating wave, true answer is the n-cycle.
+  n=3: transport -> order 3 [(0, 1, 2)]   | assignment -> order 1
+  n=4: transport -> order 4 [(0, 1, 2, 3)]   | assignment -> order 1
+  n=5: transport -> order 5 [(0, 1, 2, 3, 4)]   | assignment -> order 1
+
+VALIDATION 2: ellipse centre, true answer is order 1 (4 pairing changes).
+  radius 0.02: transport -> order 1  (n=2, max transport jump 1.0)
+  radius 0.05: transport -> order 1  (n=2, max transport jump 1.0)
+  radius 0.1: transport -> order 1  (n=2, max transport jump 1.0)
+  radius 0.2: transport -> order 1  (n=2, max transport jump 1.0)

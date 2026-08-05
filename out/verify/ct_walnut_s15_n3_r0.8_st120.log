@@ -1,0 +1,161 @@
+patch (121, 250, 1600)  (theta x row x detector)
+  theta span 60.0 deg, row span 24.90 mm
+  smoothing 15.0 detector pixels (750 um at the detector)
+  air noise sigma = 0.00390 in attenuation; floor = 3.0 sigma = 0.01169
+  loop radius 0.40 deg x 80 um
+
+  centre diagram: 10 points, 6 above the noise floor
+
+D7: is the count above the floor constant round small loops?
+  constant on 397 of 840 loops (47%)
+  counts where constant: {4: 23, 5: 111, 6: 144, 7: 77, 8: 33, 9: 6, 10: 3}
+
+Scanning for monodromy...
+  row j=2: 0 hits so far
+  row j=4: 0 hits so far
+  row j=6: 0 hits so far
+  row j=8: 0 hits so far
+  row j=10: 0 hits so far
+  row j=12: 1 hits so far
+  row j=14: 1 hits so far
+  row j=16: 1 hits so far
+  row j=18: 1 hits so far
+  row j=20: 1 hits so far
+  row j=22: 2 hits so far
+  row j=24: 2 hits so far
+  row j=26: 2 hits so far
+  row j=28: 2 hits so far
+  row j=30: 2 hits so far
+  row j=32: 2 hits so far
+  row j=34: 2 hits so far
+  row j=36: 2 hits so far
+  row j=38: 2 hits so far
+  row j=40: 2 hits so far
+  row j=42: 2 hits so far
+  row j=44: 2 hits so far
+  row j=46: 2 hits so far
+  row j=48: 2 hits so far
+  row j=50: 2 hits so far
+  row j=52: 3 hits so far
+  row j=54: 3 hits so far
+  row j=56: 3 hits so far
+  row j=58: 4 hits so far
+  row j=60: 4 hits so far
+  row j=62: 4 hits so far
+  row j=64: 5 hits so far
+  row j=66: 5 hits so far
+  row j=68: 5 hits so far
+  row j=70: 5 hits so far
+  row j=72: 5 hits so far
+  row j=74: 5 hits so far
+  row j=76: 5 hits so far
+  row j=78: 5 hits so far
+  row j=80: 5 hits so far
+  row j=82: 5 hits so far
+  row j=84: 5 hits so far
+  row j=86: 5 hits so far
+  row j=88: 5 hits so far
+  row j=90: 5 hits so far
+  row j=92: 5 hits so far
+  row j=94: 5 hits so far
+  row j=96: 5 hits so far
+  row j=98: 5 hits so far
+  row j=100: 5 hits so far
+  row j=102: 5 hits so far
+  row j=104: 5 hits so far
+  row j=106: 5 hits so far
+  row j=108: 6 hits so far
+  row j=110: 6 hits so far
+  row j=112: 6 hits so far
+  row j=114: 6 hits so far
+  row j=116: 7 hits so far
+  row j=118: 7 hits so far
+  row j=120: 7 hits so far
+  row j=122: 7 hits so far
+  row j=124: 7 hits so far
+  row j=126: 7 hits so far
+  row j=128: 7 hits so far
+  row j=130: 7 hits so far
+  row j=132: 7 hits so far
+  row j=134: 7 hits so far
+  row j=136: 7 hits so far
+  row j=138: 7 hits so far
+  row j=140: 7 hits so far
+  row j=142: 7 hits so far
+  row j=144: 7 hits so far
+  row j=146: 7 hits so far
+  row j=148: 7 hits so far
+  row j=150: 7 hits so far
+  row j=152: 7 hits so far
+  row j=154: 8 hits so far
+  row j=156: 8 hits so far
+  row j=158: 8 hits so far
+  row j=160: 8 hits so far
+  row j=162: 9 hits so far
+  row j=164: 11 hits so far
+  row j=166: 12 hits so far
+  row j=168: 12 hits so far
+  row j=170: 12 hits so far
+  row j=172: 12 hits so far
+  row j=174: 12 hits so far
+  row j=176: 12 hits so far
+  row j=178: 12 hits so far
+  row j=180: 12 hits so far
+  row j=182: 12 hits so far
+  row j=184: 12 hits so far
+  row j=186: 12 hits so far
+  row j=188: 12 hits so far
+  row j=190: 12 hits so far
+  row j=192: 12 hits so far
+  row j=194: 13 hits so far
+  row j=196: 13 hits so far
+  row j=198: 14 hits so far
+  row j=200: 14 hits so far
+  row j=202: 15 hits so far
+  row j=204: 15 hits so far
+  row j=206: 16 hits so far
+  row j=208: 16 hits so far
+  row j=210: 16 hits so far
+  row j=212: 16 hits so far
+  row j=214: 17 hits so far
+  row j=216: 18 hits so far
+  row j=218: 18 hits so far
+  row j=220: 18 hits so far
+  row j=222: 18 hits so far
+  row j=224: 18 hits so far
+  row j=226: 18 hits so far
+  row j=228: 19 hits so far
+  row j=230: 19 hits so far
+  row j=232: 19 hits so far
+  row j=234: 19 hits so far
+  row j=236: 19 hits so far
+  row j=238: 20 hits so far
+  row j=240: 20 hits so far
+  row j=242: 20 hits so far
+  row j=244: 21 hits so far
+  row j=246: 21 hits so far
+  row j=248: 21 hits so far
+
+  well-defined on 3487 of 7316 loops
+  NONTRIVIAL monodromy on 21
+    theta 22.90 deg, row 622: order 2, 7 pts, 4 changes, gap 9.72e-04
+    theta 21.90 deg, row 642: order 2, 7 pts, 4 changes, gap 8.50e-04
+    theta 23.90 deg, row 702: order 2, 7 pts, 8 changes, gap 3.01e-04
+    theta 26.90 deg, row 714: order 2, 7 pts, 6 changes, gap 2.74e-03
+    theta 24.90 deg, row 726: order 2, 7 pts, 7 changes, gap 1.36e-03
+    theta 33.90 deg, row 814: order 2, 7 pts, 4 changes, gap 1.83e-03
+    theta 17.90 deg, row 830: order 2, 6 pts, 8 changes, gap 2.49e-04
+    theta 39.90 deg, row 906: order 2, 7 pts, 2 changes, gap 3.83e-04
+    theta 28.90 deg, row 922: order 2, 7 pts, 6 changes, gap 1.85e-04
+    theta 16.90 deg, row 926: order 2, 6 pts, 2 changes, gap 3.54e-04
+    theta 27.90 deg, row 926: order 2, 7 pts, 14 changes, gap 1.14e-03
+    theta 28.90 deg, row 930: order 2, 7 pts, 8 changes, gap 2.05e-04
+    theta 37.90 deg, row 986: order 2, 10 pts, 4 changes, gap 2.25e-04
+    theta 35.90 deg, row 994: order 2, 10 pts, 2 changes, gap 9.14e-05
+    theta 57.90 deg, row 1002: order 2, 6 pts, 2 changes, gap 1.25e-04
+    theta 41.90 deg, row 1010: order 2, 8 pts, 2 changes, gap 4.11e-04
+    theta  4.90 deg, row 1026: order 2, 8 pts, 6 changes, gap 1.73e-04
+    theta 21.90 deg, row 1030: order 2, 7 pts, 4 changes, gap 1.33e-03
+    theta  8.90 deg, row 1054: order 2, 7 pts, 6 changes, gap 1.42e-04
+    theta  9.90 deg, row 1074: order 2, 7 pts, 2 changes, gap 8.60e-04
+    theta  6.90 deg, row 1086: order 2, 6 pts, 4 changes, gap 6.32e-04

@@ -1,0 +1,21 @@
+# measured inputs, too large to track and freely available from source.
+# scripts/fetch_walnut.py and scripts/fetch_rdc.py pull them from Zenodo.
+data/
+
+# published papers, not mine to redistribute
+papers/
+
+__pycache__/
+*.pyc
+.DS_Store
+*.aux
+*.log
+!out/verify/*.log
+
+# superseded copies, the withdrawn note, and build junk. Kept locally.
+archive/
+retracted/
+figs/superseded/
+out/verify/AUDIT.txt
+out/verify/skimage_install.log
+figs/README.txt

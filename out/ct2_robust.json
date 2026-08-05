@@ -1,0 +1,110 @@
+{
+ "base": [
+  null,
+  null
+ ],
+ "koff1": [
+  null,
+  null
+ ],
+ "koff2": [
+  {
+   "theta": 26.84263984143734,
+   "row": 716.3121725797653,
+   "order": 2,
+   "box": 1.0430812658057675e-08,
+   "walls": [
+    "BB",
+    "DD"
+   ]
+  },
+  null
+ ],
+ "koff3": [
+  null,
+  null
+ ],
+ "joff2": [
+  null,
+  null
+ ],
+ "joff4": [
+  null,
+  null
+ ],
+ "joff6": [
+  null,
+  null
+ ],
+ "s3_6": [
+  {
+   "theta": 26.818684421032664,
+   "row": 716.8982404410839,
+   "order": 2,
+   "box": 1.0430813546236095e-08,
+   "walls": [
+    "BB",
+    "DD"
+   ]
+  },
+  null
+ ],
+ "s5_10": [
+  null,
+  null
+ ],
+ "s6_12": [
+  null,
+  null
+ ],
+ "s3_10": [
+  {
+   "theta": 26.883233148902647,
+   "row": 717.1462575495243,
+   "order": 2,
+   "box": 1.0430813546236095e-08,
+   "walls": [
+    "BB",
+    "DD"
+   ]
+  },
+  null
+ ],
+ "s5_6": [
+  null,
+  null
+ ],
+ "sig12.0": [
+  {
+   "theta": 27.084501059651373,
+   "row": 714.9684272050857,
+   "order": 2,
+   "box": 1.0430813102146885e-08,
+   "walls": [
+    "BB",
+    "DD"
+   ]
+  },
+  null
+ ],
+ "sig18.0": [
+  null,
+  null
+ ],
+ "sig22.0": [
+  null,
+  null
+ ],
+ "ns2.0": [
+  null,
+  null
+ ],
+ "ns4.0": [
+  null,
+  null
+ ],
+ "ns5.0": [
+  null,
+  null
+ ]
+}

@@ -1,0 +1,15 @@
+Follow-up on the odd-half failure, for the surviving generator only.
+
+How correlated are neighbouring projections, i.e. is 1 deg sampling enough?
+  max |change| over 0.5 deg: 0.0184   (feature persistences run 0.03 to 1.1)
+  max |change| over 1.0 deg: 0.0324   (feature persistences run 0.03 to 1.1)
+  max |change| over 2.0 deg: 0.0625   (feature persistences run 0.03 to 1.1)
+
+Widen the search box on the odd half (the generator may simply have moved):
+  offset 0, box +-0.6: p*=(49.55506,63.83931) moved 0.101 order 2 changes 2 locbox 8.9e-09
+  offset 1, box +-0.6: none
+  offset 1, box +-1.2: p*=(49.46736,63.01013) moved 0.765 order 1 changes 2 locbox 1.5e-01
+
+Row subsampling (keep every 2nd detector row), bilinear and bicubic:
+  row offset 0: not recovered
+  row offset 1: not recovered

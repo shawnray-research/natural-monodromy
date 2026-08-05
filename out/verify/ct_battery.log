@@ -1,0 +1,81 @@
+smoothing 15.0 px, floor 0.01169, scan radius 0.8
+
+==========================================================================
+CANDIDATE from scan cell theta 22.90 deg, row 622   (localization box 1.49e-08, 2 pairing changes)
+
+  p* = (k 46.086646, j 12.152450)  ->  theta 23.0433 deg, detector row 624.3
+  T1 shrink:
+     r =  8.000e-01  order 2     changes 2  n 7
+     r =  4.000e-01  order 2     changes 2  n 7
+     r =  2.000e-01  order 2     changes 2  n 7
+     r =  8.000e-02  order 2     changes 2  n 7
+     r =  4.000e-02  order 2     changes 2  n 7
+     r =  1.600e-02  order 2     changes 2  n 7
+     r =  8.000e-03  order 2     changes 2  n 7
+     r =  4.000e-03  order 2     changes 2  n 7
+     r =  8.000e-04  order 2     changes 2  n 7
+     r =  8.000e-05  order 2     changes 2  n 7
+  T2 displace (same radius, centre moved by 4r):
+     orders: [1, 1, 2, None, None, None, 1, 1]
+  T3 refine (loop samples):
+     steps 40,80,160,320,640 -> [2, 2, 2, 2, 2]
+  T4 wall certificate at p*:
+     18 minima, 18 maxima
+     closest two minima differ by 2.180e-11  (2.95e-11 of range)
+     closest two maxima differ by 1.076e-10  (1.46e-10 of range)
+
+==========================================================================
+CANDIDATE from scan cell theta 26.90 deg, row 714   (localization box 9.77e-04, 2 pairing changes)
+
+  p* = (k 53.478711, j 57.736523)  ->  theta 26.7394 deg, detector row 715.5
+  T1 shrink:
+     r =  8.000e-01  order 2     changes 6  n 7
+     r =  4.000e-01  order 2     changes 6  n 7
+     r =  2.000e-01  order 2     changes 6  n 7
+     r =  8.000e-02  order 2     changes 4  n 7
+     r =  4.000e-02  order 2     changes 2  n 7
+     r =  1.600e-02  order 2     changes 2  n 7
+     r =  8.000e-03  order 2     changes 2  n 7
+     r =  4.000e-03  order 2     changes 2  n 7
+     r =  8.000e-04  order 1     changes 2  n 7
+     r =  8.000e-05  order 1     changes 0  n 7
+  T2 displace (same radius, centre moved by 4r):
+     orders: [None, None, 1, 1, None, 1, 1, None]
+  T3 refine (loop samples):
+     steps 40,80,160,320,640 -> [2, 2, 2, 2, 2]
+  T4 wall certificate at p*:
+     12 minima, 12 maxima
+     closest two minima differ by 7.721e-06  (7.78e-06 of range)
+     closest two maxima differ by 3.759e-06  (3.79e-06 of range)
+
+==========================================================================
+CANDIDATE from scan cell theta 24.90 deg, row 726   (localization box 1.49e-08, 2 pairing changes)
+
+  p* = (k 49.617361, j 63.760125)  ->  theta 24.8087 deg, detector row 727.5
+  T1 shrink:
+     r =  8.000e-01  order 2     changes 8  n 7
+     r =  4.000e-01  order 2     changes 4  n 7
+     r =  2.000e-01  order 2     changes 4  n 7
+     r =  8.000e-02  order 2     changes 2  n 7
+     r =  4.000e-02  order 2     changes 2  n 7
+     r =  1.600e-02  order 2     changes 2  n 7
+     r =  8.000e-03  order 2     changes 2  n 7
+     r =  4.000e-03  order 2     changes 2  n 7
+     r =  8.000e-04  order 2     changes 2  n 7
+     r =  8.000e-05  order 2     changes 2  n 7
+  T2 displace (same radius, centre moved by 4r):
+     orders: [1, 1, None, None, None, None, None, 1]
+  T3 refine (loop samples):
+     steps 40,80,160,320,640 -> [2, 2, 2, 2, 2]
+  T4 wall certificate at p*:
+     12 minima, 12 maxima
+     closest two minima differ by 1.758e-10  (1.73e-10 of range)
+     closest two maxima differ by 7.862e-11  (7.76e-11 of range)
+
+
+3 localized generators put through the battery.
+
+VERDICT
+  theta 23.043 deg: shrink held=True (10/10 defined), displaced trivial 4/8, refine stable=True
+  theta 26.739 deg: shrink held=False (10/10 defined), displaced trivial 4/8, refine stable=True
+  theta 24.809 deg: shrink held=True (10/10 defined), displaced trivial 3/8, refine stable=True

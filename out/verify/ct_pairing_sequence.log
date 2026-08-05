@@ -1,0 +1,26 @@
+
+=== rank pairing around p* at radius 0.02 (tracker plays no part) ===
+  feature count around loop: [7]
+  pairing changes at steps [70, 136]  (total 2)
+    at  126.0 deg round the loop:
+      ((0, 6), (1, 3), (2, 0), (3, 2), (4, 1), (5, 5), (6, 4))
+   -> ((0, 6), (1, 3), (2, 0), (3, 1), (4, 2), (5, 5), (6, 4))
+    at  244.8 deg round the loop:
+      ((0, 6), (1, 3), (2, 0), (3, 1), (4, 2), (5, 5), (6, 4))
+   -> ((0, 6), (1, 3), (2, 0), (3, 2), (4, 1), (5, 5), (6, 4))
+
+  the two changes are a birth-rank swap and a death-rank swap;
+  their composition on (birth rank -> death rank) is what permutes the pairs.
+
+=== rank pairing around p* at radius 0.002 (tracker plays no part) ===
+  feature count around loop: [7]
+  pairing changes at steps [70, 136]  (total 2)
+    at  126.0 deg round the loop:
+      ((0, 6), (1, 3), (2, 0), (3, 2), (4, 1), (5, 5), (6, 4))
+   -> ((0, 6), (1, 3), (2, 0), (3, 1), (4, 2), (5, 5), (6, 4))
+    at  244.8 deg round the loop:
+      ((0, 6), (1, 3), (2, 0), (3, 1), (4, 2), (5, 5), (6, 4))
+   -> ((0, 6), (1, 3), (2, 0), (3, 2), (4, 1), (5, 5), (6, 4))
+
+  the two changes are a birth-rank swap and a death-rank swap;
+  their composition on (birth rank -> death rank) is what permutes the pairs.
