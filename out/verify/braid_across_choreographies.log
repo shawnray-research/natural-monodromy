@@ -1,0 +1,67 @@
+
+Which part of the monodromy is forced by the symmetry, and which is not.
+
+Any closed curve c gives a choreography q_i(s) = c(s + i/3), with exactly the
+same three-fold relabeling symmetry as the figure-eight. The density returns to
+itself after a third of the period for every one of them. So anything that varies
+across this family is geometry, and anything constant across it may be symmetry.
+
+THE PERMUTATION IS FORCED, and no computation is needed to see it. Over the full
+period the relabeling is the identity, so the monodromy over T/3 cubes to the
+identity and its order divides 3. It is therefore 1 or 3, and it is 1 only if two
+diagram points coincide, that is only if the peaks are degenerate. Any
+choreography with three distinct persistent peaks has order 3.
+
+THE BRAID IS NOT FORCED. It counts how many walls the shape curve crosses and in
+what order, which is a property of the curve. This script measures it.
+
+Two ways a curve can fail to give an example, and they are not the same thing.
+
+  Structural degeneracy. If the curve carries the three bodies into each other by
+  a rotation of 120 degrees, they sit at the vertices of an equilateral triangle
+  at every instant, the three peaks are congruent, their births agree to the last
+  bit and there is nothing to permute. For r = 1 + a cos(k t) this happens when
+  k is a multiple of 3, and for the epicycle cos t + a cos(k t) when k = 1 mod 3.
+  More symmetry, less monodromy.
+
+  Numerical degeneracy. If the bodies are far apart relative to the bandwidth,
+  the birth differences fall to 1e-11 and below, which is the resolution floor
+  rather than a fact about the configuration. An earlier version of this sweep
+  fixed the curve scale and reported these as degenerate alongside the genuine
+  ones. Here the scale is set per curve so the closest approach is comparable to
+  the figure-eight's, and the two cases are told apart by whether the spread is
+  exactly zero or merely small.
+
+==============================================================================
+                   curve  min sep     spread  letters             braid over 1/3  ord
+                  circle    0.800    4.4e-16              equilateral throughout
+       lobed 3, amp 0.25    0.800    4.4e-16              equilateral throughout
+       lobed 6, amp 0.25    0.800    4.4e-16              equilateral throughout
+             ellipse 0.6    0.800    3.2e-02        4       s1^-1 s2^-1 s1 s2^-1    3
+             ellipse 0.3    0.800    3.2e-02        4          s1 s2^-1 s1 s2^-1    3
+          lemniscate 0.5    0.800    3.2e-02        4          s1 s2^-1 s1 s2^-1    3
+          lemniscate 1.0    0.800    3.2e-02        4       s1^-1 s2^-1 s1 s2^-1    3
+    harmonic 2, amp 0.35    0.800    3.2e-02        2                   s1 s2^-1    3
+    harmonic 2, amp 0.55    0.800    3.2e-02        2                   s1 s2^-1    3
+    harmonic 4, amp 0.35    0.800    4.4e-16              equilateral throughout
+    harmonic 5, amp 0.35    0.800    3.2e-02        8 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1    3
+    harmonic 5, amp 0.50    0.800    3.2e-02        8 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1    3
+    harmonic 7, amp 0.35    0.800    6.7e-16              equilateral throughout
+        lobed 2, amp 0.4    0.800    3.1e-02        4          s1 s2^-1 s1 s2^-1    3
+        lobed 5, amp 0.4    0.800    3.1e-02       10 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1 s2^-1 s1    3
+      figure-eight ORBIT    0.691    9.1e-02        4          s2^-1 s1 s2^-1 s1    3
+
+==============================================================================
+What varies and what does not
+==============================================================================
+  braid lengths seen over T/3: [2, 4, 8, 10]
+    2 letters: harmonic 2, amp 0.35, harmonic 2, amp 0.55
+    4 letters: ellipse 0.6, ellipse 0.3, lemniscate 0.5, lemniscate 1.0, lobed 2, amp 0.4, figure-eight
+    8 letters: harmonic 5, amp 0.35, harmonic 5, amp 0.50
+    10 letters: lobed 5, amp 0.4
+
+  Every non-degenerate case has order 3, as it must: the cube of the
+  monodromy is the full-period monodromy, which is the identity.
+  The braid is a different matter and takes several values across
+  curves with identical symmetry. The figure-eight's is the one that
+  closes to the figure-eight knot; the others do not.

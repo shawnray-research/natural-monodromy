@@ -1166,6 +1166,85 @@ shape curve alone.
 
 ---
 
+# Edelsbrunner's three questions
+
+## Knees in the vines, and where the permutation comes from
+
+Over T/3 the shape curve crosses four walls. At every wall two births coincide,
+since a wall is an isosceles configuration and the reflection makes two peaks
+equal. What differs is which two, and that decides the event:
+
+```
+   s     pair    |db|       |dd|        rank         event
+0.1400   0,2   3.01e-13   1.03e+00   top two      corner, essential transfer
+0.3900   0,1   3.37e-09   1.04e-07   bottom two   collision, transposition
+0.6400   1,2   4.53e-13   1.03e+00   top two      corner, essential transfer
+0.8900   0,2   4.31e-09   1.34e-07   bottom two   collision, transposition
+```
+
+When the TOP two births cross, one of them is the essential class pinned at the
+infimum and the other dies at a saddle near 1.03. Their births meet, their
+diagram points stay 1.03 apart, nothing is exchanged. The essential label passes
+between bodies and the vine at death zero, whose birth is the running maximum of
+two crossing curves, turns a corner. That is a knee and it carries no
+transposition. Measured slope change, relative to the vine's own scale: 0.08 and
+0.04, so the corners are shallow.
+
+When the BOTTOM two cross, neither is essential, both die at saddles, and their
+deaths agree as well as their births. The points collide to 1e-07 and are
+exchanged.
+
+So there are **two knees and two crossings per T/3, six and six per period**, and
+the whole permutation comes from the crossings. Those are the maxima swapping
+places in the domain: continuation gives the same 3-cycle, arc lengths 1.5 to
+2.1, closing error 4e-08. The monodromy is the monodromy of the individual
+critical points, and the knees are a separate phenomenon that contributes
+nothing to it.
+
+**A wrong turn.** The first version of this check identified a class's saddle by
+matching the merge tree's saddle position to the nearest pair midpoint. In an
+elongated triangle two midpoints can be nearer the same saddle and the tie-break
+flips every slice: it reported 175 pairing changes that were pure artifact. What
+exposed it was that the two finite deaths are never closer than 7.6e-04, so no
+reassignment could occur without a visible jump in a vine, and none appears.
+
+Log: `out/verify/knees.log`.
+
+## Whether the symmetry is responsible for the monodromy
+
+Partly yes, and the part that is has to be conceded.
+
+**The permutation is forced.** Over the full period the relabeling is the
+identity, so the monodromy over T/3 cubes to the identity and its order divides
+3. It is 1 only if two diagram points coincide, that is only if the peaks are
+degenerate. Any choreography with three distinct persistent peaks therefore has
+order 3, and no vineyard is needed to know it.
+
+**The braid is not forced.** Every closed curve gives a choreography
+`q_i(s) = c(s + i/3)` with exactly the same symmetry. Across such curves:
+
+```
+curve                 letters over T/3   braid
+harmonic 2             2                 s1 s2^-1
+ellipse, lemniscate    4                 s1 s2^-1 s1 s2^-1
+figure-eight ORBIT     4                 s2^-1 s1 s2^-1 s1
+harmonic 5             8                 (s1 s2^-1)^4
+lobed 5               10                 (s2^-1 s1)^5
+```
+
+Identical symmetry, braids of length 2, 4, 8 and 10. The braid counts wall
+crossings and their order, which is geometry. The figure-eight's is the one whose
+closure is the figure-eight knot.
+
+**More symmetry destroys it entirely.** If the curve carries the three bodies
+into each other by a rotation of 120 degrees they are equilateral at every
+instant, the peaks are congruent, and the births agree to the last bit: spread
+4.4e-16, nothing to permute. This happens for `r = 1 + a cos(kt)` with k a
+multiple of 3, and for `cos t + a cos(kt)` with k = 1 mod 3. The circle is the
+extreme case. So symmetry supplies the loop and is hostile to the monodromy.
+
+Log: `out/verify/braid_across_choreographies.log`.
+
 # The two research questions, answered
 
 ## What the knot means
